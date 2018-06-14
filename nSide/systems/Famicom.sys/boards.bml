@@ -1,0 +1,116 @@
+database
+  revision: 2018-04-17
+
+board: 2
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: 3A
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-HROM-01
+  id:HROM
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-NROM-128-(01,02,03,04,06)
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-NROM-256-(02,03,04,05,06)
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-NROM-256K-(02,02S)
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-RROM-(05,05S)
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-RROM-128-01
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-RTROM-01
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-SROM-03
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-STROM-06
+  id:NROM
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+
+board: HVC-UNROM-05
+  id:UNROM
+  chip type=74HC32
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=RAM content=Character
+
+board: HVC-UNROM-02#7408
+  id:UNROM
+  chip type=74HC08
+  mirror
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=RAM content=Character
+
+board: ZZ
+  id:ZZ
+  chip type=MMC3
+  prg
+    memory type=ROM content=Program
+  chr
+    memory type=ROM content=Character
+

@@ -1,0 +1,158 @@
+system name:PlayChoice-10
+  cpu
+    ram name=work.ram size=0x800 volatile
+  ppu version=RP2C03B
+    ram name=nametable.ram size=0x800 volatile
+    ram name=object.ram size=256 volatile
+    ram name=palette.ram size=28 volatile
+  apu version=RP2A03E
+  pc10
+    screen mode=2
+    bus
+      ram name=pc10-work.ram size=0x800 volatile
+      ram name=pc10-save.ram size=0x800
+    cpu
+      rom name=bios-dual.rom size=0x4000
+    video-circuit
+      vrom name=character.rom size=0x6000
+      cgrom name=palette.rom size=0x300
+    setting name:Seconds|coin (1 | 2)
+      option value=0x0000 name:300 | 0
+      option value=0x0001 name:300 | 100
+      option value=0x0002 name:300 | 200
+      option value=0x0003 name:300 | 300
+      option value=0x0004 name:300 | 400
+      option value=0x0005 name:300 | 500
+      option value=0x0006 name:300 | 600
+      option value=0x0007 name:300 | 700
+      option value=0x0008 name:300 | 800
+      option value=0x0009 name:300 | 900
+      option value=0x000a name:150 | 0
+      option value=0x000b name:150 | 200
+      option value=0x000c name:150 | 400
+      option value=0x000d name:150 | 500
+      option value=0x000e name:150 | 600
+      option value=0x000f name:150 | 800
+      option value=0x0010 name:300 | 1000
+      option value=0x0011 name:300 | 1100
+      option value=0x0012 name:300 | 1200
+      option value=0x0013 name:300 | 1300
+      option value=0x0014 name:300 | 1400
+      option value=0x0015 name:300 | 1500
+      option value=0x0016 name:300 | 1600
+      option value=0x0017 name:300 | 1700
+      option value=0x0018 name:300 | 1800
+      option value=0x0019 name:300 | 1900
+      option value=0x001a name:150 | 1000
+      option value=0x001b name:150 | 1200
+      option value=0x001c name:150 | 1400
+      option value=0x001d name:150 | 1500
+      option value=0x001e name:150 | 1600
+      option value=0x001f name:150 | 1800
+      option value=0x0020 name:300 | 2000
+      option value=0x0021 name:300 | 2100
+      option value=0x0022 name:300 | 2200
+      option value=0x0023 name:300 | 2300
+      option value=0x0024 name:300 | 2400
+      option value=0x0025 name:300 | 2500
+      option value=0x0026 name:300 | 2600
+      option value=0x0027 name:300 | 2700
+      option value=0x0028 name:300 | 2800
+      option value=0x0029 name:300 | 2900
+      option value=0x002a name:150 | 2000
+      option value=0x002b name:150 | 2200
+      option value=0x002c name:150 | 2400
+      option value=0x002d name:150 | 2500
+      option value=0x002e name:150 | 2600
+      option value=0x002f name:150 | 2800
+      option value=0x0030 name:300 | 3000
+      option value=0x0031 name:300 | 3100
+      option value=0x0032 name:300 | 3200
+      option value=0x0033 name:300 | 3300
+      option value=0x0034 name:300 | 3400
+      option value=0x0035 name:300 | 3500
+      option value=0x0036 name:300 | 3600
+      option value=0x0037 name:300 | 3700
+      option value=0x0038 name:300 | 3800
+      option value=0x0039 name:300 | 3900
+      option value=0x003a name:150 | 3000
+      option value=0x003b name:150 | 3200
+      option value=0x003c name:150 | 3400
+      option value=0x003d name:150 | 3500
+      option value=0x003e name:150 | 3600
+      option value=0x003f name:150 | 3800
+    setting name:Attract Mode Audio
+      option value=0x0000 name:Muted
+      option value=0x0040 name:Plays
+    setting name:Service Mode
+      option value=0x0000 name:Normal
+      option value=0x0080 name:Service Mode
+    setting name:Timer Speed
+      option value=0x3f00 name:1× (5:00)
+      option value=0x8000 name:Free Play
+      option value=0x0500 name:30× (0:10)
+      option value=0x0600 name:20× (0:15)
+      option value=0x0700 name:15× (0:20)
+      option value=0x0800 name:12× (0:25)
+      option value=0x0900 name:10× (0:30)
+      option value=0x0a00 name:60/7× (0:35)
+      option value=0x0b00 name:15/2× (0:40)
+      option value=0x0c00 name:20/3× (0:45)
+      option value=0x0d00 name:6× (0:50)
+      option value=0x0e00 name:60/11× (0:55)
+      option value=0x0f00 name:5× (1:00)
+      option value=0x1000 name:60/13× (1:05)
+      option value=0x1100 name:30/7× (1:10)
+      option value=0x1200 name:4× (1:15)
+      option value=0x1300 name:15/4× (1:20)
+      option value=0x1400 name:60/17× (1:25)
+      option value=0x1500 name:10/3× (1:30)
+      option value=0x1600 name:60/19× (1:35)
+      option value=0x1700 name:3× (1:40)
+      option value=0x1800 name:20/7× (1:45)
+      option value=0x1900 name:30/11× (1:50)
+      option value=0x1a00 name:60/23× (1:55)
+      option value=0x1b00 name:5/2× (2:00)
+      option value=0x1c00 name:12/5× (2:05)
+      option value=0x1d00 name:30/13× (2:10)
+      option value=0x1e00 name:20/9× (2:15)
+      option value=0x1f00 name:15/7× (2:20)
+      option value=0x2000 name:60/29× (2:25)
+      option value=0x2100 name:2× (2:30)
+      option value=0x2200 name:60/31× (2:35)
+      option value=0x2300 name:15/8× (2:40)
+      option value=0x2400 name:20/11× (2:45)
+      option value=0x2500 name:30/17× (2:50)
+      option value=0x2600 name:12/7× (2:55)
+      option value=0x2700 name:5/3× (3:00)
+      option value=0x2800 name:60/37× (3:05)
+      option value=0x2900 name:30/19× (3:10)
+      option value=0x2a00 name:20/13× (3:15)
+      option value=0x2b00 name:3/2× (3:20)
+      option value=0x2c00 name:60/41× (3:25)
+      option value=0x2d00 name:10/7× (3:30)
+      option value=0x2e00 name:60/43× (3:35)
+      option value=0x2f00 name:15/11× (3:40)
+      option value=0x3000 name:4/3× (3:45)
+      option value=0x3100 name:30/23× (3:50)
+      option value=0x3200 name:60/47× (3:55)
+      option value=0x3300 name:5/4× (4:00)
+      option value=0x3400 name:60/49× (4:05)
+      option value=0x3500 name:6/5× (4:10)
+      option value=0x3600 name:20/17× (4:15)
+      option value=0x3700 name:15/13× (4:20)
+      option value=0x3800 name:60/53× (4:25)
+      option value=0x3900 name:10/9× (4:30)
+      option value=0x3a00 name:12/11× (4:35)
+      option value=0x3b00 name:15/14× (4:40)
+      option value=0x3c00 name:20/19× (4:45)
+      option value=0x3d00 name:30/29× (4:50)
+      option value=0x3e00 name:60/59× (4:55)
+      option value=0x0000 name:60/253× (21:05)
+      option value=0x0100 name:30/127× (21:10)
+      option value=0x0200 name:4/17× (21:15)
+      option value=0x0300 name:15/64× (21:20)
+      option value=0x0400 name:60/257× (21:25)
+    setting name:Slot B Coin Divisor
+      option value=0x0000 name:÷ 1
+      option value=0x4000 name:÷ 2

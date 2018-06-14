@@ -1,0 +1,4 @@
+namespace name=Resource
+  binary name=iplrom file:../../systems/Super Famicom.sys/ipl.rom
+  binary name=manifest file:../../systems/Super Famicom.sys/manifest.bml
+  binary name=boards file:../../systems/Super Famicom.sys/boards.bml

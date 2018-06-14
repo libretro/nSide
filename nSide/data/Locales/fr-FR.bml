@@ -1,0 +1,174 @@
+//Author: Braintrash
+//Version: V2
+Menu
+  Recent: Récent
+  Systems: Systèmes
+    LoadROMFile...: Charger le fichier ROM...
+  System
+    SoftReset: Réinitialiser
+    PowerCycle: Redémarrer
+    Unload: Ejecter
+  Settings: Réglages
+    VideoScale: Dimensionnement vidéo
+      Small: Petit
+      Medium: Moyen
+      Large: Grand
+    VideoEmulation: Emulation vidéo
+      Blurring: Flou
+      Colors: Couleurs
+    Scanlines: Lignes de balayage
+    VideoShader: Nuanceur vidéo
+      None: Aucun
+      Blur: Flou
+    SynchronizeVideo: Synchroniser la vidéo
+    SynchronizeAudio: Synchroniser l'audio
+    MuteAudio: Sourdine
+    ShowStatusBar: Afficher la barre d'état
+    Systems...: Systèmes...
+    Video...: Vidéo...
+    Audio...: Audio...
+    Input...: Entrée...
+    Hotkeys...: Raccourcis...
+    Advanced...: Avancé...
+  Tools: Outils
+    SaveQuickState: Enregistrer un instantané rapide
+    LoadQuickState: Charger un instantané rapide
+    Slot: Emplacement %d
+    PauseEmulation: Interrompre l'émulation
+    CheatEditor...: Editeur de triche...
+    StateManager...: Gestionnaire d'instantanés étendus...
+    ManifestViewer...: Visionneuse de manifeste...
+    GameNotes...: Notes de jeu ...
+  Help: Aide
+    Documentation...: Documentation de higan...
+    About...: A propos...
+
+Status
+  NoCartridgeLoaded: Aucune cartouche chargée
+  FPS: IPS: %d
+  Paused: En pause
+  SoftReset: Le système a été réinitialisé
+  PowerCycle: Le système a été redémarré
+  Pausing: En pause
+  Unpausing:
+  DisplayRotated: L'affichage a été pivoté
+  RotateUnsupported: Le pivotement de l'affichage n'est pas pris en charge
+  State
+    quick: rapide
+    managed: étendu
+    DoesNotExist: L'instantané %1s n'existe pas dans l'emplacement %2d
+    Incompatible: L'instantané %1s est incompatible avec l'emplacement %2d
+    Load: L'instantané %1$s a été chargé depuis l'emplacement %2$d
+    Unsupported: L'instantané %1$s n'a pas pu être enregistré dans l'emplacement %2$d
+    Unprivileged: L'instantané %1$s n'a pas pu être écrit dans l'emplacement %2$d
+    Save: L'instantané %1$s a été enregistré dans l'emplacement %2$d
+    Select: L'emplacement rapide %d a été sélectionné
+  SaveScreenshot: Capture d'écran enregistrée
+
+Error
+  Crash: Un plantage du pilote a été détecté. Les pilotes vidéo, audio et d'entrée ont été désactivés.
+  VideoDriver: L'initialisation du pilote vidéo a échoué
+  AudioDriver: L'initialisation du pilote audio a échoué
+  InputDriver: L'initialisation du pilote d'entrée a échoué
+
+Settings: Réglages
+  Systems: Systèmes
+  Video: Vidéo
+    ColorAdjustment: Réglage de la couleur
+      Saturation: Saturation :
+      Gamma: Gamma :
+      Luminance: Luminance:
+    OverscanMask: Masque de surbalayage
+      Horizontal: Horizontal :
+      Vertical: Vertical :
+    WindowedMode: Mode fenêtré
+    FullscreenMode: Mode plein écran
+    AspectCorrection: Correction de l'aspect
+    IntegralScaling: Redimensionnement intégral
+    AdaptiveSizing: Redimensionnement adaptatif
+    ExclusiveMode: Mode sélectif
+  Audio: Audio
+    Driver: Pilote
+      Device: Appareil :
+      Frequency: Fréquence :
+      Latency: Latence :
+      ExclusiveMode: Mode sélectif
+    Effects: Effets
+      Volume: Volume :
+      Balance: Balance :
+      Reverb: Reverbération
+  Input: Entrée
+    WhenFocusIsLost: En cas de désynchronisation :
+      PauseEmulation: Interrompre l'émulation
+      AllowInput: Autoriser les entrées
+    Name: Nom
+    Mapping: Disposition
+    MouseXAxis: Abscisse
+    MouseYAxis: Ordonnée
+    MouseLeft: Bouton gauche
+    MouseMiddle: Bouton du milieu
+    MouseRight: Bouton droit
+    Reset: Réinitialiser
+    Erase: Effacer
+    PressKey: Appuyez sur une touche ou un bouton pour assigner [%s]...
+    MappingAssigned: Assignation enregistrée.
+    ResetConfirmation: Etes-vous sûr de vouloir effacer tous les raccourcis de cet appareil ?
+      Yes: Oui
+      No: Non
+  Hotkeys: Raccourcis
+    Name: Noms
+    Mapping: Assignation
+    Logic
+      and: et
+      or: ou
+    Reset: Réinitialiser
+    Erase: Effacer
+    PressKey: Appuyez sur une touche ou un bouton pour assigner [%s]...
+    MappingAssigned: Assignation enregistrée.
+    ResetConfirmation: Etes-vous sûr de vouloir effacer tous les raccourcis ?
+      Yes: Oui
+      No: Non
+  Advanced: Avancé
+    DriverSelection: Sélection des pilotes
+      Video: Vidéo :
+      Audio: Audio :
+      Input: Entrée :
+    GameLibrary: Bibliothèque
+      Location: Emplacement :
+      Change...: Changer...
+      IgnoreManifests: Ignorer les manifestes
+    Other: Autre
+      AutoSaveMemory: Sauvegarder automatiquement la mémoire
+      RecentList: Activer l'historique des ROM récemment chargées
+        Clear: Attention ! Ceci va effacer l'historique des dernières ROM chargées ! Etes-vous sûr de votre choix ?
+          Yes: Oui
+          No: Non
+
+Tools: Outils
+  CheatDatabase
+    SelectAll: Tout sélectionner
+    UnselectAll: Tout désélectionner
+    AddCodes: Ajouter des codes
+  CheatEditor: Editeur de triche
+    Table
+      Slot: Emplacement
+      Codes: Code(s)
+      Description: Description
+    Edit
+      Codes: Code(s):
+      Description: Description :
+    FindCodes...: Trouver des codes...
+    Reset: Réinitialiser
+    Erase: Effacer
+  StateManager: Gestionnaire d'instantanés étendus
+    Table
+      Slot: Emplacement
+      Description: Description
+    Edit
+      Description: Description :
+    Save: Enregistrer
+    Load: Charger
+    Reset: Réinitialiser
+    Erase: Effacer
+  ManifestViewer: Visualiseur de manifeste
+  GameNotes: Notes de jeu

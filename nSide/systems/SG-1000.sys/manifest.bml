@@ -1,0 +1,6 @@
+system region=auto name:SG-1000
+  cpu
+    ram name=work.ram size=0x400 volatile
+  psg
+  vdc
+    ram name=video.ram size=0x4000 volatile

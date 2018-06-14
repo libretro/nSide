@@ -1,0 +1,2 @@
+namespace name=resource
+  binary name=star_rod file=star-rod.png

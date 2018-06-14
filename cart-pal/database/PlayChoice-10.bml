@@ -1,0 +1,243 @@
+database owner=hex_usr
+  :Custom mappings designed only to get the games to work.
+
+cartridge sha256:eb67e1563eba0edfe63d633e33394950950a4f470f2a4552effac4ed79d179e4
+  :board region=ntsc id:NES-UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-02-ROM-B
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Castlevania
+  :  title:    Castlevania
+
+cartridge sha256:782e13f1b26bb6ed7a8323258532fc52b4069e2155085689f5961c09d9467ab4
+  :board region=ntsc id:NES-UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-02-ROM-B
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Contra
+  :  title:    Contra
+
+cartridge sha256:0bf5fe7480fbddcb663172513a0943b4d2207a53eca427773ec2a9fdc2c6703a
+  :board id:NES-SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-02-ROM-F
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Dr. Mario
+  :  title:    Dr. Mario
+
+cartridge sha256:37b1bd6a638d0044e68f9b5e01fc7e6ebfb3490c0f4d2c4695710c4e8f830a07
+  :board id:NES-NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Duck Hunt
+  :  title:    Duck Hunt
+
+cartridge sha256:f62ea788b9af73c31164f283c1a2461c7b0ddcda5af06eeecb64217b8e2baae4
+  :board region=ntsc id:NES-NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Excitebike
+  :  title:    Excitebike
+
+cartridge sha256:4ffca45697e5cd91699b0071966a89bd8d32a3f14ae87ceb355aeadf61fca218
+  :board id:NES-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Golf
+  :  title:    Golf
+
+cartridge sha256:967620e98d157d70c6cd4b72d88877d2aba49bc2e2d9008482b940ffd48f6b25
+  :board id:JALECO-JF-09
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM-C
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Goonies, The
+  :  title:    The Goonies
+
+cartridge sha256:b619a356fa7925c6d3f21442ca4c970f1ce7fab47286876ddcd0a8375db5185a
+  :board region=ntsc id:NES-SNROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM-D
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Metroid
+  :  title:    Metroid
+
+cartridge sha256:f0d551a380e055c70ace000e2ac1bad356de9559b510ba1aa63a156667a7de91
+  :board region=ntsc id:NES-UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM-B
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Rygar
+  :  title:    Rygar
+
+cartridge sha256:613da8bfaaa0be4b8308292acc5973d409f54ed143e14f082e1ef95442520ac2
+  :board id:NES-NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-02-ROM
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Super Mario Bros.
+  :  title:    Super Mario Bros.
+
+cartridge sha256:3333a9dd6ef1e99150406413d7080f7007a6da9b9419bca936be70232a4ae304
+  :board id:NES-TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM-G
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 2
+  :  title:    Super Mario Bros. 2
+
+cartridge sha256:01d456bcd2389a33cb536a86a9fcd524db52b6dbb30628e6d78297cdec4e3e29
+  :board id:NES-TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM-G
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3
+
+cartridge sha256:a252aa916874b5ccebbab0a20f88e6e5664449665d16ecd0f43e8c918317fc4d
+  :board region=ntsc id:NES-NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :  pc10
+  :    rom name=instructions.rom size=0x2000
+  :    rom name=key.rom size=0x9
+  :
+  :information
+  :  board:    PCH1-01-ROM
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Wild Gunman
+  :  title:    Wild Gunman
+

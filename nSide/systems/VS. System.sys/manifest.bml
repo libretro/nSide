@@ -1,0 +1,8 @@
+system name:VS. System
+  cpu
+    ram name=work.ram size=0x800 volatile
+  ppu
+    ram name=nametable.ram size=0x1000 volatile
+    ram name=object.ram size=256 volatile
+    ram name=palette.ram size=28 volatile
+  apu

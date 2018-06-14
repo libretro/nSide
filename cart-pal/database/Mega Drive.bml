@@ -1,0 +1,372 @@
+database
+  revision: 2018-02-21
+  note:Games with malformed or misleading headers are temporarily stored here.
+
+//Genesis (USA)
+
+database
+  revision: 2018-02-21
+
+game
+  sha256:   997cbd682bc7c0636302f07219d9152244c8ae06028fd7d91463d35756630ce5
+  label:    Buck Rogers: Countdown to Doomsday
+  name:     Buck Rogers - Countdown to Doomsday
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+    memory
+      type: RAM
+      size: 0x2000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   d0a9118922f747947c64b78654278ffdbb5813865caa84a02346bb0bda247aa0
+  label:    Combat Cars
+  name:     Combat Cars
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+
+game
+  sha256:   aad68d599860855607cc21f8074e443f21a4e83990fab56b5d0be3624b32fc85
+  label:    Dungeons & Dragons: Warriors of the Eternal Sun
+  name:     Dungeons & Dragons - Warriors of the Eternal Sun
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+    memory
+      type: RAM
+      size: 0x2000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   d249b70d3465f011fcfb2f99d1670927342d88149204299a92a40a294b6a3574
+  label:    Fun 'n' Games
+  name:     Fun 'n' Games
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+
+game
+  sha256:   bba8186e38d0d0938a439bda4fc2325c1b2c9760a643717fa4f372ebf9058fc2
+  label:    HardBall III
+  name:     HardBall III
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+    memory
+      type: RAM
+      size: 0x8000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   4dfbe3064c3d683f3f31cb1253b970e18e146953f98abb25e1b201815cb2d217
+  label:    King of the Monsters
+  name:     King of the Monsters
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+
+game
+  sha256:   27bdbb05279c52624f77e361e8a2bfb41623f4a63260104d3a89f44c8276adb2
+  label:    Madden NFL 98
+  name:     Madden NFL 98
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+    memory
+      type: RAM
+      size: 0x4000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   d86b6d7381ef67ecb5391eddb6857bf9d15b1e402da6bfc42cb003186599cbff
+  label:    Might and Magic: Gates to Another World
+  name:     Might and Magic - Gates to Another World
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0xc0000
+      content: Program
+    memory
+      type: RAM
+      size: 0x8000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   87f3c75fea5c4e105163a3b6d4467527fdc3fcc4b8e385155067719b98b2be7c
+  label:    Ms. Pac-Man
+  name:     Ms. Pac-Man
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x20000
+      content: Program
+
+game
+  sha256:   6e04186ca19a5e1d686c61ece2260e15d83460f8c47528400afaace6ea050851
+  label:    Nobunaga's Ambition
+  name:     Nobunaga's Ambition
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x800000
+      content: Program
+    memory
+      type: RAM
+      size: 0x2000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   20c7adaec80b977e193f5365cffc00dfbd6c634b429bc590040e148b5ddeb76f
+  label:    Richard Scarry's Busytown
+  name:     Richard Scarry's Busytown
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+
+game
+  sha256:   e4ebb85bd51292818d14362c359de9c8c7c1d23e99b7af5a083663e6c656cd19
+  label:    Shanghai II: Dragon's Eye
+  name:     Shanghai II - Dragon's Eye
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+
+game
+  sha256:   a409ea5b53bdb64051b98257d8b64af432bfcf98d6fb8a95dc2c66d5ebd71926
+  label:    Super Street Fighter II
+  name:     Super Street Fighter II
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x500000
+      content: Program
+
+game
+  sha256:   c229c892ea722834b63d868c3aa4107b21d7dd2f9ce235c138372c470a7b307a
+  label:    Wacky Worlds Creativity Studio
+  name:     Wacky Worlds Creativity Studio
+  region:   NTSC-U
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+    memory
+      type: RAM
+      size: 0x8000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+//Mega Drive (Europe)
+
+database
+  revision: 2018-02-21
+
+game
+  sha256:   0c5911c38de0cd24f155d7eeaba7aea3c21f3df88ca602881cb6dd6af69d0d5a
+  label:    Another World
+  name:     Another World
+  region:   PAL
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+
+game
+  sha256:   a636037c6772db0dd91ccdc504896a5d01cd6846e7678f6ee49c0c32c16f987b
+  label:    Second Samurai
+  name:     Second Samurai
+  region:   PAL
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x100000
+      content: Program
+
+game
+  sha256:   d3700c90ba971d0904d6391129ac169ba9b343d73537cde2f818f044ed0c5631
+  label:    Super Street Fighter II
+  name:     Super Street Fighter II
+  region:   PAL
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x500000
+      content: Program
+
+//Mega Drive (Japan)
+
+database
+  revision: 2018-02-21
+
+game
+  sha256:   5613637d267cf8d0bf3ff1e396d7929526cd5221cb8af06349528c8bedced1a0
+  label:    エイリアンソルジャー
+  name:     Alien Soldier
+  region:   NTSC-J
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+
+game
+  sha256:   b5077a92e6fa6ccbe0833c839a7b4976a6f4094169f647dbb3b94c8f5ac7d81f
+  label:    アトミックロボキッド
+  name:     Atomic Robo-Kid
+  region:   NTSC-J
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x80000
+      content: Program
+
+game
+  sha256:   6865b1e3291febc907ad71d1adcd355982e4b7c790d4a9ae2936ad0b50774d72
+  label:    アイラブミッキーマウス ふしぎのお城大冒険
+  name:     I Love Mickey Mouse - Fushigi no Oshiro Daibouken
+  region:   NTSC-J
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x80000
+      content: Program
+
+game
+  sha256:   34c439f67a29782a97f4151384ad429566a45767efcc0ff3ee0b7ba7daade4ae
+  label:    ライトクルセイダー
+  name:     Light Crusader
+  region:   NTSC-J
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+    memory
+      type: RAM
+      size: 0x2000
+      content: Save
+      offset: 0x200001
+      mode: lo
+
+game
+  sha256:   a8d9fa0136afd0a51739d28b325aeab3eab9ba77f08479d7b68d46a74f8bd673
+  label:    Sonic & Knuckles
+  name:     Sonic & Knuckles
+  serial:   MK-1563
+  region:   NTSC-J
+  revision: 1.0
+  board
+    lock-on
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+    memory
+      type: ROM
+      size: 0x40000
+      content: UPMEM
+
+game
+  sha256:   f1c72093f19a5360678bbaf664338b1415e814e84afa1dcd3b92518bf04d01b6
+  label:    スーパーストリートファイターII THE NEW CHALLENGERS
+  name:     Super Street Fighter II - The New Challengers
+  region:   NTSC-J
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x500000
+      content: Program
+
+//Super Gam*Boy/Super Aladdin Boy (South Korea)
+
+database
+  revision: 2018-02-21
+
+game
+  sha256:   ac95422e4368f79ea0cac675c96d4e91b27e1d30249f49bdc4ba84cea113ab37
+  label:    라이트 크루세이더
+  name:     Light Crusader
+  region:   NTSC-J
+  revision: 1.0
+  board
+    memory
+      type: ROM
+      size: 0x200000
+      content: Program
+    memory
+      type: RAM
+      size: 0x2000
+      content: Save
+      offset: 0x200001
+      mode: lo
+

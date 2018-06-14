@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key>
+  <string>org.byuu.board.cart-pal</string>
+  <key>CFBundleDisplayName</key>
+  <string>cart-pal</string>
+  <key>CFBundleExecutable</key>
+  <string>cart-pal</string>
+  <!--
+  <key>CFBundleIconFile</key>
+  <string>cart-pal.icns</string>
+  -->
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key>
+  <true/>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+system name:Famicom
+  cpu
+    ram name=work.ram size=0x800 volatile
+  ppu ntsc-version=RP2C02G pal-version=RP2C07 dendy-version=UA6538
+    ram name=nametable.ram size=0x800 volatile
+    ram name=object.ram size=256 volatile
+    ram name=palette.ram size=28 volatile
+  apu ntsc-version=RP2A03G pal-version=RP2A07G dendy-version=UA6527P

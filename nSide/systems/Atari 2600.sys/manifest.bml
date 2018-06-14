@@ -1,0 +1,5 @@
+system name:Atari 2600
+  cpu
+  pia
+    ram name=work.ram size=0x80 volatile
+  tia

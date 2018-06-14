@@ -1,0 +1,673 @@
+database owner=hex_usr
+  :Custom mappings designed only to get the games to work.
+  :Games without extra hardware such as the 74xx32 (UxROM) are split into
+  :ROMs inserted into slots. A missing ROM causes open bus instead of mirroring.
+
+vs sha256:37ca2b6898e6c3cc96dcde5f0bf17268b907b448a45c58a8f1ea9d2c34bd7c63
+  :side
+  :  ppu version=RP2C04-0002
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  chip type=74HC32
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x06 name:2 Coins - 1 Credit
+  :    option value=0x01 name:3 Coins - 1 Credit
+  :    option value=0x05 name:4 Coins - 1 Credit
+  :    option value=0x03 name:5 Coins - 1 Credit
+  :    option value=0x07 name:Free Play
+  :  setting name:Lives
+  :    option value=0x00 name:3 lives
+  :    option value=0x08 name:2 lives
+  :  setting name:Bonus ~needs verification~
+  :    option value=0x00 name:100000 OR Timer × 4; Heart × 40
+  :    option value=0x20 name:200000 OR Timer × 6; Heart × 60
+  :    option value=0x10 name:300000 OR Timer × 8; Heart × 80
+  :    option value=0x30 name:400000 OR Timer × 9; Heart × 90
+  :  setting name:Difficulty
+  :    option value=0x00 name:Easy
+  :    option value=0x40 name:Hard
+  :
+  :information
+  :  serial:   MDS-CV
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Castlevania
+  :  title:    VS. Castlevania
+
+vs sha256:020284464fed5b7f1649c463149c810ad36ac8b6478c26620c858e1ce4078f88
+  :side
+  :  ppu version=RP2C04-0003
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x10000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :  setting name:Drop Rate Increase after
+  :    option value=0x03 name:10 Megavitamins
+  :    option value=0x02 name:9 Megavitamins
+  :    option value=0x01 name:8 Megavitamins
+  :    option value=0x00 name:7 Megavitamins
+  :  setting name:Default Virus Level
+  :    option value=0x04 name:3
+  :    option value=0x00 name:1
+  :    option value=0x08 name:5
+  :    option value=0x0c name:7
+  :  setting name:Drop Rate Speed Up
+  :    option value=0x00 name:Slow
+  :    option value=0x10 name:Medium
+  :    option value=0x20 name:Fast
+  :    option value=0x30 name:Fastest
+  :  setting name:Free Play
+  :    option value=0x00 name:No
+  :    option value=0x40 name:Yes
+  :  setting name:Attract Mode Music
+  :    option value=0x80 name:Plays
+  :    option value=0x00 name:Muted
+  :
+  :information
+  :  serial:   MDS-VU
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Dr. Mario
+  :  title:    VS. Dr. Mario
+
+vs sha256:0626ec9afc5e244bc8b699006a2f1d827d7ab6fb21a183a53aa3c5319d364ba1
+  :side
+  :  ppu version=RC2C03B
+  :  controller port=2 device=zapper
+  :  controller port=1 device=none
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x04 name:2 Coins - 1 Credit
+  :    option value=0x02 name:3 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x01 name:1 Coin - 3 Credits
+  :    option value=0x05 name:1 Coin - 4 Credits
+  :    option value=0x03 name:1 Coin - 5 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Difficulty
+  :    option value=0x08 name:Normal
+  :    option value=0x00 name:Easy
+  :    option value=0x10 name:Hard
+  :    option value=0x18 name:Very Hard
+  :  setting name:Misses
+  :    option value=0x20 name:5 Misses
+  :    option value=0x00 name:3 Misses
+  :  setting name:Bonus Miss Award
+  :    option value=0x00 name:30000
+  :    option value=0x40 name:50000
+  :    option value=0x80 name:80000
+  :    option value=0xc0 name:100000
+  :
+  :information
+  :  serial:   MDS-DH
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Duck Hunt
+  :  title:    VS. Duck Hunt
+
+vs sha256:84c3f0d51a935bf478aa657f4728bb6a51112024913860e389f6710321ca5fbd
+  :side
+  :  ppu version=RC2C05-03
+  :  controller port=2 device=zapper
+  :  controller port=1 device=none
+  :  prg
+  :    // ROM chip order:
+  :    // 0x8000-0x9fff A
+  :    // 0x8000-0x9fff B
+  :    // 0xa000-0xbfff
+  :    // 0xc000-0xdfff
+  :    // 0xe000-0xffff
+  :    // iNES order:
+  :    // 0x8000-0x9fff A
+  :    // 0xa000-0xbfff
+  :    // 0xc000-0xdfff
+  :    // 0xe000-0xffff
+  :    // 0x8000-0x9fff B
+  :    // 0x00 × 0x2000
+  :    rom name=program.rom size=0xa000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x06 name:2 Coins - 1 Credit
+  :    option value=0x01 name:3 Coins - 1 Credit
+  :    option value=0x05 name:4 Coins - 1 Credit
+  :    option value=0x03 name:5 Coins - 1 Credit
+  :    option value=0x07 name:Free Play
+  :  setting name:Difficulty
+  :    option value=0x08 name:Normal
+  :    option value=0x00 name:Easy
+  :    option value=0x10 name:Hard
+  :    option value=0x18 name:Very Hard
+  :  setting name:Lives
+  :    option value=0x20 name:3
+  :    option value=0x00 name:5
+  :  setting name:Bullets per Balloon
+  :    option value=0x00 name:3
+  :    option value=0x40 name:2
+  :  setting name:Bonus Life
+  :    option value=0x00 name:50000 points
+  :    option value=0x80 name:None
+  :
+  :information
+  :  serial:   MDS-GM
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Gumshoe
+  :  title:    Gumshoe
+
+vs sha256:e4a21bd0b502594f72fd0cefab023a15db5f7813791d1737bafac46986b01868
+  :side
+  :  ppu version=RP2C04-0001
+  :  controller port=2 device=zapper
+  :  controller port=1 device=none
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x06 name:2 Coins - 1 Credit
+  :    option value=0x01 name:3 Coins - 1 Credit
+  :    option value=0x05 name:4 Coins - 1 Credit
+  :    option value=0x03 name:5 Coins - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Difficulty
+  :    option value=0x08 name:Normal
+  :    option value=0x00 name:Easy
+  :    option value=0x10 name:Hard
+  :    option value=0x18 name:Very Hard
+  :  setting name:Misses
+  :    option value=0x20 name:5 Misses
+  :    option value=0x00 name:3 Misses
+  :  setting name:Bonus Miss Award
+  :    option value=0x00 name:30000
+  :    option value=0x40 name:50000
+  :    option value=0x80 name:80000
+  :    option value=0xc0 name:100000
+  :
+  :information
+  :  serial:   MDS-HA
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Hogan's Alley
+  :  title:    VS. Hogan's Alley
+
+vs sha256:90087521b810c3d90af8aed726d19804d82cc5af4f1a52b34dcd551332d284bd
+  :side
+  :  ppu version=RP2C04-0004
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x01 name:2 Coins - 1 Credit
+  :    option value=0x05 name:3 Coins - 1 Credit
+  :    option value=0x03 name:4 Coins - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x06 name:1 Coin - 4 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Lives
+  :    option value=0x00 name:3
+  :    option value=0x10 name:4
+  :    option value=0x08 name:5
+  :    option value=0x18 name:7
+  :  setting name:Icicles
+  :    option value=0x00 name:Less (Easy)
+  :    option value=0x20 name:More (Hard)
+  :  setting name:Time before Polar Bear
+  :    option value=0x00 name:Long (Easy)
+  :    option value=0x40 name:Short (Hard)
+  :
+  :information
+  :  serial:   MDS-IC
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Ice Climber
+  :  title:    VS. Ice Climber
+
+vs sha256:38bb20d530fbcafecac41222b47b5eec5929e2d43a6fe69daf384085dd506c4c
+  :side
+  :  ppu version=RP2C04-0004
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x01 name:2 Coins - 1 Credit
+  :    option value=0x05 name:3 Coins - 1 Credit
+  :    option value=0x03 name:4 Coins - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x06 name:1 Coin - 4 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Lives
+  :    option value=0x00 name:3
+  :    option value=0x10 name:4
+  :    option value=0x08 name:5
+  :    option value=0x18 name:7
+  :  setting name:Icicles
+  :    option value=0x00 name:Less (Easy)
+  :    option value=0x20 name:More (Hard)
+  :  setting name:Time before Polar Bear
+  :    option value=0x00 name:Long (Easy)
+  :    option value=0x40 name:Short (Hard)
+  :
+  :information
+  :  serial:   MDS-IC
+  :  region:   USA
+  :  revision: 1.1
+  :  name:     Ice Climber
+  :  title:    VS. Ice Climber
+  :  //Requires holding Button 3 on the VS. Panel at startup.
+  :  //Bypass cheat code: b5fc/fe
+
+vs sha256:b920ad68b56c6fdbcd74659ac3d8340f2378a4c117bd6f15d653d23f2e633555
+  :side
+  :  ppu version=RP2C04-0002
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x01 name:1 Coin - 1 Credit
+  :    option value=0x05 name:2 Coins - 1 Credit
+  :    option value=0x03 name:3 Coins - 1 Credit
+  :    option value=0x07 name:4 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x04 name:1 Coin - 4 Credits
+  :    option value=0x00 name:Free Play
+  :  setting name:Hole Size
+  :    option value=0x00 name:Large
+  :    option value=0x08 name:Small
+  :  setting name:Scoring
+  :    option value=0x00 name:Par & up: Normal+1, Bogey: 0
+  :    option value=0x10 name:Par & up: Normal, Bogey: Normal
+  :  setting name:Starting Points
+  :    option value=0x00 name:10
+  :    option value=0x40 name:13
+  :    option value=0x20 name:16
+  :    option value=0x60 name:20
+  :  setting name:CPU Difficulty
+  :    option value=0x00 name:Easy
+  :    option value=0x80 name:Hard
+  :
+  :information
+  :  serial:   MDS-LG
+  :  region:   USA
+  :  revision: UniSystem
+  :  name:     Ladies Golf
+  :  title:    Ladies Golf
+  :  //title:    Stroke & Match Golf
+
+vs sha256:74ad66ebe7c931569db0a615f2225cf45ef11da1c9b5c956ecfe11c3991ea6ee
+  :side
+  :  ppu version=RP2C04-0002
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x06 name:1 Coin - 4 Credits
+  :    option value=0x01 name:2 Coins - 1 Credit
+  :    option value=0x05 name:3 Coins - 1 Credit
+  :    option value=0x03 name:4 Coins - 1 Credit
+  :    option value=0x07 name:Free Play
+  :  setting name:Time Limit
+  :    option value=0x00 name:280
+  :    option value=0x10 name:250
+  :    option value=0x08 name:220
+  :    option value=0x18 name:200
+  :  setting name:Enemies
+  :    option value=0x00 name:Less
+  :    option value=0x40 name:More
+  :
+  :information
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Mach Rider
+  :  title:    VS. Mach Rider
+
+vs sha256:eb774ce9f0c5da8ccaca2c6d680c96709beada8b7f74067eb4781b64e29de5bd
+  :side
+  :  ppu version=RP2C03B
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x01 name:1 Coin - 1 Credit
+  :    option value=0x05 name:2 Coins - 1 Credit
+  :    option value=0x03 name:3 Coins - 1 Credit
+  :    option value=0x07 name:4 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x04 name:1 Coin - 4 Credits
+  :    option value=0x00 name:Free Play
+  :  setting name:Side Drain Walls
+  :    option value=0x00 name:High
+  :    option value=0x08 name:Low
+  :  setting name:Extra Ball Score
+  :    option value=0x10 name:70000
+  :    option value=0x00 name:50000
+  :  setting name:Balls
+  :    option value=0x00 name:3
+  :    option value=0x20 name:5
+  :    option value=0x40 name:4
+  :    option value=0x60 name:2
+  :  setting name:Ball Speed
+  :    option value=0x00 name:Normal
+  :    option value=0x80 name:Fast
+  :
+  :information
+  :  serial:   MDS-PN
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Pinball
+  :  title:    VS.ピンボール
+  :  //Controlled using both controllers' A Buttons.
+
+vs sha256:963e0135121a522ad2ff1d7e4b018282eaad6531fc67a5774b5f462995a0653f
+  :side
+  :  ppu version=RP2C04-0001
+  :  controller port=1 device=gamepad
+  :  controller port=2 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x01 name:1 Coin - 1 Credit
+  :    option value=0x05 name:2 Coins - 1 Credit
+  :    option value=0x03 name:3 Coins - 1 Credit
+  :    option value=0x07 name:4 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x04 name:1 Coin - 4 Credits
+  :    option value=0x00 name:Free Play
+  :  setting name:Side Drain Walls
+  :    option value=0x00 name:High
+  :    option value=0x08 name:Low
+  :  setting name:Extra Ball Score
+  :    option value=0x10 name:70000
+  :    option value=0x00 name:50000
+  :  setting name:Balls
+  :    option value=0x00 name:3
+  :    option value=0x20 name:5
+  :    option value=0x40 name:4
+  :    option value=0x60 name:2
+  :  setting name:Ball Speed
+  :    option value=0x00 name:Normal
+  :    option value=0x80 name:Fast
+  :
+  :information
+  :  serial:   MDS-PN
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Pinball
+  :  title:    VS. Pinball
+
+vs sha256:be2136bed65347c7f3c0e33ea5caf7a83c29113bcabb07a6a152cdb76a2a07c4
+  :side
+  :  prg
+  :    rom name=program-1.rom size=0x2000
+  :side
+  :  ppu version=RP2C04-0002
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program-2.rom size=0x8000
+  :  chr
+  :    rom name=character-2.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x01 name:2 Coins - 1 Credit
+  :    option value=0x05 name:3 Coins - 1 Credit
+  :    option value=0x03 name:4 Coins - 1 Credit
+  :    option value=0x04 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x06 name:1 Coin - 4 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Lives
+  :    option value=0x08 name:3
+  :    option value=0x00 name:2
+  :
+  :information
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Raid on Bungeling Bay
+  :  title:    VS. Raid on Bungeling Bay
+  :  //Requires holding Buttons 3 and 4 on the VS. Panel at startup.
+  :  //Bypass cheat code: 96e0/e2
+
+vs sha256:9b95dc322fc25599bb7027463ea8ed83b792be004fe57767200a63f428c14232
+  :side
+  :  ppu version=RC2C03B
+  :  controller port=1 device=gamepad
+  :  controller port=2 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x01 name:2 Coins - 1 Credit
+  :    option value=0x03 name:3 Coins - 1 Credit
+  :    option value=0x02 name:1 Coin - 2 Credits
+  :  setting name:0x04
+  :    option value=0x00 name:0x00
+  :    option value=0x04 name:0x04
+  :  setting name:0x08
+  :    option value=0x00 name:0x00
+  :    option value=0x08 name:0x08
+  :  setting name:0x10
+  :    option value=0x00 name:0x00
+  :    option value=0x10 name:0x10
+  :  setting name:PPU
+  :    option value=0x00 name:Rx2C03
+  :    option value=0x20 name:RP2C04-0001
+  :    option value=0x60 name:RP2C04-0002
+  :    option value=0xa0 name:RP2C04-0003
+  :    option value=0xe0 name:RP2C04-0004
+  :
+  :information
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Star Luster
+  :  title:    Star Luster
+
+vs sha256:c19cabbc7b187b6190ee88192dc610a2f51021f6b22bf67aebbc5342f148ac1c
+  :side
+  :  ppu version=RP2C04-0002
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x01 name:1 Coin - 1 Credit
+  :    option value=0x05 name:2 Coins - 1 Credit
+  :    option value=0x03 name:3 Coins - 1 Credit
+  :    option value=0x07 name:4 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x02 name:1 Coin - 3 Credits
+  :    option value=0x04 name:1 Coin - 4 Credits
+  :    option value=0x00 name:Free Play
+  :  setting name:Hole Size
+  :    option value=0x00 name:Large
+  :    option value=0x08 name:Small
+  :  setting name:Scoring
+  :    option value=0x00 name:Par & up: Normal+1, Bogey: 0
+  :    option value=0x10 name:Par & up: Normal, Bogey: Normal
+  :  setting name:Starting Points
+  :    option value=0x00 name:10
+  :    option value=0x40 name:13
+  :    option value=0x20 name:16
+  :    option value=0x60 name:20
+  :  setting name:CPU Difficulty
+  :    option value=0x00 name:Easy
+  :    option value=0x80 name:Hard
+  :
+  :information
+  :  serial:   MDS-GF
+  :  region:   USA
+  :  revision: UniSystem
+  :  name:     Stroke & Match Golf
+  :  title:    Stroke & Match Golf
+
+vs sha256:c7ae61f4e850a8363c1546402334757727f3641acf41f28a2b7406145e7561f3
+  :side
+  :  cpu version=RP2A04
+  :side
+  :  ppu version=RP2C04-0004
+  :  controller port=1 device=gamepad
+  :  controller port=2 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x04 name:2 Coins - 1 Credit
+  :    option value=0x02 name:3 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x01 name:1 Coin - 3 Credits
+  :    option value=0x05 name:1 Coin - 4 Credits
+  :    option value=0x03 name:1 Coin - 5 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Lives
+  :    option value=0x00 name:3 lives
+  :    option value=0x08 name:2 lives
+  :  setting name:Coins for Bonus Life
+  :    option value=0x10 name:200 coins
+  :    option value=0x00 name:100 coins
+  :    option value=0x20 name:150 coins
+  :    option value=0x30 name:250 coins
+  :  setting name:Timer Speed
+  :    option value=0x00 name:Normal
+  :    option value=0x40 name:Fast
+  :  setting name:Continue Lives
+  :    option value=0x00 name:4 lives
+  :    option value=0x80 name:3 lives
+  :
+  :information
+  :  serial:   MDS-SM
+  :  region:   USA
+  :  revision: Easy
+  :  name:     Super Mario Bros.
+  :  title:    VS. Super Mario Bros.
+
+vs sha256:5eb7f18541c61eb3941b00436603b5aaad4c93a2b299918f8894963d506271dc
+  :side
+  :  cpu version=RP2A04
+  :side
+  :  ppu version=RP2C04-0004
+  :  controller port=1 device=gamepad
+  :  controller port=2 device=gamepad
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x04 name:2 Coins - 1 Credit
+  :    option value=0x02 name:3 Coins - 1 Credit
+  :    option value=0x06 name:1 Coin - 2 Credits
+  :    option value=0x01 name:1 Coin - 3 Credits
+  :    option value=0x05 name:1 Coin - 4 Credits
+  :    option value=0x03 name:1 Coin - 5 Credits
+  :    option value=0x07 name:Free Play
+  :  setting name:Lives
+  :    option value=0x00 name:3 lives
+  :    option value=0x08 name:2 lives
+  :  setting name:Coins for Bonus Life
+  :    option value=0x10 name:200 coins
+  :    option value=0x00 name:100 coins
+  :    option value=0x20 name:150 coins
+  :    option value=0x30 name:250 coins
+  :  setting name:Timer Speed
+  :    option value=0x00 name:Fast
+  :    option value=0x40 name:Faster
+  :  setting name:Continue Lives
+  :    option value=0x00 name:4 lives
+  :    option value=0x80 name:3 lives
+  :
+  :information
+  :  serial:   MDS-SM
+  :  region:   USA
+  :  revision: Hard
+  :  name:     Super Mario Bros.
+  :  title:    VS. Super Mario Bros.
+
+vs sha256:269a3cd6bdbf79ee9baed9b8835ec66136f10f515f68d6ffbb1681fa30ad0717
+  :side
+  :  ppu version=RP2C04-0001
+  :  controller port=2 device=gamepad
+  :  controller port=1 device=gamepad
+  :  chip type=108
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :  setting name:Difficulty
+  :    option value=0x01 name:Normal
+  :    option value=0x00 name:Easy
+  :    option value=0x02 name:Hard
+  :    option value=0x03 name:Very Hard
+  :  setting name:Lives
+  :    option value=0x04 name:3
+  :    option value=0x00 name:2
+  :  setting name:Price
+  :    option value=0x00 name:1 Coin - 1 Credit
+  :    option value=0x08 name:1 Coin - 2 Credits
+  :    option value=0x10 name:2 Coins - 1 Credit
+  :    option value=0x18 name:3 Coins - 1 Credit
+  :  setting name:Palette
+  :    option value=0x00 name:RP2C04-0001
+  :    option value=0x40 name:RP2C04-0002
+  :    option value=0x80 name:RP2C04-0003
+  :    option value=0xc0 name:RP2C04-0004
+  :    option value=0x20 name:Rx2C03
+  :
+  :information
+  :  region:   USA
+  :  revision: 1.0
+  :  name:     Super SkyKid
+  :  title:    Super SkyKid
+

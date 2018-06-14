@@ -1,0 +1,6 @@
+theme name:NES Classic What Ifs - Mega Drive
+  background-color: 0x490024
+  font-color:       0xffffff
+  credits
+    :Graphics: hex_usr
+    :BGM: Turret 3471 (https://www.youtube.com/watch?v=0oio4ziT-RI)

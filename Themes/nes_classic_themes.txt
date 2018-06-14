@@ -1,0 +1,19 @@
+﻿To get the Famicom Mini and/or NES Classic themes, you will need to extract
+them from your Famicom Mini or NES Classic Edition through hacking.
+
+For the Famicom Mini, the theme graphics can be found in:
+/usr/share/clover-ui/resources/sprites/hvc.png
+
+For the NES Classic Edition, the theme graphics can be found in:
+/usr/share/clover-ui/resources/sprites/nes.png
+
+Just take the image, put it into the theme folder, and rename it "graphics.png".
+For the Famicom Mini, it should go into
+"Nintendo Classic Mini - Family Computer",
+and for the NES Classic Edition, it should go into
+"Nintendo Entertainment System - NES Classic Edition".
+
+For the menu music, which is shared across both themes, look in
+/usr/share/clover-ui/resources/sounds/hvc/
+…take the files bgm_boot.wav and bgm_home.wav, and convert them into a single
+MSU-1 track. Name it "bgm.pcm" and put it in your theme folder.

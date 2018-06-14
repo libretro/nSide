@@ -1,0 +1,174 @@
+//Author: NTI Productions
+
+Menu
+  Recent: Recentes
+  Systems: Sistemas
+    LoadROMFile...: Carregar ROM ...
+  System
+    SoftReset: Resetar Console
+    PowerCycle: Restabelecer Console
+    Unload: Remover Cartucho
+  Settings: Configurações
+    VideoScale: Escala de Vídeo
+      Small: Pequena
+      Medium: Média
+      Large: Grande
+    VideoEmulation: Filtro de Vídeo
+      Blurring: Desfoque
+      Colors: Cores
+    Scanlines: Scanlines
+    VideoShader: Shader de Vídeo
+      None: Nenhum
+      Blur: Desfoque
+    SynchronizeVideo: Sincronizar Vídeo
+    SynchronizeAudio: Sincronizar Áudio
+    MuteAudio: Áudio Mudo
+    ShowStatusBar: Mostrar Barra de Status
+    Systems...: Sistemas ...
+    Video...: Vídeo ...
+    Audio...: Áudio ...
+    Input...: Controles ...
+    Hotkeys...: Teclas de Atalho ...
+    Advanced...: Avançado ...
+  Tools: Ferramentas
+    SaveQuickState: Save State Rápido
+    LoadQuickState: Load State Rápido
+    Slot: Entrada %d
+    PauseEmulation: Pausar Emulação
+    CheatEditor...: Editor de Trapaças...
+    StateManager...: Gerenciador de States ...
+    ManifestViewer...: Visualizador de Mapeamento ...
+    GameNotes...: Anotações ...
+  Help: Ajuda
+    Documentation...: Documentação do higan ...
+    About...: Sobre ...
+
+Status
+  NoCartridgeLoaded: Não há cartuchos carregados
+  FPS: FPS: %d
+  Paused: Pausado
+  SoftReset: Console resetado
+  PowerCycle: Console restabelecido
+  Pausing: Pausado
+  Unpausing:
+  DisplayRotated: Tela rotacionada
+  RotateUnsupported: Rotação de tela não suportada
+  State
+    quick: State rápido
+    managed: State gerenciado
+    DoesNotExist: Entrada %2$d do state %1$s não existe
+    Incompatible: Entrada %2$d do state %1$s é incompatível
+    Load: State %1$s carregado da entrada %2$d
+    Unsupported: Falha ao salvar state %1$s na entrada %2$d
+    Unprivileged: Não foi possível adicionar state %1$s à entrada %2$d
+    Save: State %1$s salvo na entrada %2$d
+    Select: State rápido da entrada %d selecionado
+  SaveScreenshot: Captura de tela salva
+
+Error
+  Crash: Falha de driver detectada. Drivers de Vídeo, Áudio e Dispositivo de entrada foram desativados.
+  VideoDriver: Falha em inicializar driver de vídeo
+  AudioDriver: Falha em inicializar driver de áudio
+  InputDriver: Falha em inicializar driver do dispositivo de entrada
+
+Settings: Configurações
+  Systems: Sistemas
+  Video: Vídeo
+    ColorAdjustment: Ajuste de Cor
+      Saturation: Saturação:
+      Gamma: Gama:
+      Luminance: Luminância:
+    OverscanMask: Máscara de Tela
+      Horizontal: Horizontal:
+      Vertical: Vertical:
+    WindowedMode: Modo Janela
+    FullscreenMode: Modo em Tela Cheia
+    AspectCorrection: Correção de Aspecto
+    IntegralScaling: Escala Integral
+    AdaptiveSizing: Dimensionamento Adaptável
+    ExclusiveMode: Modo Exlusivo
+  Audio: Áudio
+    Driver: Driver
+      Device: Dispositivo:
+      Frequency: Frequência:
+      Latency: Latência:
+      ExclusiveMode: Modo Exclusivo
+    Effects: Efeitos
+      Volume: Volume:
+      Balance: Balanço:
+      Reverb: Ressonância
+  Input: Controles
+    WhenFocusIsLost: Quando o Foco é Perdido:
+      PauseEmulation: Pausar Emulação
+      AllowInput: Permitir Entrada de Dispositivos
+    Name: Nome
+    Mapping: Assimilações
+    MouseXAxis: Mouse X-axis
+    MouseYAxis: Mouse Y-axis
+    MouseLeft: Mouse Esquerdo
+    MouseMiddle: Mouse Centro
+    MouseRight: Mouse Direito
+    Reset: Redefinir
+    Erase: Apagar
+    PressKey: Pressione uma tecla ou botão para assimilar [%s] ...
+    MappingAssigned: Assimilamento completo.
+    ResetConfirmation: Atenção! Isso irá apagar todas as configurações do dispositivo! Você está certo disso?
+      Yes: Sim
+      No: Não
+  Hotkeys: Teclas de Atalho
+    Name: Nome
+    Mapping: Assimilações
+    Logic
+      and: e
+      or: ou
+    Reset: Redefinir
+    Erase: Apagar
+    PressKey: Pressione uma tecla ou botão para assimilar [%s] ...
+    MappingAssigned: Assimilamento completo.
+    ResetConfirmation: Atenção! Isso irá apagar todos os atalhos assimilados! Você está certo disso?
+      Yes: Sim
+      No: Não
+  Advanced: Avançado
+    DriverSelection: Seleção de Driver
+      Video: Vídeo:
+      Audio: Áudio:
+      Input: Entrada:
+    GameLibrary: Biblioteca de Jogos
+      Location: Local:
+      Change...: Alterar ...
+      IgnoreManifests: Ignorar arquivos BML
+    Other: Outro
+      AutoSaveMemory: Salvar memória periodicamente
+      RecentList: Ativar lista de jogos recentes
+        Clear: Atenção! Isso irá limpar seu histórico de jogos recentes! Você está certo disso?
+          Yes: Sim
+          No: Não
+
+Tools: Ferramentas
+  CheatDatabase
+    SelectAll: Selecionar Todos
+    UnselectAll: Desmarcar Todos
+    AddCodes: Adicionar Códigos
+  CheatEditor: Editor de Trapaças
+    Table
+      Slot: Entrada
+      Codes: Códigos(s)
+      Description: Descrição
+    Edit
+      Codes: Códigos(s):
+      Description: Descrição:
+    FindCodes...: Encontrar Códigos ...
+    Reset: Redefinir
+    Erase: Apagar
+  StateManager: Gerenciador de States
+    Table
+      Slot: Entrada
+      Description: Descrição
+    Edit
+      Description: Descrição:
+    Save: Salvar
+    Load: Carregar
+    Reset: Redefinir
+    Erase: Apagar
+  ManifestViewer: Visualizador de Mapeamento
+  GameNotes: Anotações

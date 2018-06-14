@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=shimai
+Comment=Famicom and other consoles emulator
+Exec=shimai
+Icon=shimai
+Terminal=false
+Type=Application
+Categories=Game;Emulator;

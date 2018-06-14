@@ -1,0 +1,6 @@
+system name:Game Gear
+  cpu
+    ram name=work.ram size=0x2000 volatile
+  psg
+  vdp
+    ram name=video.ram size=0x4000 volatile

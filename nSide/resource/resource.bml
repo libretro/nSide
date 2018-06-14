@@ -1,0 +1,16 @@
+namespace name=Resource
+  namespace name=Sprite
+    binary name=CrosshairRed file=sprite/crosshair-red.png
+    binary name=CrosshairGreen file=sprite/crosshair-green.png
+    binary name=CrosshairBlue file=sprite/crosshair-blue.png
+    binary name=CrosshairTurbo file=sprite/crosshair-turbo.png
+    binary name=CrosshairRedSmall file=sprite/crosshair-red-small.png
+    binary name=CrosshairGreenSmall file=sprite/crosshair-green-small.png
+    binary name=CrosshairBlueSmall file=sprite/crosshair-blue-small.png
+    binary name=CrosshairTurboSmall file=sprite/crosshair-turbo-small.png
+    binary name=FamicomBox1 file=sprite/famicombox-1.png
+    binary name=FamicomBoxOff file=sprite/famicombox-off.png
+    binary name=FamicomBoxOn file=sprite/famicombox-on.png
+    binary name=FamicomBox2 file=sprite/famicombox-2.png
+    binary name=FamicomBox3 file=sprite/famicombox-3.png
+    binary name=FamicomBox4 file=sprite/famicombox-4.png

@@ -1,0 +1,7174 @@
+database
+  owner: BootGod
+  revision: 2018-04-18
+
+//Family Computer (JPN)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:a75af9b5972f22056d016474234b03213e5d7932fb1e81890d58bd100bb8d0d2
+  :board region=ntsc-j id:IREM-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   IF-02
+  :  board:    IREM-01-V
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     10-Yard Fight
+  :  title:    10ヤードファイト
+
+cartridge sha256:3669f979465f03cba7d55c9ad3080b8292557514ef0e7dba0b1de98313e6f392
+  :board region=ntsc-j id:IREM-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   IF-02
+  :  board:    IREM-01-V
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     10-Yard Fight
+  :  title:    10ヤードファイト
+
+cartridge sha256:28cdd5af3c441f361cfa3a21ec97a1ab08691dd5d73f7a10a372fbd1fffb8ba7
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   CAP-43
+  :  board:    HVC-UNROM-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     1943 - The Battle of Valhalla
+  :  title:    1943: The Battle of Valhalla
+
+cartridge sha256:42b21cc066490b78afca98224d642507a4dbb74c1483c3d63fa85ffc883fe640
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KYG-AX
+  :  board:    HVC-SLROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Airwolf
+  :  title:    エアーウルフ
+
+cartridge sha256:4fb12ad1c791c7ee8d5ec824eff871d71b43b92c4e93b45ed0b60f022459b917
+  :board region=ntsc-j id:SUNSOFT-4
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   SUN-AFB-6200
+  :  board:    UNK-SUNSOFT-AFB
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     After Burner II
+  :  title:    アフターバーナーII
+
+cartridge sha256:c70f0f5d4054ce7c4850259879c9823add73ccc234ddcf96d95681bb78bd2c58
+  :board region=ntsc-j id:KONAMI-VRC-6
+  :  chip type=VRC6
+  :    pinout a0=0 a1=1
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KON-RC845
+  :  board:    351951
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Akumajou Densetsu
+  :  title:    悪魔城伝説
+
+cartridge sha256:60b1aebdc0a19afc5d3e7dc4f09d8a968580e007197461a8a142656702c27f0d
+  :board region=ntsc-j id:KONAMI-UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   KON-RV003
+  :  board:    353525
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Akumajou Dracula
+  :  title:    悪魔城ドラキュラ
+
+cartridge sha256:c972cea7f55db3f92b775bd3878ce477feace79e3325e8bbcdd65fe780e2f50f
+  :board region=ntsc-j id:TAITO-CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   TFC-AN-5400-10
+  :  board:    FC-010
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Arkanoid
+  :  title:    アルカノイド
+
+cartridge sha256:54526dc9444c0eb4b0e5814f98b5e522bcb9881a6f2c0644fc7a21ca8c03502b
+  :board region=ntsc-j id:TLSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   IGS-9T
+  :  board:    HVC-TLSROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Armadillo
+  :  title:    アルマジロ
+
+cartridge sha256:f3601248633f47a0ef10723e42a1072c76dd487d7ddf943e618611bb7cfec737
+  :board region=ntsc-j id:SUNSOFT-1
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   SUN-ATL-4900
+  :  board:    4041
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Atlantis no Nazo
+  :  title:    アトランチスの謎
+
+cartridge sha256:2b4ac20082e2f45a8f8fd4922a0e995829719a523e118a9eec891c3206adf25b
+  :board region=ntsc-j id:CNROM
+  :  security pass=0x3
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   DFC-BW
+  :  board:    HVC-CNROM-256K-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     B-Wings
+  :  title:    B-ワイング
+
+cartridge sha256:a9d7e89bd4ea28cfd169e32c4516ef5d059e19afb9dfa4ede8412f2373dfb0a7
+  :board region=ntsc-j id:NAMCOT-3401
+  :  chip type=109
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NAM-NBL-3900-16
+  :  board:    3401
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Babel no Tou
+  :  title:    バベルの塔
+
+cartridge sha256:3c8dde4541766bff7fc5b6d987e1ef985eb07375ede46bb3b48536ac133fd85a
+  :board region=ntsc-j id:RROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-BF
+  :  board:    HVC-RROM-05S
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Balloon Fight
+  :  title:    バルーンファイト
+
+cartridge sha256:a0fe077a6f0babf27b691e42db79cb4fc580a2f358f679b996fb17c2b0a68f59
+  :board region=ntsc-j id:RROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-BA
+  :  board:    HVC-RROM-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Baseball
+  :  title:    ベースボール
+
+cartridge sha256:64832bef6533d98f49e807c000537c8cb26ef94e6c3f871b8b6b35c5a11e427b
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NBC-4500-09
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Battle City
+  :  title:    バトルシティー
+
+cartridge sha256:bad75642a65cde63265f5f0bf0ad8d002da0ae5834a27aae4eb62651de7980cf
+  :board region=ntsc-j id:JALECO-JF-14
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   JF-14
+  :  board:    JF-14
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Bio Senshi Dan - Increaser Tono Tatakai
+  :  title:    バイオ戦士DAN インクリーサーとの闘い
+
+cartridge sha256:acf054b0886a2ca74a0280fc36bc1d55e9845acc29759f1893c1da4c1389f9c2
+  :board region=ntsc-j id:CNROM
+  :  security pass=0x3
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   TFS-BK
+  :  board:    HVC-CNROM-256K-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Bird Week
+  :  title:    バード・ウィーク
+
+game
+  sha256:   af7a31a57dd701f57b964667549240943c76bdd2a2044ad99dfeba47883f1b9b
+  label:    ブロック
+  name:     Block
+  region:   HVC-BL
+  revision: HVC-BL-0 PRG,HVC-BL-0 CHR
+  board:    HVC-NROM-256K-02
+    mirror mode=horizontal
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:72c69f068099e42844bfe17e7d37f439243fad10b283650cac041e78443e0300
+  :board region=ntsc-j id:JALECO-JF-05
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   JF-05
+  :  board:    JF-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     City Connection
+  :  title:    シティコネクション
+
+cartridge sha256:62c9d4e0578cb1e615ce9bb2c8ebc15b1e8de4c928c5c07ba9a85c11aa36ae4d
+  :board region=ntsc-j id:KONAMI-VRC-2
+  :  chip type=VRC2
+  :    pinout a0=0 a1=1
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KON-RC826
+  :  board:    LROG009-00
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Contra
+  :  title:    コントラ 魂斗羅
+
+cartridge sha256:3f243f6cf4b33d25d76c7cf9459e82bcd5367aa001f4c36fdf1c5728429bed0a
+  :board region=ntsc-j id:BANDAI-LZ93D50
+  :  chip type=LZ93D50
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   BA-SHINCHAN
+  :  board:    DRAGON BALL Z-B
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Crayon Shin-chan - Ora to Poi Poi
+  :  title:    クレヨンしんちゃん オラとポイポイ
+
+game
+  sha256:   e24d3c754dce20e27046afeacb2dfc217950d4be766ded80c20283392cb3891e
+  label:    クレイジークライマー
+  name:     Crazy Climber
+  region:   NBF-CY (04)
+  revision: NBF-CY-0 PRG
+  board:    HVC-UNROM-02#7408
+    mirror mode=horizontal
+    memory
+      type: ROM
+      size: 0x20000
+      content: Program
+    memory
+      type: RAM
+      size: 0x2000
+      content: Character
+      volatile
+
+cartridge sha256:a1d9bcf389d6837581cd33a26b4e13917d084e3e69dbe89453e443fc9976fa22
+  :board region=ntsc-j id:IREM-H3001
+  :  chip type=IF-H3001
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   IF-29
+  :  board:    FC-00-017C
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Daiku no Gen-san 2 - Akage no Dan no Gyakushuu
+  :  title:    大工の源さん2 赤毛のダンの逆襲
+
+cartridge sha256:d2140fc2e6354a9f4d0154dabac757e5559890edba4885799c1c979d8b7a8b20
+  :board region=ntsc-j id:NAMCOT-3453
+  :  chip type=118
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NAM-DM-5500
+  :  board:    UNK-NAMCOT-DM
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Devil Man
+  :  title:    デビルマン
+
+cartridge sha256:2fb438d10854136ec40b50410475d575860e24bc23d7b8c2a9ca27b87d14ba46
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-DD
+  :  board:    2
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Devil World
+  :  title:    デビルワールド
+
+cartridge sha256:c0eb90e99bb35d9f5c6dd05dc38a7cb93d3d41701b66a0a0dca2ab4f314465dd
+  :board region=ntsc-j id:SROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-DD
+  :  board:    HVC-SROM-03
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Devil World
+  :  title:    デビルワールド
+
+cartridge sha256:7c8b6add50b20e4612e3043df0671e701cd2aa163e4af864913e3940feee27f2
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NDD-4500-06
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dig Dug
+  :  title:    ディグダグ
+
+cartridge sha256:dceca6fe26ef2e3cb2cf4100df50b6b6a5d37ef19193144e30dce01af823cf88
+  :board region=ntsc-j id:NAMCOT-3312
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NDDII-4500-14
+  :  board:    3312
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dig Dug II
+  :  title:    ディグダグII
+
+cartridge sha256:0cfdba2ec06229dfda9d68720d1ce45085e430e75f696092829d4a9325704b73
+  :board region=ntsc-j id:NAMCOT-3446
+  :  chip type=108
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NAM-MT-4900
+  :  board:    3446
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Digital Devil Monogatari - Megami Tensei
+  :  title:    デジタル・デビル物語 女神転生
+
+cartridge sha256:1eaa6da0a158dd99c5dc46e0c75b8dcec07ee26300847b3e775c8b8ef1e7484a
+  :board region=ntsc-j id:TAITO-TC0350FMR
+  :  chip type=TC0350FMR
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   TFC-DD-5900-30
+  :  board:    J9100197A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Don Doko Don
+  :  title:    ドンドコドン
+
+cartridge sha256:fb0b3aab3fb22ab78b1d94fcbc730ed440591fdc359caec9e9f1d45682a38d01
+  :board region=ntsc-j id:TAITO-TC0190FMC
+  :  chip type=TC0190FMC
+  :  chip type=PAL16R4
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   TFC-DDII-5900-41
+  :  board:    J9100287A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Don Doko Don 2
+  :  title:    ドンドコドン2
+
+cartridge sha256:3ce807f46e50c7f44c0ce17ec61b25500d885623514209beed001e99cdaa27a8
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   DFC-DX
+  :  board:    HVC-SLROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Donald Land
+  :  title:    ドナルドランド
+
+cartridge sha256:dd108e55b60070b4c0147f7dba31844ed83065255466bfacd5038e6382483026
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-DK
+  :  board:    9011-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Donkey Kong
+  :  title:    ドンキーコング
+
+cartridge sha256:aa408f5a6b97c0d738e7e8b489a5617ad4a9ecdee2b05c4ee504210ce31b2825
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-DK
+  :  board:    HVC-NROM-02
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Donkey Kong
+  :  title:    ドンキーコング
+
+game
+  sha256:   950ebe68e7f74219b9e5e104200b03165d59c24264f02e32c12be967fd311ac2
+  label:    ドンキーコングJr
+  name:     Donkey Kong Jr.
+  region:   HVC-JR
+  revision: HVC-JR-1 PRG,HVC-JR-0 CHR
+  board:    HVC-HROM-01
+    memory
+      type: ROM
+      size: 0x4000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:8e9c7a7953161db3633dc39b097e5f731a6bdcdf871d352e33db67a7acaeca92
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-SL
+  :  board:    9011-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Donkey Kong Jr. + Jr. Sansuu Lesson
+  :  title:    ドンキーコングJR./JR.算数レッスン
+
+cartridge sha256:7bd2caf4a42f7d5c391433d2bec37bb2130e3a39dce55ee597ec14703cefc769
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   EFC-DR
+  :  board:    9011-06
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Door Door
+  :  title:    ドアドア
+
+cartridge sha256:71ca865ba15da47e7002d02886ae9548ee935e2b1f8623b78c4975f3ce30cfa6
+  :board region=ntsc-j id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TJC-UH
+  :  board:    HVC-TLROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Downtown - Nekketsu Koushin Kyoku - Soreyuke Daiundoukai
+  :  title:    ダウンタウン 熱血行進曲 それゆけ大運動会
+
+cartridge sha256:d2fbe8b10f762099d320016ddfd4d2961a591fe6dfaaab2efbeb77282264d06a
+  :board region=ntsc-j id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   HVC-VU
+  :  board:    SE-01A
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Dr. Mario
+  :  title:    ドクターマリオ
+
+cartridge sha256:d36b8989cbaf9ceafd91d15edd7b990dce6f9aede1bf9ac696ea8d288ec53d44
+  :board region=ntsc-j id:BANDAI-FCG-1
+  :  chip type=FCG-1
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   BA-DB2
+  :  board:    DORAGON2B
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dragon Ball - Dai Maou Fukkatsu
+  :  title:    ドラゴンボール 大魔王復活
+
+cartridge sha256:b1a7377282123b3b18107e0d929666af8831bebde78ceaf7fe410c2132cd61ce
+  :board region=ntsc-j id:NAMCOT-3425
+  :  chip type=118
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NAM-DB-4900
+  :  board:    3425
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dragon Buster
+  :  title:    ドラゴンバスター
+
+cartridge sha256:50b92595fe9198c333fe6912867f9db2de5c16a6c2fa72edcf1d797e1d8b79cb
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   EFC-DQ
+  :  board:    CN-04B
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dragon Quest
+  :  title:    ドラゴンクエスト
+
+cartridge sha256:b0f0ce24890db516c01b1e748a8b4c68b38cebc404c2bc1c24a1ef6fe02ac5cc
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   EFC-D2
+  :  board:    HVC-UNROM-09
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dragon Quest II - Akuryou no Kamigami
+  :  title:    ドラゴンクエストII 悪霊の神々
+
+cartridge sha256:ba223cc3aa7992ace45dd9c50bc8b29100e18dd77d338b5383d006af47d05ed3
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   EFC-D3
+  :  board:    HVC-SNROM-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dragon Quest III - Soshite Densetsu e...
+  :  title:    Dragon Quest III: そして伝説へ...
+
+cartridge sha256:691fe8b7112654dbe7d87c5996037059d880f010ebf1f34decb89cedce7c4b9d
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   EFC-D3
+  :  board:    HVC-SNROM-09
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Dragon Quest III - Soshite Densetsu e...
+  :  title:    Dragon Quest III: そして伝説へ...
+
+cartridge sha256:2c9786c4fc04fe476e83c0e3e06b1577dc244a6c388cd4b31c86f045ef146d12
+  :board region=ntsc-j id:SUROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   EFC-D4
+  :  board:    HVC-SUROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Dragon Quest IV - Michibikareshi Mono-tachi
+  :  title:    Dragon Quest IV: 導かれし者たち
+
+cartridge sha256:7026334a7e8742b61b450f4b3b182922c6a69fc723d7cd19c83db365f15e45ba
+  :board region=ntsc-j id:RROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-DH
+  :  board:    HVC-RROM-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Duck Hunt
+  :  title:    ダックハント
+
+cartridge sha256:e9f4c9d1b7c66c6af83f2db5d4f704cf5f4b3c86e26a49c05539237807d8875e
+  :board region=ntsc-j id:RTROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-EB
+  :  board:    HVC-RTROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Excitebike
+  :  title:    エキサイトバイク
+
+cartridge sha256:e9aab85fd91822b9dc7a89997eda3415e45a07fe21580c0df4765ce392e63824
+  :board region=ntsc-j id:RROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-FR
+  :  board:    HVC-RROM-05S
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     F-1 Race
+  :  title:    F1レース
+
+cartridge sha256:99c18490ed9002d9c6d999b9d8d15be5c051bdfa7cc7e73318053c9a994b0178
+  :board region=ntsc-j id:FDS
+  :  prg
+  :    rom name=program.rom size=0x2000
+  :    ram name=work.ram size=0x8000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   N/A
+  :  board:    Famicom Disk System
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Famicom Disk System
+  :  title:    ファミリーコンピュータディスクシステム
+
+cartridge sha256:dd031b72924e1d080f8758412c73224a274ae5e5a50d90310d578975df74101f
+  :board region=ntsc-j id:BANDAI-JUMP2
+  :  chip type=LZ93D50
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   BA-FJ2
+  :  board:    BA-JUMP2
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Famicom Jump II - Saikyou no 7 Nin
+  :  title:    ファミコンジャンプII 最強の7人
+
+cartridge sha256:7586cdd8b742ba3c4f0ea3eefaa2f6f2215af197a5269e3de9026bcdf236e981
+  :board region=ntsc-j id:FJROM
+  :  chip type=MMC4
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   HVC-FW
+  :  board:    HVC-FJROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Famicom Wars
+  :  title:    ファミコンウォーズ
+
+cartridge sha256:277d06b71b7de4c9b3bd8b7114086532b951767f7fdf66883282a262beee84a8
+  :board region=ntsc-j id:FAMILYBASIC
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :    ram name=save.ram size=0x800
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-BS
+  :  board:    FB-R-128-01
+  :  region:   JPN
+  :  revision: 2.0
+  :  name:     Family BASIC
+  :  title:    ファミリーベーシック
+
+cartridge sha256:a646dcaeb5f114176446d7106816623c5f5918739a4c16d651c5715c9825b6e9
+  :board region=ntsc-j id:FAMILYBASIC
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :    ram name=save.ram size=0x800
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-BS
+  :  board:    FB-N-128-02
+  :  region:   JPN
+  :  revision: 2.1
+  :  name:     Family BASIC
+  :  title:    ファミリーベーシック
+
+cartridge sha256:c8c0b6c21bdda7503bab7592aea0f945a0259c18504bb241aafb1eabe65846f3
+  :board region=ntsc-j id:FAMILYBASIC
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :    ram name=save.ram size=0x1000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-VT
+  :  board:    VT-N-256-41
+  :  region:   JPN
+  :  revision: 3.0
+  :  name:     Family BASIC
+  :  title:    ファミリーベーシック
+
+cartridge sha256:4dd1ccb16d8af15d5cb029f69cf8551c5c720a69ec314bd618be892f0fc20f86
+  :board region=ntsc-j id:NAMCOT-3407
+  :  chip type=118
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NAM-FJ-3900
+  :  board:    3407
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Family Jockey
+  :  title:    ファミリージョッキー
+
+cartridge sha256:72da13d5a63520d307b28beb096235b89a98d1d53993fb36625449e7588379a3
+  :board region=ntsc-j id:BANDAI-CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   FT-02
+  :  board:    BA-ランニング
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Family Trainer 2 - Running Stadium
+  :  title:    ファミリートレーナー2 ランニングスタジアム
+
+cartridge sha256:27c6e9bf1de790ce831a4e9211c897fab813b2f4447a897efaad905f2488d761
+  :board region=ntsc-j id:BANDAI-PT-554
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   FT-03
+  :  board:    BA-エアロビ
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Family Trainer 3 - Aerobics Studio
+  :  title:    ファミリートレーナー3 エアロビスタジオ
+
+cartridge sha256:16f116053eee2d5c0be6c934c750224aaade45d4f6236b36967cdf986772e351
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   SFX-FI
+  :  board:    HVC-SLROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Fighting Golf
+  :  title:    ファイティングゴルフ
+
+cartridge sha256:13038600940772bd8276e7de55674d9d241d9bcd56b0ba7f31537b297c0e1e13
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   SQF-FF
+  :  board:    HVC-SNROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Final Fantasy
+  :  title:    ファイナルファンタジー
+
+cartridge sha256:b0def1b810ab3d29ce7e4d7a7ab8373ce7b28ced56967c483da193ce0cad5ee2
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   SQF-FF
+  :  board:    HVC-SNROM-09
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Final Fantasy
+  :  title:    ファイナルファンタジー
+
+cartridge sha256:60c65138a0edecee77e7fa808291d6198ef2ebd10b1fd2bc4f047298d93a4cc0
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   SQF-FY
+  :  board:    HVC-SNROM-07
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Final Fantasy II
+  :  title:    ファイナルファンタジーII
+
+cartridge sha256:7ff89b50156b6f5b3d78d3d2eeec8a9221d9f7b18f8350abf89b7867a205f710
+  :board region=ntsc-j id:TNROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   SQF-FC
+  :  board:    HVC-TNROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Final Fantasy III
+  :  title:    ファイナルファンタジーIII
+
+cartridge sha256:a637619a8b794ac9382723930b5be0e5a3d37991d2804b1ee637eced44b2b494
+  :board region=ntsc-j id:SXROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x8000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   SQF-FO
+  :  board:    HVC-SXROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Final Fantasy I & II
+  :  title:    ファイナルファンタジーI・II
+
+cartridge sha256:60db7fd78cc849658a42ca648f0d294ebf21e477ddf0753f0e6bbffaad6192ab
+  :board region=ntsc-j id:FKROM
+  :  chip type=MMC4
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HVC-VX
+  :  board:    HVC-FKROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Fire Emblem 1 - Ankoku Ryuu to Hikari no Tsurugi
+  :  title:    ファイアーエムブレム 暗黒竜と光の剣
+
+cartridge sha256:0d899d67c7a61b13151f465c38c63a0d2d6a42d6be2d4ecac0fef87d55d92f92
+  :board region=ntsc-j id:FKROM
+  :  chip type=MMC4
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HVC-2I
+  :  board:    HVC-FKROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Fire Emblem 2 - Gaiden
+  :  title:    ファイアーエムブレム外伝
+
+cartridge sha256:e6fe68b9f12578e74ba016ca146aaf8232b20475fb675c7d32e0ea4e47eb1cc8
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NGG-4500-05
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Galaga
+  :  title:    ギャラガ
+
+cartridge sha256:50178a2856f8ed3574b4e7fd45b9d1ec44c660d51fe9783d0012a19df5892cce
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NGX-4500-01
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Galaxian
+  :  title:    ギャラクシアン
+
+cartridge sha256:2613db1559a07137af1f3cfda4175ac09be465604c651956dd98d971aedae6bc
+  :board region=ntsc-j id:KONAMI-VRC-2
+  :  chip type=VRC2
+  :    pinout a0=1 a1=0
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   KON-RC840
+  :  board:    351948
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ganbare Goemon Gaiden - Kieta Ougon Kiseru
+  :  title:    がんばれゴエモン外伝 きえた黄金キセル
+
+cartridge sha256:50770ffec21bd47eadc9b502b73323f976e48e6f8f589a6717300119bde99de3
+  :board region=ntsc-j id:KONAMI-VRC-4
+  :  chip type=VRC4
+  :    pinout a0=6 a1=7
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   KON-RC857
+  :  board:    352889
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ganbare Goemon Gaiden 2 - Tenka no Zaihou
+  :  title:    がんばれゴエモン外伝2 天下の財宝
+
+cartridge sha256:1bbe4b3e20a004a4f741018e31e6ae291772b8876d6fb6f01494c9c5b0917c6c
+  :board region=ntsc-j id:SUNSOFT-5B
+  :  chip type=Sunsoft-5B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   SUN-GMK-6200
+  :  board:    FC-GMK
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Gimmick!
+  :  title:    ギミック!
+
+cartridge sha256:12c99ef93f7bf1eaace749b38e5b63bca1b9885fd7680c14dfcc20c3637d6aa5
+  :board region=ntsc-j id:SROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-GF
+  :  board:    HVC-SROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Golf
+  :  title:    ゴルフ
+
+cartridge sha256:3d6bf7221fc38cd5bd1a55b50a5b0f50e6cbba0f44e5236e8447876f711e74ae
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   VIC-G3
+  :  board:    HVC-SLROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Golgo 13 - Dai 1 Shou - Kamigami no Tasogare
+  :  title:    ゴルゴ13 第一章 神々の黄昏
+
+cartridge sha256:100fe2b085e3d57dc1a8f1cea44a31766e8c81c50a6083bf16687dcd1b6219f4
+  :board region=ntsc-j id:RROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-GO
+  :  board:    HVC-RROM-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Gomoku Narabe - Renju
+  :  title:    五目ならべ 連珠
+
+cartridge sha256:f837e0807ade4bb8036d40746e2433ed66986f043fc2be722e765e45a676cd5d
+  :board region=ntsc-j id:KONAMI-74*139/74
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   KON-RC809
+  :  board:    302047A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Goonies, The
+  :  title:    グーニーズ
+
+cartridge sha256:02f300a653509b84a4565742aeda5b76e79a2fa36ef5f9d903b2607db1586813
+  :board region=ntsc-j id:KONAMI-CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   KON-RC810
+  :  board:    302041A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Gradius
+  :  title:    グラディウス
+
+cartridge sha256:2974ad16b994cfdc9418310ced6c7f4ed64433063d12439a7b37a816f797dd0e
+  :board region=ntsc-j id:KONAMI-VRC-4
+  :  chip type=VRC4
+  :    pinout a0=1 a1=0
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x800 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KON-RC832
+  :  board:    351406
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Gradius II
+  :  title:    Gradius II
+
+cartridge sha256:0d895a031dd38f2661ba2af4a1b3c7b9753632b1530ea28eec936cf3fda8bf54
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-GY
+  :  board:    3I
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Gyro
+  :  title:    ジャイロ
+
+cartridge sha256:52aea6e53c380799ac392a66eb3ce6337d704033d811b889e5589fa4ec4489f5
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   CAP-HF
+  :  board:    HVC-SNROM-06
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Hitler no Fukkatsu - Top Secret
+  :  title:    ヒットラーの復活: TOP SECRET
+
+cartridge sha256:8e4a04076b6a728a7e65a09737776dcb9defed7922bf0437d9a89bbe8c724b55
+  :board region=ntsc-j id:SROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-HA
+  :  board:    HVC-SROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Hogan's Alley
+  :  title:    ホーガンズアレイ
+
+cartridge sha256:1c1ad2992f728c7fb6a8f3980b1a0f8e01e5b24a0c43c713300846d87be5987a
+  :board region=ntsc-j id:IREM-HOLYDIVER
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   IF-12
+  :  board:    UNK-IF-12
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Holy Diver
+  :  title:    ホーリーダイヴァー
+
+cartridge sha256:5cfc1c6d83afd59de8b359e6dbbfc866dc64436dbd46efd336ccc869ef48e2da
+  :board region=ntsc-j id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   HVC-KI
+  :  board:    HVC-TKROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Hoshi no Kirby - Yume no Izumi no Monogatari
+  :  title:    星のカービィ 夢の泉の物語
+
+cartridge sha256:4604ba6e93ae7846f6cb8b2e37a79187e84f3c549f3619670269592c5aaa4612
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   GAM-HM-02
+  :  board:    HVC-UNROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Hoshi o Miru Hito
+  :  title:    星をみるひと
+
+cartridge sha256:5b2b9eb0a2a1dd539eeb29a5a236265923064fa751312e93cd313e0368c90303
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   HVC-IC
+  :  board:    3I
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ice Climber
+  :  title:    アイスクライマー
+
+cartridge sha256:c9707547555d8c38014540204649125f7b36d3990433bfebb63c49742e2dc3a2
+  :board region=ntsc-j id:IREM-G101
+  :  chip type=G-101
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   IF-14
+  :  board:    FC-00-015
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Image Fight
+  :  title:    イメージファイト
+
+cartridge sha256:0f406a7c853b919ed880868420808b945855146db9817ebc3102f08da13fa703
+  :board region=ntsc-j id:TAITO-TC0190FMC
+  :  chip type=TC0190FMC
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TFC-IS-5900-33
+  :  board:    J9100205A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Insector X
+  :  title:    インセクターX
+
+cartridge sha256:2e5520ba75f0d1b0e2d56588ea28838cb4555413919019372541b86cb5c36b15
+  :board region=ntsc-j id:JALECO-JF-09
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   JF-09
+  :  board:    JF-09
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Jajamaru no Daibouken
+  :  title:    じゃじゃ丸の大冒険
+
+cartridge sha256:ea770788f68e4bb089e4205807931d64b83175a0106e7563d0a6d3ebac369991
+  :board region=ntsc-j id:JALECO-JF-27
+  :  chip type=SS88006
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   JF-27
+  :  board:    JF-27B
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Jajamaru Gekimaden - Maboroshi no Kinmajou
+  :  title:    じゃじゃ丸撃魔伝 ~幻の金魔城~
+
+cartridge sha256:b844aff505c9db9fe75a45b115b65b6d3b26010eeae0a6357980a99e5e94ddf3
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   THF-TK
+  :  board:    HVC-UNROM-05
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Jekyll Hakase no Houma ga Toki
+  :  title:    ジキール博士の彷魔が刻
+
+cartridge sha256:511e82e8271080e940c90bafcc4e39671eef73af08e6c564e42732839cca7614
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   SQF-JJ
+  :  board:    HVC-UNROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     JJ - Tobidase Daisakusen Part 2
+  :  title:    ジェイ ジェイ とびだせ大作戦パート２
+
+cartridge sha256:f9a27ccbde3f382e3cd8d90d34383429407d1d257ce5fd403f6f887225a37db2
+  :board region=ntsc-j id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   HVC-JM
+  :  board:    HVC-TKROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Joy Mech Fight
+  :  title:    ジョイメカファイト
+
+cartridge sha256:f40341cf7e76480465ba8ab2d09e44644c3e3af7d647dc04c8b38357b26e014a
+  :board region=ntsc-j id:EKROM
+  :  chip type=MMC5A
+  :    ram name=internal.ram size=0x400 volatile
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   EFC-I5
+  :  board:    HVC-EKROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Just Breed
+  :  title:    ジャストブリード
+
+cartridge sha256:ced7f840a0cae6fe82aca994858e3c407d2ff9b2396f0b43cdbaddc7e9f2bc1d
+  :board region=ntsc-j id:IREM-TAM-S1
+  :  chip type=TAM-S1
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   IF-07
+  :  board:    FC-00-003
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Kaiketsu Yanchamaru
+  :  title:    快傑ヤンチャ丸
+
+cartridge sha256:2241728a8072ccdf13c3bb913d2d16abd62bb43c71757d80a376c4f65cd060cf
+  :board region=ntsc-j id:BANDAI-74*161/161/32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   BA-KAMEN
+  :  board:    BA カメン
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Kamen Rider Club - Gekitotsu Shocker Land
+  :  title:    仮面ライダー倶楽部 激突ショッカーランド
+
+cartridge sha256:a45d30c949f9d0942700826e4433ebad39e08da8252ecb541cae9d495928d63f
+  :board region=ntsc-j id:KONAMI-VRC-7
+  :  chip type=VRC7
+  :    pinout a0=4 a1=5
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   KON-RC851
+  :  board:    352402
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Lagrange Point
+  :  title:    ラグランジュポイント
+
+cartridge sha256:944105c6dcc57314968d53a2e0dcdfc0e2b60678a53839ba25925416a7ac0e8c
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-MR
+  :  board:    3I
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Mach Rider
+  :  title:    マッハライダー
+
+cartridge sha256:5cb495fd9dc486d65a2197b17fd548f5201e53497dd51bdd418e3ba0d9d04bd9
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KDS-MU
+  :  board:    HVC-SLROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mad City
+  :  title:    マッド・シティ
+
+cartridge sha256:497c3015516cb6ae2f20d70b8fb1b70b8c4cfcd64e118992c438cfe7b0579f2b
+  :board region=ntsc-j id:JALECO-JF-24
+  :  chip type=SS88006
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   JF-30
+  :  board:    JF-24A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Magic John
+  :  title:    マジック・ジョン
+
+cartridge sha256:ac5b4a29b301e23dc979bfabd2e714513b188dcf9c7ed4ae83ef23fed9cf20ee
+  :board region=ntsc-j id:RROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-MJ
+  :  board:    HVC-RROM-05
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Mahjong
+  :  title:    麻雀
+
+cartridge sha256:0986e9e8057c476aff3726aac6b1b7698e8e6de77530f394b8be2e5b5caf9bea
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-MJ
+  :  board:    2I
+  :  region:   JPN
+  :  revision: 1.2
+  :  name:     Mahjong
+  :  title:    麻雀
+
+cartridge sha256:4ef61de405406bfa9eeaf19ed1d882444c41bb606ac78673b7ec8ee323d0e073
+  :board region=ntsc-j id:IREM-G101
+  :  chip type=G-101
+  :  mirror mode=screen-1
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   IF-13
+  :  board:    UNK-IF-13
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Major League
+  :  title:    メジャーリーグ
+
+cartridge sha256:c75201cfacd2ebd3f6376cd84d6af27bd2b9e42cdfdaad2aeca6252f3214b53c
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   CAP-MK
+  :  board:    HVC-UNROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Makaimura
+  :  title:    魔界村
+
+cartridge sha256:6bc8f71a1d19cab1a1364c7e2988eaec25b2694aa29670360cab6c513f1c47ac
+  :board region=ntsc-j id:NAMCOT-3302
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NMP-4500-04
+  :  board:    3302
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mappy
+  :  title:    マッピー
+
+cartridge sha256:481ddd49134a5e2ae6beb35227dbd2384d9968dc22391eb89cafb40f2a48db6a
+  :board region=ntsc-j id:NAMCOT-3415
+  :  chip type=109
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NAM-ML-3900
+  :  board:    3415
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mappy-Land
+  :  title:    マッピーランド
+
+cartridge sha256:0cc334007d3eae698cdcd034d12ec9bab2b5266e85bc703cf24ccb4e2d63b654
+  :board region=ntsc-j id:SROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-MA
+  :  board:    HVC-SROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mario Bros.
+  :  title:    マリオブラザーズ
+
+cartridge sha256:5466a034f58b05117c19d80e1017162b932e60ba5986bf5f80fefeae713d467f
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   HVC-UG
+  :  board:    HVC-SNROM-09
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Mario Open Golf
+  :  title:    マリオオープンゴルフ
+
+cartridge sha256:4ac0926d1e4704e75e7dfc27c4d990ebdbe685002b9af1a80a385604f3cb162c
+  :board region=ntsc-j id:IREM-BNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   IF-05
+  :  board:    IREM-I-IM
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mashou
+  :  title:    魔鐘
+
+cartridge sha256:eb58ea4856030ae44d404439a04a452c10e647d0bf626ecdcd8497ba900dfae7
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   HFC-MI
+  :  board:    N04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mickey Mouse - Fushigi no Kuni no Daibouken
+  :  title:    ミッキーマウス 不思議の国の大冒険
+
+cartridge sha256:b759ace00354ac3f28eda6a602c5c6fe4bd18ba034157f5d1f8d5178446fa204
+  :board region=ntsc-j id:SGROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   HFC-MO
+  :  board:    HVC-SGROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Momotarou Densetsu: Peach Boy Legend
+  :  title:    桃太郎伝説 ~Peach Boy Legend~
+
+cartridge sha256:f2aef1a9ade54330ff821083fda7e03c7a5f93d77f4da359069d84f98ab1f852
+  :board region=ntsc-j id:SJROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   SFL-MY
+  :  board:    HVC-SJROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Money Game, The
+  :  title:    ザ・マネーゲーム
+
+cartridge sha256:aa0fe1b0b1e0c3a0a01695f1914fbb5e92649db33b74a9bdcb51be1481221f49
+  :board region=ntsc-j id:TKROM
+  :  chip type=MMC3A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HVC-MX
+  :  board:    HVC-TKROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     MOTHER
+  :  title:    MOTHER
+
+cartridge sha256:97ff1ac9e6061ba5fb02b4626abf3521f84ee1542fa8093d617ede08dbb17cdc
+  :board region=ntsc-j id:KONAMI-VRC-6
+  :  chip type=VRC6
+  :    pinout a0=1 a1=0
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   KON-RC846
+  :  board:    351949A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Mouryou Senki Madara
+  :  title:    魍魎戦記マダラ
+
+cartridge sha256:83d326a461cca8dc539283dc8017985e9a6cd1893db4674de1a086c7cb8b0269
+  :board region=ntsc-j id:IREM-74*161/161/21/138
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   IF-09
+  :  board:    LROG017-00
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Napoleon Senki
+  :  title:    ナポレオン戦記
+
+cartridge sha256:3c419e3ecf328c03364afbcf5bd15bf0029a525db9e8f74379ae1cce4062b3c3
+  :board region=ntsc-j id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TJC-NA
+  :  board:    HVC-TLROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Nekketsu Kakutou Densetsu
+  :  title:    熱血格闘伝説
+
+cartridge sha256:4ab6b5f4d6ce39fff0ef5a3d89e0884f44491fbd7d9028bd1f02a266c2698197
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   TJC-KN
+  :  board:    HVC-UNROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Nekketsu Kouha Kunio-kun
+  :  title:    熱血硬派くにおくん
+
+cartridge sha256:3aee07f35644c68301c29e6da1c9a8d9ad1fae19a52bd08303f3973d897ddc65
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TJC-ND
+  :  board:    HVC-SLROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Nekketsu Koukou Dodgeball Bu
+  :  title:    熱血高校ドッジボール部
+
+cartridge sha256:558897a4e2083b95bd77d230e1f2cf932800a01b0ba246f1d84c3aa64b236f21
+  :board region=ntsc-j id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TJC-N3
+  :  board:    HVC-TLROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Nekketsu Koukou Dodgeball Bu - Soccer Hen
+  :  title:    熱血高校ドッジボール部 ソッカー編
+
+cartridge sha256:bf546b0ce7fc60d89020ff7c0fadc7369925ba68a84d25b03de4190a91c46a95
+  :board region=ntsc-j id:JALECO-JF-06
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   JF-06
+  :  board:    JF-06
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ninja Jajamaru-kun
+  :  title:    忍者じゃじゃ丸くん
+
+cartridge sha256:648cf7ac553517573cc9b3955ab50566a91974b2348154910bfa53ef15d55b56
+  :board region=ntsc-j id:JALECO-JF-25
+  :  chip type=SS88006
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   JF-32
+  :  board:    JF-25
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ninja Jajamaru - Ginga Daisakusen
+  :  title:    忍者じゃじゃ丸 銀河大作戦
+
+cartridge sha256:eedfe7bee4cac374fd453fd3c35337a2edb6187e85eac6636b0b2e3c68c7e881
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TCF-NY
+  :  board:    HVC-SLROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ninja Ryuukenden
+  :  title:    忍者龍剣伝
+
+cartridge sha256:e506900cde4b49a1d234c8508f4fee3ad7c5f9b3fa710c49597395994dcbabb7
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HFC-NM
+  :  board:    9011-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Nuts & Milk
+  :  title:    ナッツ&ミルク
+
+cartridge sha256:15a2652861a1fb58c526a0d6fb1fcd24943bd1213cd54f87d01c96a83718e396
+  :board region=ntsc-j id:NAMCOT-3305
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NPL-4500-10
+  :  board:    3305
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     PAC-LAND
+  :  title:    パックランド
+
+cartridge sha256:30e1b191069992208841cde9b83afe710f6e1d61fceed9ebb6f554cab81afe78
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NPM-4500-02
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     PAC-MAN
+  :  title:    パックマン
+
+cartridge sha256:1e0214b8b3baaea618abd379123733080fdb8b14e4ea230a1199c5f3405f6eb8
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NPM-4500-02
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     PAC-MAN
+  :  title:    パックマン
+
+cartridge sha256:be59fd441e2509b67359cd02cadfa825ced0ec7fda8edb9c101d90fc7a793e61
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   TFS-PC
+  :  board:    HVC-NROM-256K-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Pachi Com
+  :  title:    パチコン
+
+cartridge sha256:6d2887d978262401f315836411537a208272cba7721f598308d92983f1f5731a
+  :board region=ntsc-j id:IREM-G101
+  :  chip type=G-101
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   IF-20
+  :  board:    FC-00-016
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Perman - Enban o Torikaese!!
+  :  title:    パーマン えんばんを とりかえせ!!
+
+cartridge sha256:ece3f1fefbcc9c4a6da801d931a5bda85241975d96b5b4931bcd635bc3e0f1a5
+  :board region=ntsc-j id:IREM-G101
+  :  chip type=G-101
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   IF-25
+  :  board:    FC-00-018
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Perman Part 2 - Himitsu Kessha Madoodan o Taose!
+  :  title:    パーマン2 秘密結社マドー団をたおせ!
+
+cartridge sha256:910ba4505b46a99b3779d84fd22ba8b18f3a649b0c1a11706c4609d06ce0bc18
+  :board region=ntsc-j id:STROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-PN
+  :  board:    HVC-STROM-06
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Pinball
+  :  title:    ピンボール
+
+cartridge sha256:70c307aa0b1a4ce11259bf861e9a3260ea56743d4987d3a82e500687212e1cc0
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-PP
+  :  board:    9011-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Popeye
+  :  title:    ポパイ
+
+cartridge sha256:e20c619fec4c7aeb244710a3b89040f85b0aaa4cea52b5f7fede63d11db00cea
+  :board region=ntsc-j id:SROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-EN
+  :  board:    HVC-SROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Popeye no Eigo Asobi
+  :  title:    ポパイの英語遊び
+
+cartridge sha256:f9434e80c4153283c96a4aac99d40319de9b0d4836520003c16bb70a5d53a3d7
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   EFC-PR
+  :  board:    HVC-NROM-256K-02S
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Portopia Renzoku Satsujin Jiken
+  :  title:    ポートピア連続殺人事件
+
+cartridge sha256:1f5a86488d8bbc8fbc09fdb91a33fa2530ed124949a7001576e7c631f87bd9df
+  :board region=ntsc-j id:TAITO-TC0190FMC
+  :  chip type=TC0190FMC
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   TFC-PB-5900-31
+  :  board:    J9100205A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Power Blazer
+  :  title:    パワーブレイザー
+
+cartridge sha256:67123fe28cf5fbadeafc77400a0812f0135ab36706ec7d1267f84931d044e71d
+  :board region=ntsc-j id:NAMCOT-3416
+  :  chip type=118
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NAM-QK-3900
+  :  board:    3416
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Quest of Ki, The
+  :  title:    カイの冒険: The Quest of Ki
+
+cartridge sha256:7cb999c28339dfca0fd4aff85aa93c7af87fb40698d4035ab5b23620b695940a
+  :board region=ntsc-j id:NAMCOT-3443
+  :  chip type=118
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NAM-QT-4900
+  :  board:    3443
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Quinty
+  :  title:    クインティ
+
+cartridge sha256:086c63f105b1ad2215b03a4323d1c6ec064a454e42ef96cb2a4eafe9ae38c039
+  :board region=ntsc-j id:KONAMI-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   KON-RC801
+  :  board:    641-1-1
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Road Fighter
+  :  title:    ロードファイター
+
+cartridge sha256:05117c775581eb63f7686f58c24f1c9da0fa0669eede1e7bad12eed40e58935e
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   CAP-RX
+  :  board:    HVC-UNROM-10
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     RockMan
+  :  title:    ロックマン
+
+cartridge sha256:0ae05be9d303da7270647f7a0725c3cb851b1b335718d8462a1f9ab69a5e0153
+  :board region=ntsc-j id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   CAP-XR
+  :  board:    HVC-SGROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     RockMan 2 - Dr. Wily no Nazo
+  :  title:    ロックマン2 Dr.ワイリーの謎
+
+cartridge sha256:5483658872ee75b6324cd631045241f14c76084d93799cf51495a9a2039a3800
+  :board region=ntsc-j id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   DTF-LK (44)
+  :  board:    HVC-TLROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Seirei Densetsu Lickle
+  :  title:    聖鈴伝説 LICKLE
+
+cartridge sha256:dbc22a40e8a79c5ccf1d6e5126c9b10bb3d9b3e708fe5316c298c3d03dbc7977
+  :board region=ntsc-j id:UN1ROM
+  :  chip type=74HC32
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   CAP-SJ
+  :  board:    HVC-UN1ROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Senjou no Ookami
+  :  title:    戦場の狼
+
+cartridge sha256:4fbd928f06fbc4ea537cdae7f6a906053df7cd80c35b5cfeac9dfb9d3033efb8
+  :board region=ntsc-j id:NAMCOT-3417
+  :  chip type=109
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NAM-NSK-3900-18
+  :  board:    3417
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     SkyKid
+  :  title:    スカイキッド
+
+cartridge sha256:6a0c8be0f6445d9d777080955c7aa8fbff7497633b878a36c8139ec13dabfb8b
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-SC
+  :  board:    9011-10
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Soccer
+  :  title:    サッカー
+
+cartridge sha256:b47462459841d2aae3e2b10ca85aca70a395e0ba7f1ad51a10f758bedda894fe
+  :board region=ntsc-j id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   DFC-WN
+  :  board:    HVC-SLROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Soccer League - Winner's Cup
+  :  title:    サッカーリーグ ウィナーズカップ
+
+cartridge sha256:b020181cbc376000de7f9218775d9493fc445d10fb2592cb4b8f42b4ba415c2b
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   TCF-SK
+  :  board:    097-1A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Solomon no Kagi
+  :  title:    ソロモンの鍵
+
+cartridge sha256:a9cf92ec1a080faa195d0b3dcb48fbb5ee3362f0f2f14e14e4257def48ac4346
+  :board region=ntsc-j id:CNROM
+  :  security pass=0x1
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   KSC-SP
+  :  board:    HVC-CNROM-256K-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Spy vs. Spy
+  :  title:    スパイVSスパイ
+
+cartridge sha256:9c957a63eeac9383082f5984ec95746e087b8c93a0425974763698dd32f48319
+  :board region=ntsc-j id:NAMCOT-3303
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NSL-4900-12
+  :  board:    3303
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Star Luster
+  :  title:    スターラスター
+
+game
+  sha256:   fcb6a0ef3a20c19b356005fbb21dc8009563b1cb5a9aaebc8e9386b4a8c5912e
+  label:    スーパーマリオブラザーズ
+  name:     Super Mario Bros.
+  region:   HVC-SM
+  revision: HVC-SM-0 PRG,HVC-SM-0 CHR
+  board:    HVC-NROM-256K-02
+    mirror mode=vertical
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:1c74200e996b37b1315818de6b6dd2d2a7b8a17fb06b6967158235d703424ebe
+  :board region=ntsc-j id:TSROM
+  :  chip type=MMC3A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HVC-UM
+  :  board:    HVC-TSROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    スーパーマリオブラザーズ3
+
+cartridge sha256:7fa8e9125baa2590019db90f1446d501a27e520b2593e87dff71e74906bfbad2
+  :board region=ntsc-j id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HVC-UM
+  :  board:    HVC-TSROM-04
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Super Mario Bros. 3
+  :  title:    スーパーマリオブラザーズ3
+
+cartridge sha256:77a65e9091193b776fc1006686ba2769a8f4a825e6e913b2a00cb722a471c1f3
+  :board region=ntsc-j id:TSROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HVC-MT
+  :  board:    HVC-TSROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Super Mario USA
+  :  title:    スーパーマリオUSA
+
+cartridge sha256:fb6298bb3519faaee26f75e6e071ab109398f06ab381bbb9f3edf299cd694292
+  :board region=ntsc-j id:NAMCOT-3311
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NPW-4900-13
+  :  board:    3311
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tag Team Pro-Wrestling
+  :  title:    タッグチームプロレスリング
+
+cartridge sha256:1e6d5548a54a0db31a13e05b604afafd8f9402b47079d708e7bf2cf8582e2ac5
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   HFC-TB
+  :  board:    097-1A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Takahashi Meijin no Boukenjima
+  :  title:    高橋名人の冒険島
+
+cartridge sha256:e31511ebbea6e664490660eca241d91d3fc427945386570e8f124e7272a2b72d
+  :board region=ntsc-j id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HFC-V7
+  :  board:    HVC-TLROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Takahashi Meijin no Boukenjima II
+  :  title:    高橋名人の冒険島II
+
+cartridge sha256:c6ef86ee14ec274fd00cec39fd669f24fdc3b7348747bb13bc7425029ea73c56
+  :board region=ntsc-j id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   HFC-4X
+  :  board:    HVC-TLROM-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Takahashi Meijin no Boukenjima III
+  :  title:    高橋名人の冒険島III
+
+cartridge sha256:9583caa45626da3899b725fad3fcf345acbecd77eae6b77dbb065343c995ff1d
+  :board region=ntsc-j id:TL1ROM
+  :  chip type=MMC3A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   DTF-H9 (28)
+  :  board:    HVC-TL1ROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Taito Chase H.Q.
+  :  title:    タイトーチェイスH.Q.
+
+cartridge sha256:a086ff08e7eae822285975d04f5d227f2434d5f1819969e233ff8670f7d57439
+  :board region=ntsc-j id:SKROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   SHI-RN
+  :  board:    HVC-SKROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tatakae!! Rahmen Man - Sakuretsu Choujin 102 Gei
+  :  title:    闘将!!拉麺男 炸裂超人一○二芸
+
+cartridge sha256:8da7129bba8c61a5ba1cd7ce02932ea4cefbb12db75c517c14d96819fc57f299
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-TE
+  :  board:    9011-04
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tennis
+  :  title:    テニス
+
+cartridge sha256:e720782a38dd0bf3821579518ea11b9a3735fb1e03dbd748931d7d2484bf8bbe
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   BPS-T0
+  :  board:    CN-04B
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Tetris
+  :  title:    テトリス
+
+cartridge sha256:2b3e28d08308558521c69806c51e6cd27ff6bf446346d89c8a06f444d158b46e
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   BPS-T0
+  :  board:    CN-04B
+  :  region:   JPN
+  :  revision: 1.2
+  :  name:     Tetris
+  :  title:    テトリス
+
+cartridge sha256:18d41a2dc65d8afce295eaf29c391539a69d7cfe6dd32503713ae13d4495a545
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SQF-TX
+  :  board:    HVC-NROM-256K-02S
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Thexder
+  :  title:    テグザー
+
+cartridge sha256:4b80a1db42ecde039f01c52a74146887f9dfc2ad54fe3706bcdf625ec3e2de97
+  :board region=ntsc-j id:KONAMI-VRC-4
+  :  chip type=VRC4
+  :    pinout a0=2 a1=3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KON-RC860
+  :  board:    352396
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tiny Toon Adventures
+  :  title:    タイニートゥーンアドベンチャー
+
+cartridge sha256:dabde0dbf12d01237350cf6ad6463ce79651ac1e80d57b7b3b55c1819e72fd8a
+  :board region=ntsc-j id:KONAMI-VRC-7
+  :  chip type=VRC7
+  :    pinout a0=3 a1=5
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KON-RV051
+  :  board:    353429
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tiny Toon Adventures 2 - Montana Land e Youkoso
+  :  title:    タイニートゥーンアドベンチャー2 モンタナランドへようこそ
+
+cartridge sha256:5ec7c3e91bfd5800073286ee978b1d152c19f924837788eb72700c7c01261fa4
+  :board region=ntsc-j id:NAMCOT-3305
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NTD-4900-07
+  :  board:    3305
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tower of Druaga, The
+  :  title:    ドルアーガの塔: The Tower of Druaga
+
+cartridge sha256:fcccf437e952aa44784961899ca17d6f6116e088cca7e5cab910bcd9054b8fa4
+  :board region=ntsc-j id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   TCF-TM
+  :  board:    CN-04B
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Tsuppari Oozumou
+  :  title:    つっぱり大相撲
+
+cartridge sha256:a0a9d57cbace21bf9c85c2b85e86656317f0768d7772acc90c7411ab1dbff2bf
+  :board region=ntsc-j id:FDS
+  :  prg
+  :    rom name=program.rom size=0x2000
+  :    ram name=work.ram size=0x8000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   N/A
+  :  board:    Famicom Disk System
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Twin Famicom Disk System
+  :  title:    Twin Famicom Disk System
+
+cartridge sha256:4b9c46714fa085d61ad1177b72bdaa9428d104a171eb6335a03bf06ad9782389
+  :board region=ntsc-j id:KONAMI-74*139/74
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   KON-RC807
+  :  board:    302034A
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     TwinBee
+  :  title:    ツインビー
+
+cartridge sha256:092db8cfadf0a96c67dd0734c966c47dfb80ffb830485d8ee702284ae8eac4aa
+  :board region=ntsc-j id:KONAMI-VRC-2
+  :  chip type=VRC2
+  :    pinout a0=1 a1=0 chr-shift=1
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   KON-RC841
+  :  board:    351618
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     TwinBee 3 - Poko Poko Dai Maou
+  :  title:    ツインビー3 ポコポコ大魔王
+
+cartridge sha256:407e54848ad9991399f0383118f138d3a0532bb03bb488ed856deb7f2eb4efbf
+  :board region=ntsc-j id:JALECO-JF-16
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   JF-16
+  :  board:    JF-16
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Uchuusen - Cosmo Carrier
+  :  title:    宇宙船コスモキャリア
+
+cartridge sha256:81aa477b7f5b873d19b845fa15d6830267889d912475d8393d2ecc8d6c037e75
+  :board region=ntsc-j id:JALECO-JF-10
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   JF-10
+  :  board:    JF-10
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Urusei Yatsura - Lum no Wedding Bell
+  :  title:    うる生やつら ラムのウエヂングベル
+
+cartridge sha256:c6097d923df166818c3f25a7a25995d3ceddbca246770bec26554d7a920854b8
+  :board region=ntsc-j id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   HVC-UW
+  :  board:    HVC-TKROM-03
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Wario no Mori
+  :  title:    ワリオの森
+
+cartridge sha256:5b36ae6243ddb4a1ba717123db41981a96b89175928b00d63df3fa4cede83d70
+  :board region=ntsc-j id:NAMCOT-3301
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NWM-4500-08
+  :  board:    3301
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Warpman
+  :  title:    ワープマン
+
+cartridge sha256:adff304553b64384f86f6c2b63571f43972b9d087f92359a1b9b93b54d523542
+  :board region=ntsc-j id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-WG
+  :  board:    2I
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Wild Gunman
+  :  title:    ワイルドガンマン
+
+cartridge sha256:515dd3fdb7c6ba287c87cdfce67a05babceb83bac7dd5ccf0b01b68d853dd311
+  :board region=ntsc-j id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   ATH-XW
+  :  board:    HVC-UNROM-09
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Wit's
+  :  title:    Wit's
+
+cartridge sha256:f1eb29dd1c7b2b29f4932df853f32a7560bbfe64997281aa79f61ba9f131fb17
+  :board region=ntsc-j id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   HVC-WR
+  :  board:    HVC-NROM-256K-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Wrecking Crew
+  :  title:    レッキングクルー
+
+cartridge sha256:777345bbde222e06d5dee48f1b02197f5965c57c3e8972142975f0a4eac0c9f5
+  :board region=ntsc-j id:NAMCOT-3303
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NXV-4900-03
+  :  board:    3303
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Xevious
+  :  title:    ゼビウス
+
+cartridge sha256:78b4525668842d06dc347b1146cb51dc9bb4a9d268c3c141e09c15fd01a1556b
+  :board region=ntsc-j id:NAMCOT-3303
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NAM-NXV-4900-03
+  :  board:    3303
+  :  region:   JPN
+  :  revision: 1.1
+  :  name:     Xevious
+  :  title:    ゼビウス
+
+cartridge sha256:dbe10104fc90c36ff7c95424cb192dfd9619fb7c1238bbae8da87e0bc9cc5a4e
+  :board region=ntsc-j id:KONAMI-NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   KON-RC802
+  :  board:    450067A
+  :  region:   JPN
+  :  revision: 1.2
+  :  name:     Yie Ar Kung-Fu
+  :  title:    イー・アル・カンフー
+
+cartridge sha256:0624c93899a588232f9193db0d560291b15636727813a4cd6c3dab8b7f74badb
+  :board region=ntsc-j id:KONAMI-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   KON-RC802
+  :  board:    450068A
+  :  region:   JPN
+  :  revision: 1.4
+  :  name:     Yie Ar Kung-Fu
+  :  title:    イー・アル・カンフー
+
+cartridge sha256:703411cb92283840c096d7e1e422582ecda18bd9b27604a253cb0b0702383043
+  :board region=ntsc-j id:JALECO-JF-11
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   JF-12
+  :  board:    JF-11
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Youkai Club
+  :  title:    妖怪倶楽部
+
+cartridge sha256:1c11c09519822855b512dbbf69571c96a25cae95d55a0732b1e17a06eb31521a
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   VFR-Y2-05
+  :  board:    HVC-SNROM-06
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ys
+  :  title:    イース
+
+cartridge sha256:c79202082042baeb3a45e747a1675c9530137f847c357c393270715efc32217e
+  :board region=ntsc-j id:TKROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   VFR-Q2-09
+  :  board:    HVC-TKROM-02
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ys II - Ancient Ys Vanished - The Final Chapter
+  :  title:    イースII ~Ancient Ys Vanished: The Final Chapter~
+
+cartridge sha256:ec1d85479d72847d3adbd76e2e79221143e6c9324d5647be2c4a11aa87123f75
+  :board region=ntsc-j id:TKSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   VFR-Q8-12
+  :  board:    HVC-TKSROM-01
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Ys III - Wanderers From Ys
+  :  title:    イースIII ワンダラーズフロムイース
+
+cartridge sha256:8da8a934647053857f68aaf6d4a2aeb923d78e79ea886ae8fe5c9e60c1b0444e
+  :board region=ntsc-j id:SNROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   HVC-ZL
+  :  board:    HVC-SNROM-09
+  :  region:   JPN
+  :  revision: 1.0
+  :  name:     Zelda no Densetsu 1 - The Hyrule Fantasy
+  :  title:    THE HYRULE FANTASY ゼルダの伝説1//Nintendo Entertainment System (CAN)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:7026334a7e8742b61b450f4b3b182922c6a69fc723d7cd19c83db365f15e45ba
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-DH-CAN
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Duck Hunt
+  :  title:    Duck Hunt
+
+cartridge sha256:fa456d852372173ea31b192459ba1a2026f779df67793327ba6e132476c1d034
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-FF-CAN
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Final Fantasy
+  :  title:    Final Fantasy
+
+cartridge sha256:c41555b61617e52cae950e0a94d4d655646eed4e4ce4c1d26740ddee0a9ae090
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-GF-CAN
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Golf
+  :  title:    Golf
+
+cartridge sha256:56f1fe3a7881b2e9d69cd33a0971b2f26247e964c3c7dd4a6019715425ff2256
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-KI-CAN
+  :  board:    NES-SNROM-02
+  :  revision: 1.0
+  :  name:     Kid Icarus
+  :  title:    Kid Icarus
+
+cartridge sha256:24fca0fe86464c807ab5d58a2d56155a3fa1994e9bd78d119e3f8f84c8aee785
+  :board region=ntsc-u id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-K5-CAN
+  :  board:    NES-TKROM-10
+  :  revision: 1.0
+  :  name:     Kirby's Adventure
+  :  title:    Kirby's Adventure
+  //  title:    L'aventure de Kirby
+
+cartridge sha256:944105c6dcc57314968d53a2e0dcdfc0e2b60678a53839ba25925416a7ac0e8c
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-MR-CAN
+  :  board:    NES-NROM-256-02
+  :  revision: 1.1
+  :  name:     Mach Rider
+  :  title:    Mach Rider
+
+cartridge sha256:0cc334007d3eae698cdcd034d12ec9bab2b5266e85bc703cf24ccb4e2d63b654
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-MA-CAN
+  :  board:    NES-NROM-128-02
+  :  revision: 1.0
+  :  name:     Mario Bros.
+  :  title:    Mario Bros.
+
+cartridge sha256:910ba4505b46a99b3779d84fd22ba8b18f3a649b0c1a11706c4609d06ce0bc18
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-PN-CAN
+  :  board:    NES-NROM-128-01
+  :  revision: 1.0
+  :  name:     Pinball
+  :  title:    Pinball
+
+cartridge sha256:2e14f4481b5b762ba1ff0e7a25b07f316f7bdef0574a1704856f92823874f4e6
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-RC-CAN
+  :  board:    NES-SGROM-02
+  :  revision: 1.0
+  :  name:     Rad Racer
+  :  title:    Rad Racer
+
+cartridge sha256:6a0c8be0f6445d9d777080955c7aa8fbff7497633b878a36c8139ec13dabfb8b
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-SC-CAN
+  :  board:    NES-NROM-256-01
+  :  revision: 1.0
+  :  name:     Soccer
+  :  title:    Soccer
+
+cartridge sha256:728d0ca6751b0c039fc3e34f2e7f27a870afcab30f5e270244ac40979c5f69ca
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-MW-CAN
+  :  board:    NES-TSROM-04
+  :  revision: 1.1
+  :  name:     Super Mario Bros. 2
+  :  title:    Super Mario Bros. 2
+
+cartridge sha256:959fdd32c71735d6fb2bd16a646d39f4ee65623273dd035e6a968e991bd13ef8
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-CAN
+  :  board:    NES-TSROM-07
+  :  revision: 1.1
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3
+
+cartridge sha256:2ae5fb18a1bf841077e3872ba05060f030ea0bfc573994b2f8fe2fb570dc7853
+  :board region=ntsc-u id:SEROM
+  :  chip type=MMC1B1
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-EI-CAN
+  :  board:    NES-SEROM-03
+  :  revision: 1.0
+  :  name:     Tetris
+  :  title:    Tetris
+
+cartridge sha256:f1eb29dd1c7b2b29f4932df853f32a7560bbfe64997281aa79f61ba9f131fb17
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-WR-CAN
+  :  board:    NES-NROM-256-01
+  :  revision: 1.0
+  :  name:     Wrecking Crew
+  :  title:    Wrecking Crew//Nintendo Entertainment System (EEC)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:0bcd77e76d842c04a47f0dbc18c440da07da393400386fa13d6fdf59495a7be3
+  :board region=pal id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-BF-EEC
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Balloon Fight
+  :  title:    Balloon Fight
+
+cartridge sha256:92407ccb251d18be5ff681b9dbc945322fd3b7495875de973dbb80004f26fd5c
+  :board region=pal id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-CM-EEC
+  :  board:    NES-SGROM-04
+  :  revision: 1.0
+  :  name:     Bionic Commando
+  :  title:    Bionic Commando
+
+cartridge sha256:8e4a04076b6a728a7e65a09737776dcb9defed7922bf0437d9a89bbe8c724b55
+  :board region=pal id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-HA-EEC
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Hogan's Alley
+  :  title:    Hogan's Alley
+
+cartridge sha256:95bc817c38bd7fa4b92efdb20bd48e3d7a9c46a4d2981f419708652e5475acaf
+  :board region=pal id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-EEC
+  :  board:    NES-SNROM-02
+  :  revision: 1.0
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:b822db53a1cc09564044b273b4b0bae8e76527688e733f80df884dc1ffb2abfa
+  :board region=pal id:SNROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-EEC
+  :  board:    NES-SNROM-05
+  :  revision: 1.1
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:c8e7036e8afcd95acaf3a5e0956df53beaab127a7defcc0e80d629653ff67c23
+  :board region=pal id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-MN-EEC
+  :  board:    NES-UNROM-08
+  :  revision: 1.0
+  :  name:     Mega Man
+  :  title:    Mega Man
+
+cartridge sha256:97f56ee3bcb0542996401a65c63a0e91c1c9c71da07f0619975e910946f9540d
+  :board region=pal id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-PP-EEC
+  :  board:    NES-NROM-128-03
+  :  revision: 1.1
+  :  name:     Popeye
+  :  title:    Popeye
+
+game
+  sha256:   6b3189414053f975bcac33eb51a1e9991e0d06f42abead7919969417cc26e2ad
+  label:    Super Mario Bros.
+  name:     Super Mario Bros.
+  region:   NES-SM-EEC
+  revision: 1.1
+  board:    NES-NROM-256-06
+    mirror mode=vertical
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:f6c64a384f7b11ab72b862a5fc237ead5c15c72102fa13b62f50408259ad4bbe
+  :board region=pal id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-EI-EEC
+  :  board:    NES-SEROM-04
+  :  revision: 1.0
+  :  name:     Tetris
+  :  title:    Tetris
+
+cartridge sha256:f1eb29dd1c7b2b29f4932df853f32a7560bbfe64997281aa79f61ba9f131fb17
+  :board region=pal id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-WR-EEC
+  :  board:    NES-NROM-256-03
+  :  revision: 1.0
+  :  name:     Wrecking Crew
+  :  title:    Wrecking Crew//Nintendo Entertainment System (ESP)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:f22944452be3259aac853258759f469e7d2e2447c6178f26cc7bd0e89945bc04
+  :board region=pal id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-BA-ESP
+  :  board:    NES-NROM-128-06
+  :  revision: 1.0
+  :  name:     Baseball
+  :  title:    Baseball
+
+cartridge sha256:5efe21c5569be4e6f6564d30ed89b8a8bab8e19a3dc9d3ab11d34ccad55ec180
+  :board region=pal id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-L9-ESP
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Dragon's Lair
+  :  title:    Dragon's Lair
+
+cartridge sha256:b822db53a1cc09564044b273b4b0bae8e76527688e733f80df884dc1ffb2abfa
+  :board region=pal id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-ESP
+  :  board:    NES-SNROM-05
+  :  revision: 1.1
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:97f56ee3bcb0542996401a65c63a0e91c1c9c71da07f0619975e910946f9540d
+  :board region=pal id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-PP-ESP
+  :  board:    NES-NROM-128-06
+  :  revision: 1.1
+  :  name:     Popeye
+  :  title:    Popeye
+
+cartridge sha256:6b3189414053f975bcac33eb51a1e9991e0d06f42abead7919969417cc26e2ad
+  :board region=pal id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-SM-ESP
+  :  board:    NES-NROM-256-08
+  :  revision: 1.1
+  :  name:     Super Mario Bros.
+  :  title:    Super Mario Bros.
+
+cartridge sha256:a4e8ea06ca01664ff995194a6f5de29a967ddf1e479156fde18fac0a557ae48b
+  :board region=pal id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-ESP
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3
+
+cartridge sha256:f6c64a384f7b11ab72b862a5fc237ead5c15c72102fa13b62f50408259ad4bbe
+  :board region=pal id:SEROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-EI-ESP
+  :  board:    NES-SEROM-05
+  :  revision: 1.0
+  :  name:     Tetris
+  :  title:    Tetris
+
+cartridge sha256:f1eb29dd1c7b2b29f4932df853f32a7560bbfe64997281aa79f61ba9f131fb17
+  :board region=pal id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-WR-ESP
+  :  board:    NES-NROM-256-06
+  :  revision: 1.0
+  :  name:     Wrecking Crew
+  :  title:    Wrecking Crew//Nintendo Entertainment System (FRA)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:0d895a031dd38f2661ba2af4a1b3c7b9753632b1530ea28eec936cf3fda8bf54
+  :board region=pal id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-GY-FRA
+  :  board:    NES-NROM-256-05
+  :  revision: 1.0
+  :  name:     Gyromite
+  :  title:    Gyromite
+
+cartridge sha256:b822db53a1cc09564044b273b4b0bae8e76527688e733f80df884dc1ffb2abfa
+  :board region=pal id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-FRA
+  :  board:    NES-SNROM-03
+  :  revision: 1.1
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:747481f0854295542936fa29f9c520033b2da8608c680202d36fff4badb681a0
+  :board region=pal id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-XZ-FRA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Nintendo World Cup
+  :  title:    Nintendo World Cup
+
+cartridge sha256:97f56ee3bcb0542996401a65c63a0e91c1c9c71da07f0619975e910946f9540d
+  :board region=pal id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-PP-FRA
+  :  board:    NES-NROM-128-06
+  :  revision: 1.1
+  :  name:     Popeye
+  :  title:    Popeye
+
+cartridge sha256:f6c64a384f7b11ab72b862a5fc237ead5c15c72102fa13b62f50408259ad4bbe
+  :board region=pal id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-EI-FRA
+  :  board:    NES-SEROM-04
+  :  revision: 1.0
+  :  name:     Tetris
+  :  title:    Tetris//Nintendo Entertainment System (FRG)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:92407ccb251d18be5ff681b9dbc945322fd3b7495875de973dbb80004f26fd5c
+  :board region=pal id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-CM-FRG
+  :  board:    NES-SGROM-04
+  :  revision: 1.0
+  :  name:     Bionic Commando
+  :  title:    Bionic Commando
+
+cartridge sha256:b822db53a1cc09564044b273b4b0bae8e76527688e733f80df884dc1ffb2abfa
+  :board region=pal id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-FRG
+  :  board:    NES-SNROM-05
+  :  revision: 1.1
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:c8e7036e8afcd95acaf3a5e0956df53beaab127a7defcc0e80d629653ff67c23
+  :board region=pal id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-MN-FRG
+  :  board:    NES-UNROM-09
+  :  revision: 1.0
+  :  name:     Mega Man
+  :  title:    Mega Man
+
+game
+  sha256:   4c00009eb345474229372fc34ebe2abb4996eef7486ce8977e69edfc88816935
+  label:    Super Mario Bros. / Tetris / Nintendo World Cup
+  name:     Super Mario Bros. + Tetris + Nintendo World Cup
+  region:   NES-ZZ-FRG
+  revision: PAL-ZZ-0 PRG,PAL-ZZ-0 CHR
+  board:    ZZ
+    memory
+      type: ROM
+      size: 0x40000
+      content: Program
+    memory
+      type: ROM
+      size: 0x40000
+      content: Character
+  note: No revision labels on ROM chips
+
+game
+  sha256:   18fc0f452d796e522d776c1a848ca7ca8b1c25b44d553b6fd15becd2ea65076e
+  label:    Super Mario Bros. / Tetris / Nintendo World Cup
+  name:     Super Mario Bros. + Tetris + Nintendo World Cup
+  region:   NES-ZZ-FRG
+  revision: PAL-ZZ-1 PRG,PAL-ZZ-0 CHR
+  board:    ZZ
+    memory
+      type: ROM
+      size: 0x40000
+      content: Program
+    memory
+      type: ROM
+      size: 0x40000
+      content: Character
+  note: No revision labels on ROM chips
+
+cartridge sha256:a4e8ea06ca01664ff995194a6f5de29a967ddf1e479156fde18fac0a557ae48b
+  :board region=pal id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-FRG
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3//Nintendo Entertainment System (GBR)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:f22944452be3259aac853258759f469e7d2e2447c6178f26cc7bd0e89945bc04
+  :board region=pal id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-BA-GBR
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Baseball
+  :  title:    Baseball
+
+cartridge sha256:0d895a031dd38f2661ba2af4a1b3c7b9753632b1530ea28eec936cf3fda8bf54
+  :board region=pal id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-GY-GBR
+  :  board:    NES-NROM-256-02
+  :  revision: 1.0
+  :  name:     Gyromite
+  :  title:    Gyromite
+
+game
+  sha256:   fcb6a0ef3a20c19b356005fbb21dc8009563b1cb5a9aaebc8e9386b4a8c5912e
+  label:    Super Mario Bros.
+  name:     Super Mario Bros.
+  region:   NES-SM-GBR
+  revision: HVC-SM-0 PRG,HVC-SM-0 CHR
+  board:    NES-NROM-256-03
+    mirror mode=vertical
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:a4e8ea06ca01664ff995194a6f5de29a967ddf1e479156fde18fac0a557ae48b
+  :board region=pal id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-GBR
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3//Nintendo Entertainment System (NOE)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:747481f0854295542936fa29f9c520033b2da8608c680202d36fff4badb681a0
+  :board region=pal id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-XZ-NOE
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Nintendo World Cup
+  :  title:    Nintendo World Cup
+
+cartridge sha256:5e2f8f838edfba925973ddbdc9f4b70050bd132efcb62e173021c63de14fee5d
+  :board region=pal id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-XZ-NOE
+  :  board:    NES-TLROM-03
+  :  revision: 1.1
+  :  name:     Nintendo World Cup
+  :  title:    Nintendo World Cup
+
+cartridge sha256:6157c99fe7a214025c65fd3649e4afe9cd2d38c333e65af028b935e49fbeb500
+  :board region=pal id:TSROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-NH-NOE
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     Noah's Ark
+  :  title:    Noah's Ark
+
+cartridge sha256:6b3189414053f975bcac33eb51a1e9991e0d06f42abead7919969417cc26e2ad
+  :board region=pal id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-SM-NOE
+  :  board:    NES-NROM-256-06
+  :  revision: 1.1
+  :  name:     Super Mario Bros.
+  :  title:    Super Mario Bros.
+
+cartridge sha256:9fe815d8fd175ef9ef03fb010638f2b6b7aa9d11d5a40eda2476450918543e6f
+  :board region=pal id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-WB-NOE
+  :  board:    NES-TKROM-10
+  :  revision: 1.0
+  :  name:     Wario's Woods
+  :  title:    Wario's Woods//Nintendo Entertainment System (SCN)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:5efe21c5569be4e6f6564d30ed89b8a8bab8e19a3dc9d3ab11d34ccad55ec180
+  :board region=pal id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-L9-SCN
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Dragon's Lair
+  :  title:    Dragon's Lair
+
+cartridge sha256:3264e4c57ffaf64df816cc97b1d6d278042545a4be248f5c195d82037f0a9bfd
+  :board region=pal id:JLROM
+  :  chip type=FME-7
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-G8-SCN
+  :  board:    NES-JLROM-01
+  :  revision: 1.0
+  :  name:     Mr. Gimmick
+  :  title:    Mr. Gimmick
+
+cartridge sha256:747481f0854295542936fa29f9c520033b2da8608c680202d36fff4badb681a0
+  :board region=pal id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-XZ-SCN
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Nintendo World Cup
+  :  title:    Nintendo World Cup
+
+cartridge sha256:6b3189414053f975bcac33eb51a1e9991e0d06f42abead7919969417cc26e2ad
+  :board region=pal id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-SM-SCN
+  :  board:    NES-NROM-256-06
+  :  revision: 1.1
+  :  name:     Super Mario Bros.
+  :  title:    Super Mario Bros.
+
+game
+  sha256:   4c00009eb345474229372fc34ebe2abb4996eef7486ce8977e69edfc88816935
+  label:    Super Mario Bros. / Tetris / Nintendo World Cup
+  name:     Super Mario Bros. + Tetris + Nintendo World Cup
+  region:   NES-ZZ-SCN
+  revision: PAL-ZZ-0 PRG,PAL-ZZ-0 CHR
+  board:    ZZ
+    memory
+      type: ROM
+      size: 0x40000
+      content: Program
+    memory
+      type: ROM
+      size: 0x40000
+      content: Character
+  note: No revision labels on ROM chips
+
+cartridge sha256:a4e8ea06ca01664ff995194a6f5de29a967ddf1e479156fde18fac0a557ae48b
+  :board region=pal id:TSROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-SCN
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3//Nintendo Entertainment System (UKV)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:3264e4c57ffaf64df816cc97b1d6d278042545a4be248f5c195d82037f0a9bfd
+  :board region=pal id:BTR
+  :  chip type=FME-7
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-G8-UKV
+  :  board:    NES-BTR
+  :  revision: 1.0
+  :  name:     Mr. Gimmick
+  :  title:    Mr. Gimmick//Nintendo Entertainment System (USA)
+
+database
+  owner: BootGod
+  revision: 2012-10-22
+
+cartridge sha256:c457644ccfb93f8978326e728931800283821e531edc409fca9c0167495319c4
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-WO-USA
+  :  board:    NES-UN-ROM-04
+  :  revision: 1.0
+  :  name:     3-D Battles of WorldRunner, The
+  :  title:    The 3-D Battles of WorldRunner
+
+game
+  sha256:   8e844d77da01f86ace52823f1f974c9230f09e6a6cbf33a07abfe9beeff00292
+  label:    10-Yard Fight
+  name:     10-Yard Fight
+  region:   NES-TY-USA
+  revision: NES-TY-0 PRG,NES-TY-0 CHR
+  board:    NES-NROM-256-04
+    mirror mode=horizontal
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:e868400409c70876b98dad2cca87b8e9ee31877b0cccbbd8405be5c54922722a
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-NF-USA
+  :  board:    NES-NROM-256-05
+  :  revision: 1.0
+  :  name:     1942
+  :  title:    1942
+
+cartridge sha256:9f54aafa367247b99c344ba9a0c58ad8fa8aceeeae1c304b8fefc9985c3c118c
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-43-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.0
+  :  name:     1943 - The Battle of Midway
+  :  title:    1943: The Battle of Midway
+
+cartridge sha256:c4d4ff0bd283656c63d9a30dfc7dc6d2956744730a3641ba2c8f9f8e7204d9a1
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-A3-USA
+  :  board:    NES-SLROM-05
+  :  revision: 1.0
+  :  name:     Abadox - The Deadly Inner War
+  :  title:    Abadox: The Deadly Inner War
+
+cartridge sha256:df2609c80e818bb95983b30a3ac1435ea2332ac83e29fde469f397e1d5a2db93
+  :board region=ntsc-u id:SKROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-LQ-USA
+  :  board:    NES-SKROM-04
+  :  revision: 1.0
+  :  name:     Advanced Dungeons & Dragons - Heroes of the Lance
+  :  title:    Advanced Dungeons & Dragons: Heroes of the Lance
+
+cartridge sha256:53bfc94fce46a25188f84f102810406f686a7fb13fb5e4ae8f13760106acb969
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-TB-USA
+  :  board:    NES-CNROM-07
+  :  revision: 1.0
+  :  name:     Adventure Island
+  :  title:    Hudson's Adventure Island
+
+cartridge sha256:5ee479ef04d80366a75dd144cbeb47d0347ee82025d1b65dd358e1f6498c9a39
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-V7-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Adventure Island II
+  :  title:    Hudson's Adventure Island II
+
+cartridge sha256:e8dc8c0441c54d09a1cfe0c112a3137bb6d709989b23e6528f8e30360e1ad910
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-AT-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Hudson's Adventure Island III
+  :  title:    Hudson's Adventure Island III
+
+cartridge sha256:185e4adb2cbcb71ebf0fd3f6af767f2215f93916cd2ccf932ce5864d3953239a
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-VD-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Adventures in the Magic Kingdom
+  :  title:    Disney's Adventures in the Magic Kingdom
+
+cartridge sha256:0e862077f390348b8e109caa8189ff5ecdf3fac53eefc204369fae880e077d19
+  :board region=ntsc-u id:KONAMI-SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-MU-USA
+  :  board:    351908
+  :  revision: 1.0
+  :  name:     Adventures of Bayou Billy, The
+  :  title:    The Adventures of Bayou Billy
+
+cartridge sha256:c5e47c0479f500b86995fc8d09e132f5ba3f54cfd9a2a601ea3848bb60871a20
+  :board region=ntsc-u id:SEROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-AV-USA
+  :  board:    NES-SEROM-02
+  :  revision: 1.0
+  :  name:     Adventures of Lolo
+  :  title:    Adventures of Lolo
+
+cartridge sha256:b82c1234165cd725d8e7f3e51926bceb834744eb49ad915bd3ea8b76fa465eb1
+  :board region=ntsc-u id:SH1ROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-AF-USA
+  :  board:    NES-SH1ROM-01
+  :  revision: 1.0
+  :  name:     Airwolf
+  :  title:    Airwolf
+
+cartridge sha256:a3763e702f8ae0818480cf0a8b2395d3f928c539f75e230ed43fa6b904fe6365
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-AR-USA
+  :  board:    NES-CN-ROM-256-03
+  :  revision: 1.0
+  :  name:     Arkanoid
+  :  title:    Arkanoid
+
+cartridge sha256:2137d1621d29df50100f4d0fba3bafa0be56ccd0c832e44cd29dd7f0d75b374e
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-AN-USA
+  :  board:    NES-UN-ROM-04
+  :  revision: 1.0
+  :  name:     Athena
+  :  title:    Athena
+
+cartridge sha256:7328b2eb1c9fe06b98e0cba5c9058bf026e06a94900d490f79436d714eb48d6b
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-BF-USA
+  :  board:    NES-NROM-128-04
+  :  revision: 1.0
+  :  name:     Balloon Fight
+  :  title:    Balloon Fight
+
+cartridge sha256:f22944452be3259aac853258759f469e7d2e2447c6178f26cc7bd0e89945bc04
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-BA-USA
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Baseball
+  :  title:    Baseball
+
+cartridge sha256:f9752a3d068d24a97efb4a413fc84858ecae689502ee7002b6884bbe331eb7cd
+  :board region=ntsc-u id:SFEXPROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-LD-USA
+  :  board:    NES-SFEXPROM-01
+  :  revision: 1.0
+  :  name:     Bases Loaded
+  :  title:    Bases Loaded
+  :  // The Program ROM is patched at run-time by the NES-LD-0-EXP.
+  :  // pre-patched: 685c94591a76510bf1bb120f81acd68e62ce37384eccc1635180ca3be742fd36
+
+cartridge sha256:3a55db2bf9f03e138c60da85a9e8ee5472aff31475ba30762b247ff362a0216a
+  :board region=ntsc-u id:SFROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-LD-USA
+  :  board:    NES-SFROM-02
+  :  revision: 1.1
+  :  name:     Bases Loaded
+  :  title:    Bases Loaded
+
+cartridge sha256:85de365c6e538bc7197e9cc326203957d4d160efe7ea02e4830e3cbda5072e16
+  :board region=ntsc-u id:SF1ROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-LD-USA
+  :  board:    NES-SF1ROM-02
+  :  revision: 1.2
+  :  name:     Bases Loaded
+  :  title:    Bases Loaded
+
+cartridge sha256:b9af9efdf490e14895e7980097a86d2f69d6396383773c221e77c6183a4ab9c8
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-L2-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Bases Loaded 2
+  :  title:    Bases Loaded II: Second Season
+
+cartridge sha256:5d84d61e7e4c2b7d72a2b4599bd8cc415b71c90d1e332a83f95d96c75bc48efd
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-3L-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Bases Loaded 3
+  :  title:    Ryne Sandberg Plays Bases Loaded 3
+
+cartridge sha256:e4aa19e0fd2800b58655eac814e1d9a9aa16d83eabd641789f8a6625591063a3
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-BD-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Bases Loaded 4
+  :  title:    Bases Loaded 4
+
+cartridge sha256:183ede1115b428b046ae223f27e2db366a5b62c43f52b6fced5f22a57d39e663
+  :board region=ntsc-u id:BTR
+  :  chip type=FME-7
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-48-USA
+  :  board:    NES-BTR
+  :  revision: 1.0
+  :  name:     Batman - Return of the Joker
+  :  title:    Batman: Return of the Joker
+
+cartridge sha256:56d25e05dde2048c3a9b4e36ab5325091310ce2b65171615b5596fc542db66fa
+  :board region=ntsc-u id:AOROM
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-8T-USA
+  :  board:    NES-AOROM-03
+  :  revision: 1.0
+  :  name:     Battletoads
+  :  title:    Battletoads
+
+cartridge sha256:b9434d2f359f6e464da36fbcf6d9eb794b7edff03b89467d1609158f13bfef52
+  :board region=ntsc-u id:AMROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-4B-USA
+  :  board:    NES-AMROM-01
+  :  revision: 1.0
+  :  name:     Beetlejuice
+  :  title:    Beetlejuice
+
+cartridge sha256:aeb61fd5cf5a5ed73344c46a43f8a8d539f601ff57e8f56c49bc1caea4ab3d9e
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-CM-USA
+  :  board:    NES-SGROM-03
+  :  revision: 1.0
+  :  name:     Bionic Commando
+  :  title:    Bionic Commando
+
+cartridge sha256:7a26c62a9b1605cbedf7cd5b2672aa0fc15b688b227a6cb57dbf74aa71a05f1c
+  :board region=ntsc-u id:SL2ROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-VM-USA
+  :  board:    NES-SL2ROM-01
+  :  revision: 1.0
+  :  name:     Blaster Master
+  :  title:    Blaster Master
+
+cartridge sha256:31523322db8f94e7244f6e2d958692a412c1395fc744601d83d1e5111eff9042
+  :board region=ntsc-u id:SFROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-B2-USA
+  :  board:    NES-SFROM-02
+  :  revision: 1.0
+  :  name:     Bubble Bobble
+  :  title:    Bubble Bobble
+
+cartridge sha256:a35e846379ff252594ace83da2a1a1cb0692717b931055d1f6603812f18ad5cd
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-CV-USA
+  :  board:    NES-UN-ROM-04
+  :  revision: 1.0
+  :  name:     Castlevania
+  :  title:    Castlevania
+
+cartridge sha256:7eba1637cd2fdbc4f0732eb5249e32d827dbdadbd7e165f961440af4310880dc
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-CV-USA
+  :  board:    NES-UN-ROM-06
+  :  revision: 1.1
+  :  name:     Castlevania
+  :  title:    Castlevania
+
+cartridge sha256:9575ec31c1c658fd6b77ae1d69e4861ecada8570e4eebf51409941486e4b4ef4
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-QU-USA
+  :  board:    NES-SLROM-04
+  :  revision: 1.0
+  :  name:     Castlevania II - Simon's Quest
+  :  title:    Castlevania II: Simon's Quest
+
+cartridge sha256:6e8d289635ac39479ff1d36733aa3f8b9650593ab972cedb8e2cdbfc03aaa739
+  :board region=ntsc-u id:ELROM
+  :  chip type=MMC5
+  :    ram name=internal.ram size=0x400 volatile
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-VN-USA
+  :  board:    NES-ELROM-01
+  :  revision: 1.0
+  :  name:     Castlevania III - Dracula's Curse
+  :  title:    Castlevania III: Dracula's Curse
+
+cartridge sha256:b705f866955c7d19292b55a9b0f3ec0e970e3f2509c3da15708b7afd879d98ed
+  :board region=ntsc-u id:SJROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-EM-USA
+  :  board:    NES-SJROM-03
+  :  revision: 1.0
+  :  name:     Chessmaster, The
+  :  title:    The Chessmaster
+
+cartridge sha256:e84d90fefb92f2b6ab70e35bfb990978c7e384e357ec6b995c3880bff4c5b460
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-RU-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Chip 'n Dale Rescue Rangers
+  :  title:    Disney's Chip 'n Dale Rescue Rangers
+
+cartridge sha256:afa359b53e90781ed3810642c09f7cb22f0ba21c40142649771bfb21a897b4d3
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-DV-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Chip 'n Dale Rescue Rangers 2
+  :  title:    Disney's Chip 'n Dale Rescue Rangers 2
+
+cartridge sha256:cf226f0d9486103bbaa19ee124b673d47aa2b3766334b6b7587d704c03e6649e
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-B6-USA
+  :  board:    NES-SLROM-05
+  :  revision: 1.0
+  :  name:     Clash at Demonhead
+  :  title:    Clash at Demonhead
+
+cartridge sha256:ed0a1a5ca7cf404116d0073e8ccd213a082d2ac50132f54f3c8621f3dbcdb248
+  :board region=ntsc-u id:RROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-CL-USA
+  :  board:    NES-RROM-128-01
+  :  revision: 1.0
+  :  name:     Clu Clu Land
+  :  title:    Clu Clu Land
+
+cartridge sha256:a5b8e24589539b0b84a6ad98aee9c91eb86eff795162be38b020dc42c3e3eca7
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-7M-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Conquest of the Crystal Palace
+  :  title:    Conquest of the Crystal Palace
+
+cartridge sha256:d41e28b1a33b3b6768e7c39c9fdfb1fda4b49940542d14085911fabd399e1ca9
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-CT-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.0
+  :  name:     Contra
+  :  title:    Contra
+
+cartridge sha256:5ad644d368f70b61700b74a1d04778888efcbbf98d5435d79f9fcefd23ac39c2
+  :board region=ntsc-u id:TKROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-G0-USA
+  :  board:    NES-TKROM-01
+  :  revision: 1.0
+  :  name:     Crystalis
+  :  title:    Crystalis
+
+cartridge sha256:ad1e14d08657d99c8b70f779931f62524b4beb529090b82b368925d8b642e40c
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-YN-USA
+  :  board:    NES-CNROM-06
+  :  revision: 1.0
+  :  name:     Cybernoid - The Fighting Machine
+  :  title:    Cybernoid: The Fighting Machine
+
+cartridge sha256:f97f05a4f8747d81dc8adaf07df70d1f87366632ae3e93103d387043ef5ec508
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-DZ-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Darkwing Duck
+  :  title:    Disney's Darkwing Duck
+
+cartridge sha256:41f949cfedf7167985f779c0782ee17ee83d82e35111c5f22ee5037f54313a06
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-6D-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Day Dreamin' Davey
+  :  title:    Day Dreamin' Davey
+
+cartridge sha256:0115356b0791cc8ddcb7d3163d6ef7aa664f3ff4e68dba561ffffb79eefcbca9
+  :board region=ntsc-u id:BNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-DE-USA
+  :  board:    NES-BN-ROM-01
+  :  revision: 1.0
+  :  name:     Deadly Towers
+  :  title:    Deadly Towers
+
+cartridge sha256:6d082c801942ce6787b471428ab4c8a6acb3e21f3f38fa197f2aeb698d9a2d7e
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-YZ-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Destiny of an Emperor
+  :  title:    Destiny of an Emperor
+
+cartridge sha256:163479e2b1571538cf2f0f147bcbdebaab8ed8b0251f87dabd9bc4c80d786ea1
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-3Y-USA
+  :  board:    NES-UNROM-09
+  :  revision: 1.0
+  :  name:     Dick Tracy
+  :  title:    Dick Tracy
+
+cartridge sha256:aa408f5a6b97c0d738e7e8b489a5617ad4a9ecdee2b05c4ee504210ce31b2825
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-DK-USA
+  :  board:    NES-NROM-128-01
+  :  revision: 1.0
+  :  name:     Donkey Kong
+  :  title:    Donkey Kong
+
+cartridge sha256:b15b298dc37692d0bed2cbf922727ea48ed38bbd6cf3acdd28be6d2b9be344d3
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-DT-USA
+  :  board     NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Donkey Kong 3
+  :  title:    Donkey Kong 3
+
+cartridge sha256:950ebe68e7f74219b9e5e104200b03165d59c24264f02e32c12be967fd311ac2
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-JR-USA
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Donkey Kong Jr.
+  :  title:    Donkey Kong Jr.
+
+cartridge sha256:07dd16464d769429c651bd203ac2e74c7aa5852824482ca8877959d643bc8689
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-CA-USA
+  :  board:    NES-NROM-128-02
+  :  revision: 1.0
+  :  name:     Donkey Kong Jr. Math
+  :  title:    Donkey Kong Jr. Math
+
+cartridge sha256:56cb5897c539b6874e311a314767df85186184690f10d9982b02cb90ff606537
+  :board region=ntsc-u id:AOROM
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-2D-USA
+  :  board:    NES-AOROM-03
+  :  revision: 1.0
+  :  name:     Double Dare
+  :  title:    Double Dare
+
+cartridge sha256:8f2f9ba926280edd3652745e1d04a30ecce64089fbf3f022a35b4039a2dd7b66
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-WD-USA
+  :  board:    NES-SLROM-05
+  :  revision: 1.0
+  :  name:     Double Dragon
+  :  title:    Double Dragon
+
+cartridge sha256:c564704993cf79c94db5c2954792e99e86100586d0ef1d4bf1aefc6d008d4c0f
+  :board region=ntsc-u id:TL1ROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-W2-USA
+  :  board:    NES-TL1ROM-02
+  :  revision: 1.1
+  :  name:     Double Dragon II - The Revenge
+  :  title:    Double Dragon II: The Revenge
+
+cartridge sha256:5860e217030f9da957d487b3ca59000d5f4d79bf23486bad08205c5aa4d992ea
+  :board region=ntsc-u id:SFROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-JH-USA
+  :  board:    NES-SFROM-01
+  :  revision: 1.0
+  :  name:     Dr. Jekyll and Mr. Hyde
+  :  title:    Dr. Jekyll and Mr. Hyde
+
+cartridge sha256:01d303a8c0ed6f374586d3a2562065b77f627e8dbf071bd919877e3b48dbdb57
+  :board region=ntsc-u id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-VU-USA
+  :  board:    NES-SEROM-04
+  :  revision: 1.0
+  :  name:     Dr. Mario
+  :  title:    Dr. Mario
+
+cartridge sha256:d2fbe8b10f762099d320016ddfd4d2961a591fe6dfaaab2efbeb77282264d06a
+  :board region=ntsc-u id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-VU-USA
+  :  board:    NES-SEROM-04
+  :  revision: 1.1
+  :  name:     Dr. Mario
+  :  title:    Dr. Mario
+
+cartridge sha256:5564e54943deddc6d290b256638c774aa379a0d33dcea3b0a4f0c4b9fc2034e3
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-L9-USA
+  :  board:    NES-UNROM-09
+  :  revision: 1.0
+  :  name:     Dragon's Lair
+  :  title:    Dragon's Lair
+
+cartridge sha256:abc5bcb459316a7d245065149ea72b5a8317f62fa6ed578569e15b670d3c0022
+  :board region=ntsc-u id:SAROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x10000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-DQ-USA
+  :  board:    NES-SAROM-01
+  :  revision: 1.0
+  :  name:     Dragon Warrior
+  :  title:    Dragon Warrior
+
+cartridge sha256:d968a138b19d39dad24aceb3464c7b90e8d50416297273586d3faf1f094eb35c
+  :board region=ntsc-u id:SAROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x10000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-DQ-USA
+  :  board:    NES-SAROM-02
+  :  revision: 1.1
+  :  name:     Dragon Warrior
+  :  title:    Dragon Warrior
+
+cartridge sha256:c15ab051ff066f018cf4b0159780c58026114bb47a6376ef81c1571a39a8fe9b
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-D2-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Dragon Warrior II
+  :  title:    Dragon Warrior II
+
+cartridge sha256:f91a8bfc25bd267f5ae77bafa7fc650f77f8e50067869e99682b32d5b410644e
+  :board region=ntsc-u id:SUROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-D3-USA
+  :  board:    NES-SUROM-01
+  :  revision: 1.0
+  :  name:     Dragon Warrior III
+  :  title:    Dragon Warrior III
+
+cartridge sha256:e49cb745370065a40aff078ae52b5de1c0db137fedcbe93b78ab18d76479deed
+  :board region=ntsc-u id:SUROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-D4-USA
+  :  board:    NES-SUROM-02
+  :  revision: 1.0
+  :  name:     Dragon Warrior IV
+  :  title:    Dragon Warrior IV
+
+cartridge sha256:7026334a7e8742b61b450f4b3b182922c6a69fc723d7cd19c83db365f15e45ba
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-DH-USA
+  :  board:    NES-NROM-128-02
+  :  revision: 1.0
+  :  name:     Duck Hunt
+  :  title:    Duck Hunt
+
+cartridge sha256:8ba8baed01a9fbaf1e9ff29e0c9825db1963ac2aff211d6f1f3bcfd3839e2013
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-UK-USA
+  :  board:    NES-UNROM-09
+  :  revision: 1.0
+  :  name:     DuckTales
+  :  title:    Disney's DuckTales
+
+cartridge sha256:54c70628739c9cfab40b8d79555e9076adae34127ef369988ca91635b4a688bf
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-DL-USA
+  :  board:    NES-UNROM-10
+  :  revision: 1.0
+  :  name:     DuckTales 2
+  :  title:    Disney's DuckTales 2
+
+cartridge sha256:e9f4c9d1b7c66c6af83f2db5d4f704cf5f4b3c86e26a49c05539237807d8875e
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-EB-USA
+  :  board:    NES-NROM-128-04
+  :  revision: 1.0
+  :  name:     Excitebike
+  :  title:    Excitebike
+
+cartridge sha256:52f7e7309f1f53f632912182f3a65f574c949392ab92f55c2494a7e648ef5ccb
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1B1
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-FX-USA
+  :  board:    NES-SGROM-02
+  :  revision: 1.0
+  :  name:     Faxanadu
+  :  title:    Faxanadu
+
+cartridge sha256:58f2ba801354a8e5b32e7d1cbcc740b8dc838e7d48c3d2f3eedea36b49b1a518
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-FX-USA
+  :  board:    NES-SGROM-04
+  :  revision: 1.1
+  :  name:     Faxanadu
+  :  title:    Faxanadu
+
+cartridge sha256:c0c98471130cd09c82af6ead5e706c9299cc2cb4584016a5e5eb0c8897380172
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-EQ-USA
+  :  board:    NES-SLROM-05
+  :  revision: 1.0
+  :  name:     Fester's Quest
+  :  title:    Fester's Quest
+
+cartridge sha256:fa456d852372173ea31b192459ba1a2026f779df67793327ba6e132476c1d034
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-FF-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Final Fantasy
+  :  title:    Final Fantasy
+
+cartridge sha256:04264565cf33f4bd1b23a3f7a1be1487a548c7f6b85323c68af754b0927b0a56
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-HO-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.0
+  :  name:     Fist of the North Star
+  :  title:    Fist of the North Star
+
+cartridge sha256:8da82a28be164453d1f8aa293fc8b02aaede397b52622a14ead331e475e5ca2f
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-FT-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Flintstones - The Surprise at Dinosaur Peak!, The
+  :  title:    The Flintstones: The Surprise at Dinosaur Peak!
+
+cartridge sha256:7e94b4fe8c33439779bb653d007ba4678dd589636ffbc87d1535629578a64d5e
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-F3-USA
+  :  board:    NES-CN-ROM-256-05
+  :  revision: 1.0
+  :  name:     Friday the 13th
+  :  title:    Friday the 13th
+
+game
+  sha256:   df49cc788fff36881fcf1d1cb22281d305260d4d8fbbe07ca2c4d699fe54843a
+  label:    Galaga: Demons of Death
+  name:     Galaga - Demons of Death
+  region:   NES-AG-USA
+  revision: NES-AG-0 PRG,NES-AG-0 CHR
+  board:    NES-NROM-256-04
+    mirror mode=horizontal
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:fd2a8520314fb183e15fd62f48df97f92eb9c81140da4e6ab9ff0386e4797071
+  :board region=ntsc-u id:DRROM
+  :  chip type=109
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :    ram name=nametable.ram size=0x800 volatile
+  :
+  :information
+  :  serial:   NES-GL-USA
+  :  board:    NES-DRROM-01
+  :  revision: 1.0
+  :  name:     Gauntlet
+  :  title:    Gauntlet
+
+cartridge sha256:ffa61d9f7bfb1d60662ddf246b21a8756d518292e8fdc0f58ac1c9b3fbad672d
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-2U-USA
+  :  board:    NES-TSROM-07
+  :  revision: 1.0
+  :  name:     Gauntlet II
+  :  title:    Gauntlet II
+
+cartridge sha256:43221ae8a386e8ddf68251d5870d6fe3d696be14a5e41d9a44c36227894044d8
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-GB-USA
+  :  board:    NES-CN-ROM-256-05
+  :  revision: 1.0
+  :  name:     Ghostbusters
+  :  title:    Ghostbusters
+
+cartridge sha256:eea66f7bcc90d1145454da487791be5926473bee4014313af12dfa0f7453ea81
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-GG-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.0
+  :  name:     Ghosts 'n Goblins
+  :  title:    Ghosts 'n Goblins
+
+cartridge sha256:c41555b61617e52cae950e0a94d4d655646eed4e4ce4c1d26740ddee0a9ae090
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-GF-USA
+  :  board:    NES-NROM-128-04
+  :  revision: 1.0
+  :  name:     Golf
+  :  title:    Golf
+
+cartridge sha256:9f559f83b9b5179137069bae0ca4b8eacf84378892b598044b88ef50681b58bb
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-G3-USA
+  :  board:    NES-SLROM-04
+  :  revision: 1.0
+  :  name:     Golgo 13 - Top Secret Episode
+  :  title:    Golgo 13: Top Secret Episode
+
+cartridge sha256:6918d7cbb81bfcd20d95bb08bcf137c7ea80ae9f0c12b92bfdcc90a6cf9752a0
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-GR-USA
+  :  board:    NES-CN-ROM-256-01
+  :  revision: 1.0
+  :  name:     Gradius
+  :  title:    Gradius
+
+cartridge sha256:4628f32db9b826d19fe5dd8e2c45a9f70e1041f15b7b44b06dee2f01731566e8
+  :board region=ntsc-u id:GNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-GS-USA
+  :  board:    NES-GN-ROM-01
+  :  revision: 1.0
+  :  name:     Gumshoe
+  :  title:    Gumshoe
+
+game
+  sha256:   0d895a031dd38f2661ba2af4a1b3c7b9753632b1530ea28eec936cf3fda8bf54
+  label:    Gyromite
+  name:     Gyromite
+  region:   NES-GY-USA
+  revision: HVC-GY-0 PRG,HVC-GY-0 CHR
+  board:    3A
+    dongle: NES-JOINT-01
+    mirror mode=vertical
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:fd3c19b0339bf2b326d8a0526216b5143f035f68dabb3b3392689c92d6c140d9
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-HV-USA
+  :  board:    NES-TLROM-02
+  :  revision: 1.0
+  :  name:     Heavy Barrel
+  :  title:    Heavy Barrel
+
+cartridge sha256:710e907230bbd82143286b40a56a298b25cf326697a9f07bfd8e043c1936a4b1
+  :board region=ntsc-u id:TQROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :    ram name=nametable.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-8H-USA
+  :  board:    NES-TQROM-01
+  :  revision: 1.0
+  :  name:     High Speed
+  :  title:    High Speed
+
+cartridge sha256:8e4a04076b6a728a7e65a09737776dcb9defed7922bf0437d9a89bbe8c724b55
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-HA-USA
+  :  board:    NES-NROM-128-04
+  :  revision: 1.0
+  :  name:     Hogan's Alley
+  :  title:    Hogan's Alley
+
+cartridge sha256:770abf58074764db12aade941ab1a389a818b8ff94d95f4b4b4913912b1f40b5
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-HS-USA
+  :  board:    NES-NROM-256-05
+  :  revision: 1.0
+  :  name:     Hydlide
+  :  title:    Hydlide
+
+cartridge sha256:002bb62441c1625051555109bce93ff2e2a2badb534a350b6d17ad0d7e7ef023
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-IC-USA
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Ice Climber
+  :  title:    Ice Climber
+
+cartridge sha256:c42fc592821b474b486ae32d1d63e8938f1735a6d45db026f7b78b2ec51427ac
+  :board region=ntsc-u id:ACCLAIM-MC-ACC
+  :  chip type=MC-ACC
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-CQ-USA
+  :  board:    55741
+  :  revision: 1.0
+  :  name:     Incredible Crash Dummies, The
+  :  title:    The Incredible Crash Dummies
+
+cartridge sha256:8db2cb94dc9caec681b13b66f26590e88229245fa592e5292d097e8599ee79e0
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-JA-USA
+  :  board:    NES-CN-ROM-256-05
+  :  revision: 1.0
+  :  name:     Jaws
+  :  title:    Jaws
+
+cartridge sha256:4ece74fde0b86ecef96d1909c517f55f2da71fd00e29102b8f2780606606e777
+  :board region=ntsc-u id:DE1ROM
+  :  chip type=109
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-KV-USA
+  :  board:    NES-DE1ROM-01
+  :  revision: 1.0
+  :  name:     Karnov
+  :  title:    Karnov
+
+cartridge sha256:56f1fe3a7881b2e9d69cd33a0971b2f26247e964c3c7dd4a6019715425ff2256
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-KI-USA
+  :  board:    NES-SNROM-03
+  :  revision: 1.0
+  :  name:     Kid Icarus
+  :  title:    Kid Icarus
+
+cartridge sha256:997ddca52ac724481ad5daafbc4e61547a541d673214eac579a8de746b26978d
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-8Q-USA
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     King's Quest V
+  :  title:    King's Quest V
+
+cartridge sha256:a6b81fec11c24a33fd763db5c28005e760a1614e70c1bb5ccde0bd4242431000
+  :board region=ntsc-u id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-KR-USA
+  :  board:    NES-TKROM-10
+  :  revision: 1.0
+  :  name:     Kirby's Adventure
+  :  title:    Kirby's Adventure
+
+cartridge sha256:1250a80faf865aa5ee5585ad7639e5ef2b3fa541554effda5fad2cc5dc2acef5
+  :board region=ntsc-u id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-KR-USA
+  :  board:    NES-TKROM-10
+  :  revision: 1.1
+  :  name:     Kirby's Adventure
+  :  title:    Kirby's Adventure
+
+game
+  sha256:   0ba5e69962f6576d3729aa967092a7e8c98d00213cd98026dee343bff67b4177
+  label:    Kung Fu
+  name:     Kung Fu
+  region:   NES-SX-USA
+  revision: NES-SX-0 PRG,NES-SX-0 CHR
+  board:    NES-NROM-256-04
+    mirror mode=vertical
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:ac9d9f60f68c020c99b5bb1b91c723f16ac59091676826bced466b7ee4c97209
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-FI-USA
+  :  board:    NES-SLROM-05
+  :  revision: 1.0
+  :  name:     Lee Trevino's Fighting Golf
+  :  title:    Lee Trevino's Fighting Golf
+
+cartridge sha256:085e5397a3487357c263dfa159fb0fe20a5f3ea8ef82d7af6a7e848d3b9364e8
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-USA
+  :  board:    NES-SNROM-02
+  :  revision: 1.0
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:ec0d4ebf6d2fcecd1d95fef7329954efe79676959bc281ea908b226459bc6dc2
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ZL-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.1
+  :  name:     Legend of Zelda, The
+  :  title:    The Legend of Zelda
+
+cartridge sha256:494aa7d49d3f4d66f01cac0f31a9bc7bc9626faa575a635f43e7caf19a832a48
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-LG-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Lemmings
+  :  title:    Lemmings
+
+cartridge sha256:68e98b1b8dc5da610321f92718b4b4c2b2b71b6c752ff25ca6926e26cd91c57f
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-3U-USA
+  :  board:    NES-UNROM-09
+  :  revision: 1.0
+  :  name:     Little Mermaid, The
+  :  title:    Disney's The Little Mermaid
+
+cartridge sha256:a5165565263eaf8bdc45a8e6a615704f9bf271cd6d547d22c098c80cbaffd879
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-LT-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Little Samson
+  :  title:    Little Samson
+
+cartridge sha256:6c17c7bf2f7466eb43718305a0d74bd75f31b65429bc1fe406c34565e792310c
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-LO-USA
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Lode Runner
+  :  title:    Lode Runner
+
+cartridge sha256:4fb6c5c8359dcbabcb4d05cf36192c790e68a509ef8666c20ebdb81541df3243
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-L7-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Low G Man - The Low Gravity Man
+  :  title:    Low G Man: The Low Gravity Man
+
+cartridge sha256:52812b55986f96fa77eb24a76e795dc8d79977eec7488c7b5b84ac3b47d60366
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-4Q-USA
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     M.C. Kids
+  :  title:    M.C. Kids
+
+cartridge sha256:ef238662a27934d6dbe1692e822786a74a9a2c8bc58c38aa0fd5cfb3e2f1abce
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-MR-USA
+  :  board:    NES-NROM-256-05
+  :  revision: 1.0
+  :  name:     Mach Rider
+  :  title:    Mach Rider
+
+cartridge sha256:84f5377980d2fd44d71faec42f858b1e83540c2f55aba9236c3279d6dde8592a
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-JM-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Maniac Mansion
+  :  title:    Maniac Mansion
+
+cartridge sha256:c9348c4e30ef0bc62c4fd119b5e38d85af493a1eb436c6c229b7a6a52af42681
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-TM-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Mario's Time Machine!
+  :  title:    Mario's Time Machine!
+
+cartridge sha256:0cc334007d3eae698cdcd034d12ec9bab2b5266e85bc703cf24ccb4e2d63b654
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-MA-USA
+  :  board:    NES-NROM-128-06
+  :  revision: 1.0
+  :  name:     Mario Bros.
+  :  title:    Mario Bros.
+
+cartridge sha256:9babea1d40007f936e3d4e1450ec7e7bfe5aff71162ffdf7ede3acae8d811962
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-MQ-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Mario is Missing!
+  :  title:    Mario is Missing!
+
+cartridge sha256:c8486cd1a35950007a3ba671a128097d780084182a854d6115ddec7dad56e806
+  :board region=ntsc-u id:SCROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x10000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-A6-USA
+  :  board:    NES-SCROM-03
+  :  revision: 1.0
+  :  name:     Mechanized Attack
+  :  title:    Mechanized Attack
+
+cartridge sha256:5314ad0c406161195b6bb100ee11304bab8af121bba85992be896d5cb26b109e
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-MN-USA
+  :  board:    NES-UN-ROM-06
+  :  revision: 1.0
+  :  name:     Mega Man
+  :  title:    Mega Man
+
+cartridge sha256:1e588d435e75d80c5c0b578b4fa8d196f2cf4346c11c9a7b7e435d768828ad01
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-XR-USA
+  :  board:    NES-SGROM-04
+  :  revision: 1.0
+  :  name:     Mega Man 2
+  :  title:    Mega Man II
+
+cartridge sha256:5b85c1ff632c6ac34742ac87b9c8ddee9a13827caf1212ecfa1d11f1f9dece50
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-XU-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Mega Man 3
+  :  title:    Mega Man III
+
+cartridge sha256:a1fda74d03a9dd0c168b1ecae66803d78723cf7ccd85a482dedf017b97e660e8
+  :board region=ntsc-u id:TGROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-4V-USA
+  :  board:    NES-TGROM-01
+  :  revision: 1.0
+  :  name:     Mega Man 4
+  :  title:    Mega Man IV
+
+cartridge sha256:ed8bc89c9cd44bf566666451779d7db2da3d9c211ff2a4824372c172b554e05b
+  :board region=ntsc-u id:TGROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-4V-USA
+  :  board:    NES-TGROM-01
+  :  revision: 1.1
+  :  name:     Mega Man 4
+  :  title:    Mega Man IV
+
+cartridge sha256:4ddb728c3a007f1aa7184b60a1355cfd376cae46edc007fd48e6bcf41207cdb7
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-MZ-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Mega Man 5
+  :  title:    Mega Man V
+
+cartridge sha256:2037babe50fed7a13b6f6559914cb81497245c9477592e6f8da183df09a3609a
+  :board region=ntsc-u id:TGROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x80000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-G6-USA
+  :  board:    NES-TGROM-01
+  :  revision: 1.0
+  :  name:     Mega Man 6
+  :  title:    Mega Man VI
+
+cartridge sha256:f6d29afbd7ddad33672852232791a396695de2e77dccb83088a8d6b139d8c9cb
+  :board region=ntsc-u id:KONAMI-UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ME-USA
+  :  board:    351320
+  :  revision: 1.0
+  :  name:     Metal Gear
+  :  title:    Metal Gear
+
+cartridge sha256:649db8035018f2512ccea70aca6606c3b3a6988cd9ed43953b38dc5103dec7bb
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-MT-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Metroid
+  :  title:    Metroid
+
+cartridge sha256:989243c99d6e58c4fbcc6999473e48a389eba22cf1d3cb95dbe4c8b1f3ce15d7
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-MI-USA
+  :  board:    NES-CN-ROM-256-05
+  :  revision: 1.0
+  :  name:     Mickey Mousecapade
+  :  title:    Mickey Mousecapade
+
+cartridge sha256:2ebab487204c42b0d9cf19c37bdc395e396226ca3eaa664907bf7f8216b3c4d3
+  :board region=ntsc-u id:PNROM
+  :  chip type=MMC2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-PT-USA
+  :  board:    NES-PNROM-03
+  :  revision: 1.1
+  :  name:     Mike Tyson's Punch-Out!!
+  :  title:    Mike Tyson's Punch-Out!!
+
+cartridge sha256:6eea421f6c0738ff3abfd6e059e91c3409eedd2150093d3e01d49dfaad4dbf80
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-KM-USA
+  :  board:    NES-CNROM-06
+  :  revision: 1.0
+  :  name:     Milon's Secret Castle
+  :  title:    Milon's Secret Castle
+
+cartridge sha256:f7cc35a736ffd7804056b92ab92bfef02ded95d999ac126b680e87b573f18182
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-M9-USA
+  :  board:    NES-NROM-256-06
+  :  revision: 1.0
+  :  name:     Ms. PAC-MAN
+  :  title:    Ms. PAC-MAN
+
+cartridge sha256:61cb18d11771cffa08f79fd6973f634c8351703a2fe0f79858171d72a5a46582
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-HQ-USA
+  :  board:    NES-CN-ROM-256-05
+  :  revision: 1.0
+  :  name:     Mystery Quest
+  :  title:    Mystery Quest
+
+cartridge sha256:dc71dadc3f4eae03f26ac4afec8ef044e7874ad8fdee1567a9b9b9e2c112669e
+  :board region=ntsc-u id:AMROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-NQ-USA
+  :  board:    NES-AMROM-01
+  :  revision: 1.0
+  :  name:     NARC
+  :  title:    NARC
+
+cartridge sha256:55efed163edb02abc2a344aba79edc5ad873a77ed92378ad0c3e62f1e1816d3e
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-UG-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     NES Open Tournament Golf
+  :  title:    NES Open Tournament Golf
+
+cartridge sha256:58be6a811ee3370882160115253b610581e8b4af7228669eb3fbd56e7a13117c
+  :board region=ntsc-u id:AMROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-ES-USA
+  :  board:    NES-AMROM-01
+  :  revision: 1.0
+  :  name:     Nightmare on Elm Street, A
+  :  title:    A Nightmare on Elm Street
+
+cartridge sha256:6799437d4122b81c86ae35cefe5b6ae6e10e6f9a9c7b3140dd569f717ba32b3d
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B1-H
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-NG-USA
+  :  board:    NES-SLROM-03
+  :  revision: 1.0
+  :  name:     Ninja Gaiden
+  :  title:    Ninja Gaiden
+
+cartridge sha256:21c51dc47a458a7de66544533d56eb9a69de0190d012b1645699e816d2cb5008
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-NW-USA
+  :  board:    NES-TLROM-02
+  :  revision: 1.0
+  :  name:     Ninja Gaiden II - The Dark Sword of Chaos
+  :  title:    Ninja Gaiden II: The Dark Sword of Chaos
+
+cartridge sha256:ba5968f14a02f1adf8a6144fcf9c4acde80bce8a3e01bae54b555f258540dd4b
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-3N-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Ninja Gaiden III - The Ancient Ship of Doom
+  :  title:    Ninja Gaiden III: The Ancient Ship of Doom
+
+cartridge sha256:cf4670ae9dd91bd178c80ab7391c8a059f9eecb86d744bd51b9258e21825fd3c
+  :board region=ntsc-u id:EVENT
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-90-USA
+  :  board:    NES-EVENT-02
+  :  revision: 1.0
+  :  name:     Nintendo World Championships 1990
+  :  title:    Nintendo World Championships 1990
+
+cartridge sha256:b0e4d88db0b21db4a84e3c21d51898c686e9031dc138b2939877ecad20dd2350
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-XZ-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Nintendo World Cup
+  :  title:    Nintendo World Cup
+
+cartridge sha256:fa12a61eb787bf8346a81e5b6eaede75238a1735db24a6f4df51ac3a6b499f18
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-P7-USA
+  :  board:    NES-NROM-128-06
+  :  revision: 1.0
+  :  name:     PAC-MAN
+  :  title:    PAC-MAN
+
+cartridge sha256:f1c9c4723190d6be5f1f683ad5fd8cc123abd70d42f486c175a25f1237db6199
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-PY-USA
+  :  board:    NES-CNROM-08
+  :  revision: 1.0
+  :  name:     Paperboy
+  :  title:    Paperboy
+
+cartridge sha256:f4ddb0f1a02f823ebed30b55547344de3c8fb9d87254ff993584373ecadd9141
+  :board region=ntsc-u id:TQROM
+  :  chip type=MMC3A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :    ram name=nametable.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-IO-USA
+  :  board:    NES-TQROM-01
+  :  revision: 1.0
+  :  name:     Pin-Bot
+  :  title:    Pin-Bot
+
+game
+  sha256:   910ba4505b46a99b3779d84fd22ba8b18f3a649b0c1a11706c4609d06ce0bc18
+  label:    Pinball
+  name:     Pinball
+  region:   NES-PN-USA
+  revision: HVC-PN-0 PRG,HVC-PN-0 CHR
+  board:    2
+    dongle: NES-JOINT-01
+    mirror mode=horizontal
+    memory
+      type: ROM
+      size: 0x4000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:97f56ee3bcb0542996401a65c63a0e91c1c9c71da07f0619975e910946f9540d
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-PP-USA
+  :  board:    NES-NROM-128-06
+  :  revision: 1.1
+  :  name:     Popeye
+  :  title:    Popeye
+
+cartridge sha256:96dafa1208bda2eaa601d6855d86cf670556018c2859805cae51a88f83e66e9e
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-PW-USA
+  :  board:    NES-UN-ROM-01
+  :  revision: 1.0
+  :  name:     Pro Wrestling
+  :  title:    Pro Wrestling
+
+cartridge sha256:e144020f37416f80f1a0da47aa9b3fbda338c61fcd175e8b2dc98df181e24b85
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-PW-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.1
+  :  name:     Pro Wrestling
+  :  title:    Pro Wrestling
+
+cartridge sha256:635271fe654636ec37c882f76c5f8cd39b7b3a476c9aa75cefb548d82de8f896
+  :board region=ntsc-u id:PNROM
+  :  chip type=MMC2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-QP-USA
+  :  board:    NES-PNROM-05
+  :  revision: 1.0
+  :  name:     Punch-Out!!
+  :  title:    Punch-Out!!
+
+cartridge sha256:0cf2fc17a59a0932ce43e6b2e9ea4e2570f03139784b5c9df429a499e734b92e
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-ZP-USA
+  :  board:    NES-CNROM-07
+  :  revision: 1.0
+  :  name:     Puzznic
+  :  title:    Puzznic
+
+cartridge sha256:5fa346174b6b5a9dc2b5fe113ef8d8ac013a32b26dde6d5dfc9ed631d5e9af25
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-QB-USA
+  :  board:    NES-CNROM-06
+  :  revision: 1.0
+  :  name:     Q-bert
+  :  title:    Q*bert
+
+cartridge sha256:745050dec23a692e1e759eb3e291f58ad7739fadb3a1308ec8d60085fefaec69
+  :board region=ntsc-u id:SNROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-QX-USA
+  :  board:    NES-SNROM-05
+  :  revision: 1.0
+  :  name:     Qix
+  :  title:    Qix
+
+cartridge sha256:2e14f4481b5b762ba1ff0e7a25b07f316f7bdef0574a1704856f92823874f4e6
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-RC-USA
+  :  board:    NES-SGROM-04
+  :  revision: 1.0
+  :  name:     Rad Racer
+  :  title:    Rad Racer
+
+cartridge sha256:bcc8a24ab99f85933ff2cd0787daab6093710ef04f95b4c7bec842961ee0e3ad
+  :board region=ntsc-u id:TVROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x10000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :    ram name=nametable.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-QR-USA
+  :  board:    NES-TVROM-01
+  :  revision: 1.0
+  :  name:     Rad Racer II
+  :  title:    Rad Racer II
+
+cartridge sha256:b4856061c9310015101c461aef744e9dcf3b158bd13d5d9cb4a76d3ca18a6864
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-RG-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.0
+  :  name:     Renegade
+  :  title:    Renegade
+
+cartridge sha256:54cdc8b6fab804339c44601663585c8e7a8b01ef35b49754eb13a767b57c7d07
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-DN-USA
+  :  board:    NES-TLROM-02
+  :  revision: 1.0
+  :  name:     River City Ransom
+  :  title:    River City Ransom
+
+cartridge sha256:d04b445ac57cccb3a31a3bf83d002dc9a9765f15313e96f67be077b6114d2411
+  :board region=ntsc-u id:TL1ROM
+  :  chip type=MMC3A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-CP-USA
+  :  board:    NES-TL1ROM-01
+  :  revision: 1.0
+  :  name:     RoboCop
+  :  title:    RoboCop
+
+cartridge sha256:fade44d9c76173afe098fbe02d859735e06b2c509fd80da08b1cc85bfc01a556
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-RA-USA
+  :  board:    NES-UN-ROM-06
+  :  revision: 1.0
+  :  name:     Rush'n Attack
+  :  title:    Rush'n Attack
+
+cartridge sha256:e3a7e0b559b18e8e2fd6f2bf0fdadbf9094be63a01bac50e5505413e1d7697a4
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-RY-USA
+  :  board:    NES-UN-ROM-04
+  :  revision: 1.0
+  :  name:     Rygar
+  :  title:    Rygar
+
+cartridge sha256:9bef1813dbcfa003b3b1978a66a8da3ff59c93dd74f1332801515aa4b633c51e
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-RY-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.1
+  :  name:     Rygar
+  :  title:    Rygar
+
+cartridge sha256:fe4043430276177b739137ee7ed8e6cb75e751732a3f796ce03708d3ef1755e8
+  :board region=ntsc-u id:KONAMI-UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-DI-USA
+  :  board:    351320
+  :  revision: 1.0
+  :  name:     Skate or Die!
+  :  title:    Skate or Die!
+
+cartridge sha256:51958d12a19e7c573fab26b85fe81d57330ff6668d630c6bc95c7c563c441e93
+  :board region=ntsc-u id:SHROM
+  :  chip type=MMC1
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-SY-USA
+  :  board:    NES-SHROM-02
+  :  revision: 1.0
+  :  name:     SkyKid
+  :  title:    SkyKid
+
+cartridge sha256:98691aea357072f901095e47db056a01887083fd81710d425b9171db1cd1ad1b
+  :board region=ntsc-u id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-RJ-USA
+  :  board:    NES-SEROM-04
+  :  revision: 1.0
+  :  name:     Snake Rattle 'n Roll
+  :  title:    Snake Rattle 'n Roll
+
+cartridge sha256:6a0c8be0f6445d9d777080955c7aa8fbff7497633b878a36c8139ec13dabfb8b
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-SC-USA
+  :  board:    NES-NROM-256-02
+  :  revision: 1.0
+  :  name:     Soccer
+  :  title:    Soccer
+
+cartridge sha256:842478f0d9f01c6c547672a7e4dc4a33ed2c900f92e4b318f4d5941ba548b355
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-KE-USA
+  :  board:    NES-CN-ROM-256-04
+  :  revision: 1.0
+  :  name:     Solomon's Key
+  :  title:    Solomon's Key
+
+cartridge sha256:1c3a2806b546230c5560f7cfe229fd8aef0c14460d1c6e79bcb14ab713ae983f
+  :board region=ntsc-u id:SGROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-6A-USA
+  :  board:    NES-SGROM-04
+  :  revision: 1.0
+  :  name:     Space Shuttle Project
+  :  title:    Space Shuttle Project
+
+cartridge sha256:6f58c6fb427cf18b4c28f07909db642abac09fac2d7ae7dc9c99f1cd79263d95
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-SU-USA
+  :  board:    NES-NROM-256-03
+  :  revision: 1.0
+  :  name:     Spelunker
+  :  title:    Spelunker
+
+game
+  sha256:   af7a31a57dd701f57b964667549240943c76bdd2a2044ad99dfeba47883f1b9b
+  label:    Stack-Up
+  name:     Stack-Up
+  region:   NES-BL-USA
+  revision: HVC-BL-0 PRG,HVC-BL-0 CHR
+  board:    HVC-NROM-256K-02
+    dongle: NES-JOINT-01
+    mirror mode=horizontal
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:69de2c7552fa81ca5921da0e457abf1be35f18ffbad159788a76141be59c9f6b
+  :board region=ntsc-u id:HKROM
+  :  chip type=MMC6B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x400
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-OC-USA
+  :  board:    NES-HKROM-01
+  :  revision: 1.0
+  :  name:     StarTropics
+  :  title:    StarTropics
+
+cartridge sha256:3edd803db1cc88155720625ed8f3e362a5e3c660e7faf3285bbe3a2c6571511c
+  :board region=ntsc-u id:KONAMI-TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UE-USA
+  :  board:    352026
+  :  revision: 1.0
+  :  name:     Super C
+  :  title:    Super C
+
+cartridge sha256:92aa617d6254a7aa8fdc915770e813b9922100e374fd44f40bf5752f6069c7a7
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-6S-USA
+  :  board:    NES-UNROM-09
+  :  revision: 1.0
+  :  name:     Super Cars
+  :  title:    Super Cars
+
+cartridge sha256:28ce7c337755f30a99cfbd1ad0bed56c8e43ee18b461b6dfcbbf77b7ddbcd035
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-ND-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Super Dodge Ball
+  :  title:    Super Dodge Ball
+
+game
+  sha256:   fcb6a0ef3a20c19b356005fbb21dc8009563b1cb5a9aaebc8e9386b4a8c5912e
+  label:    Super Mario Bros.
+  name:     Super Mario Bros.
+  region:   NES-SM-USA
+  revision: HVC-SM-0 PRG,HVC-SM-0 CHR
+  board:    NES-NROM-256-04
+    mirror mode=vertical
+    memory
+      type: ROM
+      size: 0x8000
+      content: Program
+    memory
+      type: ROM
+      size: 0x2000
+      content: Character
+
+cartridge sha256:5dde385041aa7364c78205f2ba49615f416c701b6025e38aa1d7b9c4f99a62db
+  :board region=ntsc-u id:MHROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x10000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-MH-USA
+  :  board:    NES-MHROM-04
+  :  revision: 1.0
+  :  name:     Super Mario Bros. + Duck Hunt
+  :  title:    Super Mario Bros. / Duck Hunt
+
+cartridge sha256:968cf4ae63fddf6a0d379bb12add5563f468e57ddddb69e00e1379a839234f95
+  :board region=ntsc-u id:SFROM
+  :  chip type=MMC1A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-WH-USA
+  :  board:    NES-SFROM-01
+  :  revision: 1.0
+  :  name:     Super Mario Bros. + Duck Hunt + World Class Track Meet
+  :  title:    Super Mario Bros. / Duck Hunt / World Class Track Meet
+
+cartridge sha256:26977a6c51a6f1e1af895b8863e8e7d57c5321621f29cf58ebfbf85163a999dd
+  :board region=ntsc-u id:SFROM
+  :  chip type=MMC1
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-WH-USA
+  :  board:    NES-WH
+  :  revision: 1.1
+  :  name:     Super Mario Bros. + Duck Hunt + World Class Track Meet
+  :  title:    Super Mario Bros. / Duck Hunt / World Class Track Meet
+
+cartridge sha256:cba920f9394733c82253685d7783f26a3033ba58a94623e9abf7892329b969b9
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3A
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-MW-USA
+  :  board:    NES-TSROM-01
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 2
+  :  title:    Super Mario Bros. 2
+
+cartridge sha256:728d0ca6751b0c039fc3e34f2e7f27a870afcab30f5e270244ac40979c5f69ca
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-MW-USA
+  :  board:    NES-TSROM-08
+  :  revision: 1.1
+  :  name:     Super Mario Bros. 2
+  :  title:    Super Mario Bros. 2
+
+cartridge sha256:d77d17d34af24871d7ce1160ccd3330555835c8e940b7100e095ac38973d927a
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-USA
+  :  board:    NES-TSROM-06
+  :  revision: 1.0
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3
+
+cartridge sha256:959fdd32c71735d6fb2bd16a646d39f4ee65623273dd035e6a968e991bd13ef8
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-UM-USA
+  :  board:    NES-TSROM-06
+  :  revision: 1.1
+  :  name:     Super Mario Bros. 3
+  :  title:    Super Mario Bros. 3
+
+cartridge sha256:fe019a7da7fb7ecd2e6478bde546e6c5d6bba185d53e5c8692522ed8fdd617a2
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-PI-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.0
+  :  name:     Super Pitfall
+  :  title:    Super Pitfall
+
+cartridge sha256:8951dccb6640b48c857f321ef01c06110c5b8870f5d901dcc538ab1b8db7e2a1
+  :board region=ntsc-u id:QJ
+  :  chip type=MMC3
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-QJ-USA
+  :  board:    NES-QJ
+  :  revision: 1.0
+  :  name:     Super Spike V'Ball + Nintendo World Cup
+  :  title:    Super Spike V'Ball / Nintendo World Cup
+
+cartridge sha256:6d10e95fcbf4cd1179293106d526373ea43a0c2b8531e694288b147310d617c6
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-68-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     TaleSpin
+  :  title:    Disney's TaleSpin
+
+cartridge sha256:d2b56b27912cfc03756c94df6667fdf923c8a3746fa37e4632eeb4134ef4c200
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-TW-USA
+  :  board:    NES-SLROM-04
+  :  revision: 1.0
+  :  name:     Tecmo Bowl
+  :  title:    Tecmo Bowl
+
+cartridge sha256:d088f4b91a03dd6a618245fffb492bcda127c7faa6d880596aa5e751fdac0181
+  :board region=ntsc-u id:SLRROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-TW-USA
+  :  board:    NES-SLRROM-01
+  :  revision: 1.1
+  :  name:     Tecmo Bowl
+  :  title:    Tecmo Bowl
+
+cartridge sha256:cd5ad84e6bba35c19098c6f9783b568e4f1218582a12ec0513e5fafbdabb0303
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-4U-USA
+  :  board:    NES-TKROM-10
+  :  revision: 1.0
+  :  name:     Tecmo Super Bowl
+  :  title:    Tecmo Super Bowl
+
+cartridge sha256:892468d05a1097769d14e0ed4822267760d85dbfc79d83a0235878109f839dd1
+  :board region=ntsc-u id:KONAMI-SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-U2-USA
+  :  board:    351908
+  :  revision: 1.0
+  :  name:     Teenage Mutant Ninja Turtles
+  :  title:    Teenage Mutant Ninja Turtles
+
+cartridge sha256:368d7ea3a066d4dc937473ca6cfc3e0d79d928b2308fff5ddd6ff199c7da153d
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-2N-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Teenage Mutant Ninja Turtles II - The Arcade Game
+  :  title:    Teenage Mutant Ninja Turtles II: The Arcade Game
+
+cartridge sha256:9f671090ffd2bb1dc95b9d413c3627f7aa0d576435eeb5b868fa7ca9c29c1190
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-T3-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Teenage Mutant Ninja Turtles III - The Manhattan Project
+  :  title:    Teenage Mutant Ninja Turtles III: The Manhattan Project
+
+cartridge sha256:8da7129bba8c61a5ba1cd7ce02932ea4cefbb12db75c517c14d96819fc57f299
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-TE-USA
+  :  board:    NES-NROM-128-03
+  :  revision: 1.0
+  :  name:     Tennis
+  :  title:    Tennis
+
+cartridge sha256:2ae5fb18a1bf841077e3872ba05060f030ea0bfc573994b2f8fe2fb570dc7853
+  :board region=ntsc-u id:SEROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x4000
+  :
+  :information
+  :  serial:   NES-EI-USA
+  :  board:    NES-SEROM-04
+  :  revision: 1.0
+  :  name:     Tetris
+  :  title:    Tetris
+
+cartridge sha256:dd77dc88d380807990f55d0b1b55c151f78c480a0a0895e91d6edfb945ad71d7
+  :board region=ntsc-u id:TSROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=work.ram size=0x2000 volatile
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-TS-USA
+  :  board:    NES-TSROM-08
+  :  revision: 1.0
+  :  name:     Tetris 2
+  :  title:    Tetris 2
+
+cartridge sha256:700264cfa786a6bec49f5413057b30fa6ed1981fe3b75c3920db52945c1a7013
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-3T-USA
+  :  board:    NES-SLROM-05
+  :  revision: 1.0
+  :  name:     Three Stooges
+  :  title:    Three Stooges
+
+cartridge sha256:c47a01c9b32642ad3145316804e64b0475a20863e42e81d17c664d03dcdde3c5
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-NI-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Tiny Toon Adventures
+  :  title:    Tiny Toon Adventures
+
+cartridge sha256:d4a94fd07859485fc2aac73d627933b70e1977c93b744ec3d71b66d4365ab7f7
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-T2-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Tiny Toon Adventures 2 - Trouble in Wackyland
+  :  title:    Tiny Toon Adventures 2: Trouble in Wackyland
+
+cartridge sha256:aa43f3138d4f731e5e8df530dbf8fc1f6f45303b84589f7a0715e392887f3dff
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-TG-USA
+  :  board:    NES-UN-ROM-06
+  :  revision: 1.0
+  :  name:     Top Gun
+  :  title:    Top Gun
+
+cartridge sha256:e788ae1dff1b868795395e19357525b93ddd52ac86f6a505d14eac5fa323b023
+  :board region=ntsc-u id:UNROM
+  :  chip type=74HC32
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-TG-USA
+  :  board:    NES-UN-ROM-07
+  :  revision: 1.1
+  :  name:     Top Gun
+  :  title:    Top Gun
+
+cartridge sha256:0bd29c5b583570e195e05a4272e69b74257db1f4ff928d59c8eb1022bad871ce
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-6T-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     Totally Rad
+  :  title:    Totally Rad
+
+cartridge sha256:7255ab27932f7c07fa61c230a51342b0441ea9b24ba094ae3129ec7453de2449
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-UC-USA
+  :  board:    NES-NROM-128-06
+  :  revision: 1.0
+  :  name:     Urban Champion
+  :  title:    Urban Champion
+
+cartridge sha256:26ff208f2b133e66c602765778107c5938386c24fc03a197bbf9b2b659cb8792
+  :board region=ntsc-u id:CPROM
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    ram name=character.ram size=0x4000 volatile
+  :
+  :information
+  :  serial:   NES-V8-USA
+  :  board:    NES-CPROM-02
+  :  revision: 1.0
+  :  name:     Videomation
+  :  title:    Videomation
+
+cartridge sha256:c12771e8155b030eff0081bfabd98e57a162d6592899f29dd16f141f0e6e08a3
+  :board region=ntsc-u id:TKROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-WB-USA
+  :  board:    NES-TKROM-10
+  :  revision: 1.0
+  :  name:     Wario's Woods
+  :  title:    Wario's Woods
+
+cartridge sha256:88691067f122467f2dae85e40b927013b91fe848f88d694616ed2f26ab1f3f4d
+  :board region=ntsc-u id:AOROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-WF-USA
+  :  board:    NES-AOROM-01
+  :  revision: 1.0
+  :  name:     Wheel of Fortune
+  :  title:    Wheel of Fortune
+
+cartridge sha256:7157801d42484e58b81387c95f24d6e8acaa513fa588828398f5b7a69f2c14bd
+  :board region=ntsc-u id:AOROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-WF-USA
+  :  board:    NES-AOROM-03
+  :  revision: 1.1
+  :  name:     Wheel of Fortune
+  :  title:    Wheel of Fortune
+
+cartridge sha256:9178fba5cbb412cc6d437f301ab93ba8c897235a5c8f2985756d3441061ecbe2
+  :board region=ntsc-u id:ANROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-W3-USA
+  :  board:    NES-ANROM-03
+  :  revision: 1.0
+  :  name:     Wheel of Fortune - Family Edition
+  :  title:    Wheel of Fortune: Family Edition
+
+cartridge sha256:84e3a018cbaaf2311d7e9414112cb05cf3b43608de0b9f8a2f77bc4da33ce8e6
+  :board region=ntsc-u id:ANROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-WJ-USA
+  :  board:    NES-ANROM-02
+  :  revision: 1.0
+  :  name:     Wheel of Fortune - Junior Edition
+  :  title:    Wheel of Fortune: Junior Edition
+
+cartridge sha256:700ebc3c2dd27420bbdcccb987ba60d3f0680469101353de15a1b2bd565ac701
+  :board region=ntsc-u id:ANROM
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    ram name=character.ram size=0x2000 volatile
+  :
+  :information
+  :  serial:   NES-WL-USA
+  :  board:    NES-ANROM-03
+  :  revision: 1.0
+  :  name:     Who Framed Roger Rabbit
+  :  title:    Who Framed Roger Rabbit
+
+cartridge sha256:62aec65696ecf24a487b7cdd19bad5cbd19f4229a89a7888634d468c67da378a
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-WG-USA
+  :  board:    NES-NROM-128-01
+  :  revision: 1.0
+  :  name:     Wild Gunman
+  :  title:    Wild Gunman
+
+cartridge sha256:adff304553b64384f86f6c2b63571f43972b9d087f92359a1b9b93b54d523542
+  :board region=ntsc-u id:NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-WG-USA
+  :  board:    NES-NROM-128-04
+  :  revision: 1.1
+  :  name:     Wild Gunman
+  :  title:    Wild Gunman
+
+cartridge sha256:6c74bcb9ac50428266cfc4d13892b6e93c6936ba569bf3f0f2068e45a9b675fc
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-WT-USA
+  :  board:    NES-CN-ROM-256-05
+  :  revision: 1.0
+  :  name:     World Class Track Meet
+  :  title:    World Class Track Meet
+
+cartridge sha256:ac766a8d99bfd8e95c02b9a9c68279c72ba5b3307b78edc67b52781ed185fa89
+  :board region=ntsc-u id:CNROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-WT-USA
+  :  board:    NES-CNROM-07
+  :  revision: 1.1
+  :  name:     World Class Track Meet
+  :  title:    World Class Track Meet
+
+cartridge sha256:f1eb29dd1c7b2b29f4932df853f32a7560bbfe64997281aa79f61ba9f131fb17
+  :board region=ntsc-u id:NROM-256
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x8000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   NES-WR-USA
+  :  board:    NES-NROM-256-05
+  :  revision: 1.0
+  :  name:     Wrecking Crew
+  :  title:    Wrecking Crew
+
+cartridge sha256:a0354fb9c1c29e25b8bd2bd45735e8af2263cde66b56cc2e61eb5d9295a42de1
+  :board region=ntsc-u id:TLROM
+  :  chip type=MMC3B
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-WQ-USA
+  :  board:    NES-TLROM-03
+  :  revision: 1.0
+  :  name:     WURM - Journey to the Center of the Earth
+  :  title:    WURM: Journey to the Center of the Earth
+
+cartridge sha256:62a3551ce546fa7df5fd4970e725e36f1ca269be62b1e33f92546d6e649b8371
+  :board region=ntsc-u id:SLROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-YC-USA
+  :  board:    NES-SLROM-06
+  :  revision: 1.0
+  :  name:     Yo! Noid
+  :  title:    Yo! Noid
+
+cartridge sha256:56a169bb3a6101057fb278f2febd58cb1dbf056e5aaeb709c51a55ce4cfac20d
+  :board region=ntsc-u id:SFROM
+  :  chip type=MMC1B3
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x8000
+  :
+  :information
+  :  serial:   NES-YM-USA
+  :  board:    NES-SFROM-03
+  :  revision: 1.0
+  :  name:     Yoshi
+  :  title:    Yoshi
+
+cartridge sha256:24b117a0830fcb91d88d9150ff89a374134a9ddebd5eedcb5df21eab580eb2c0
+  :board region=ntsc-u id:TFROM
+  :  chip type=MMC3C
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :  chr
+  :    rom name=character.rom size=0x10000
+  :
+  :information
+  :  serial:   NES-CH-USA
+  :  board:    NES-TFROM-03
+  :  revision: 1.0
+  :  name:     Yoshi's Cookie
+  :  title:    Yoshi's Cookie
+
+cartridge sha256:4cfc55e1521e58039d502f2a5ff16c233b84c0a05b1048185c75c971f3814c16
+  :board region=ntsc-u id:SKROM
+  :  chip type=MMC1B2
+  :  prg
+  :    rom name=program.rom size=0x20000
+  :    ram name=save.ram size=0x2000
+  :  chr
+  :    rom name=character.rom size=0x20000
+  :
+  :information
+  :  serial:   NES-AL-USA
+  :  board:    NES-SKROM-04
+  :  revision: 1.0
+  :  name:     Zelda II - The Adventure of Link
+  :  title:    Zelda II: The Adventure of Link
+
+cartridge sha256:d0850075065ecbd125a33accc952de5d012527be45aa14a1b8223a9adf1643ae
+  :board region=ntsc-u id:HKROM
+  :  chip type=MMC6B
+  :  prg
+  :    rom name=program.rom size=0x40000
+  :    ram name=save.ram size=0x400
+  :  chr
+  :    rom name=character.rom size=0x40000
+  :
+  :information
+  :  serial:   NES-6C-USA
+  :  board:    NES-HKROM-02
+  :  revision: 1.0
+  :  name:     Zoda's Revenge - StarTropics 2
+  :  title:    Zoda's Revenge: StarTropics 2

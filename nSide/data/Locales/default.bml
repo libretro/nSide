@@ -1,0 +1,174 @@
+//Author: byuu
+
+Menu
+  Recent: Recent
+  Systems: Systems
+    LoadROMFile...: Load ROM File ...
+  System
+    SoftReset: Soft Reset
+    PowerCycle: Power Cycle
+    Unload: Unload
+  Settings: Settings
+    VideoScale: Video Scale
+      Small: Small
+      Medium: Medium
+      Large: Large
+    VideoEmulation: Video Emulation
+      Blurring: Blurring
+      Colors: Colors
+    Scanlines: Scanlines
+    VideoShader: Video Shader
+      None: None
+      Blur: Blur
+    SynchronizeVideo: Synchronize Video
+    SynchronizeAudio: Synchronize Audio
+    MuteAudio: Mute Audio
+    ShowStatusBar: Show Status Bar
+    Systems...: Systems ...
+    Video...: Video ...
+    Audio...: Audio ...
+    Input...: Input ...
+    Hotkeys...: Hotkeys ...
+    Advanced...: Advanced ...
+  Tools: Tools
+    SaveQuickState: Save Quick State
+    LoadQuickState: Load Quick State
+    Slot: Slot %d
+    PauseEmulation: Pause Emulation
+    CheatEditor...: Cheat Editor ...
+    StateManager...: State Manager ...
+    ManifestViewer...: Manifest Viewer ...
+    GameNotes...: Game Notes ...
+  Help: Help
+    Documentation...: Documentation for higan ...
+    About...: About ...
+
+Status
+  NoCartridgeLoaded: No cartridge loaded
+  FPS: FPS: %d
+  Paused: Paused
+  SoftReset: System has been soft reset
+  PowerCycle: System has been power cycled
+  Pausing: Emulation has been paused
+  Unpausing: Emulation has been unpaused
+  DisplayRotated: Display rotated
+  RotateUnsupported: Display rotation not supported
+  State
+    quick: quick
+    managed: managed
+    DoesNotExist: Slot %2$d %1$s state does not exist
+    Incompatible: Slot %2$d %1$s state incompatible
+    Load: Loaded %1$s state from slot %2$d
+    Unsupported: Failed to save %1$s state to slot %2$d
+    Unprivileged: Unable to write %1$s state to slot %2$d
+    Save: Saved %1$s state to slot %2$d
+    Select: Selected quick state slot %d
+  SaveScreenshot: Screenshot saved
+
+Error
+  Crash: Driver crash detected. Video/Audio/Input drivers have been disabled.
+  VideoDriver: Failed to initialize video driver
+  AudioDriver: Failed to initialize audio driver
+  InputDriver: Failed to initialize input driver
+
+Settings: Settings
+  Systems: Systems
+  Video: Video
+    ColorAdjustment: Color Adjustment
+      Saturation: Saturation:
+      Gamma: Gamma:
+      Luminance: Luminance:
+    OverscanMask: Overscan Mask
+      Horizontal: Horizontal:
+      Vertical: Vertical:
+    WindowedMode: Windowed Mode
+    FullscreenMode: Fullscreen Mode
+    AspectCorrection: Aspect correction
+    IntegralScaling: Integral scaling
+    AdaptiveSizing: Adaptive sizing
+    ExclusiveMode: Exclusive mode
+  Audio: Audio
+    Driver: Driver
+      Device: Device:
+      Frequency: Frequency:
+      Latency: Latency:
+      ExclusiveMode: Exclusive mode
+    Effects: Effects
+      Volume: Volume:
+      Balance: Balance:
+      Reverb: Reverb
+  Input: Input
+    WhenFocusIsLost: When Focus is Lost:
+      PauseEmulation: Pause Emulation
+      AllowInput: Allow Input
+    Name: Name
+    Mapping: Mapping
+    MouseXAxis: Mouse X-axis
+    MouseYAxis: Mouse Y-axis
+    MouseLeft: Mouse Left
+    MouseMiddle: Mouse Middle
+    MouseRight: Mouse Right
+    Reset: Reset
+    Erase: Erase
+    PressKey: Press a key or button to map [%s] ...
+    MappingAssigned: Mapping assigned.
+    ResetConfirmation: Are you sure you want to erase all mappings for this device?
+      Yes: Yes
+      No: No
+  Hotkeys: Hotkeys
+    Name: Name
+    Mapping: Mapping
+    Logic
+      and: and
+      or: or
+    Reset: Reset
+    Erase: Erase
+    PressKey: Press a key or button to map [%s] ...
+    MappingAssigned: Mapping assigned.
+    ResetConfirmation: Are you sure you want to erase all hotkey mappings?
+      Yes: Yes
+      No: No
+  Advanced: Advanced
+    DriverSelection: Driver Selection
+      Video: Video:
+      Audio: Audio:
+      Input: Input:
+    GameLibrary: Game Library
+      Location: Location:
+      Change...: Change ...
+      IgnoreManifests: Ignore Manifests
+    Other: Other
+      AutoSaveMemory: Auto-Save Memory Periodically
+      RecentList: Enable Recent Games List
+        Clear: Warning! This will clear your Recent Games history! Are you sure you want to do this?
+          Yes: Yes
+          No: No
+
+Tools: Tools
+  CheatDatabase
+    SelectAll: Select All
+    UnselectAll: Unselect All
+    AddCodes: Add Codes
+  CheatEditor: Cheat Editor
+    Table
+      Slot: Slot
+      Codes: Code(s)
+      Description: Description
+    Edit
+      Codes: Code(s):
+      Description: Description:
+    FindCodes...: Find Codes ...
+    Reset: Reset
+    Erase: Erase
+  StateManager: State Manager
+    Table
+      Slot: Slot
+      Description: Description
+    Edit
+      Description: Description:
+    Save: Save
+    Load: Load
+    Reset: Reset
+    Erase: Erase
+  ManifestViewer: Manifest Viewer
+  GameNotes: Game Notes

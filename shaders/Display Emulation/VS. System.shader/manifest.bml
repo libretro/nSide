@@ -1,0 +1,6 @@
+input
+  filter: nearest
+  wrap: border
+
+program
+  fragment: vs-system.fs

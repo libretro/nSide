@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=nSide
+Comment=Famicom, VS. UniSystem emulator
+Exec=nSide
+Icon=nSide
+Terminal=false
+Type=Application
+Categories=Game;Emulator;

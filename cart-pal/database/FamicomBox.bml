@@ -1,0 +1,100 @@
+database revision=2017-01-17 owner=MAME
+  :Games referenced by MAME's source code
+
+cartridge sha256:a0fe077a6f0babf27b691e42db79cb4fc580a2f358f679b996fb17c2b0a68f59
+  :board id:SSS-RROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-BA
+  :  revision: 1.0
+  :  name:     Baseball
+  :  title:    ベースボール
+
+cartridge sha256:dd108e55b60070b4c0147f7dba31844ed83065255466bfacd5038e6382483026
+  :board id:SSS-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-DK
+  :  revision: 1.0
+  :  name:     Donkey Kong
+  :  title:    ドンキーコング
+
+cartridge sha256:950ebe68e7f74219b9e5e104200b03165d59c24264f02e32c12be967fd311ac2
+  :board id:SSS-HROM
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-JR
+  :  revision: 1.1
+  :  name:     Donkey Kong Jr.
+  :  title:    ドンキーコングJr
+
+cartridge sha256:100fe2b085e3d57dc1a8f1cea44a31766e8c81c50a6083bf16687dcd1b6219f4
+  :board id:SSS-RROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-GO
+  :  revision: 1.0
+  :  name:     Gomoku Narabe - Renju
+  :  title:    五目ならべ 連珠
+
+cartridge sha256:0986e9e8057c476aff3726aac6b1b7698e8e6de77530f394b8be2e5b5caf9bea
+  :board id:SSS-NROM-128
+  :  mirror mode=vertical
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-MJ
+  :  revision: 1.2
+  :  name:     Mahjong
+  :  title:    麻雀
+
+cartridge sha256:97f56ee3bcb0542996401a65c63a0e91c1c9c71da07f0619975e910946f9540d
+  :board id:SSS-NROM-128
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-PP
+  :  revision: 1.1
+  :  name:     Popeye
+  :  title:    ポパイ
+
+cartridge sha256:e20c619fec4c7aeb244710a3b89040f85b0aaa4cea52b5f7fede63d11db00cea
+  :board id:SSS-SROM
+  :  mirror mode=horizontal
+  :  prg
+  :    rom name=program.rom size=0x4000
+  :  chr
+  :    rom name=character.rom size=0x2000
+  :
+  :information
+  :  serial:   SSS-EN
+  :  revision: 1.0
+  :  name:     Popeye no Eigo Asobi
+  :  title:    ポパイの英語遊び
+

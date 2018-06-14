@@ -1,0 +1,6 @@
+input
+  filter: nearest
+  wrap: border
+
+program
+  fragment: playchoice-10.fs

@@ -1,0 +1,25 @@
+database
+  revision: 2018-02-21
+
+//Game Boy Advance (USA)
+
+database
+  revision: 2018-02-21
+
+game
+  sha256:   53ec98fc672d94e3962ba854805ce5005e07e10a4c7ed4e7dbec7a2ca7846562
+  label:    Super Mario Advance 4: Super Mario Bros. 3
+  name:     Super Mario Advance 4 - Super Mario Bros. 3
+  region:   AGB-AX4E-USA
+  revision: AGB-AX4E-1
+  board:    AGB-E02-30
+    memory
+      type: ROM
+      size: 0x400000
+      content: Program
+    memory
+      type: Flash
+      size: 0x20000
+      content: Save
+      manufacturer: Macronix
+

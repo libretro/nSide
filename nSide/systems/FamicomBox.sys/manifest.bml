@@ -1,0 +1,37 @@
+system name:FamicomBox
+  cpu
+    ram name=work.ram size=0x2000 volatile
+  ppu version=RP2C02C
+    ram name=nametable.ram size=0x800 volatile
+    ram name=object.ram size=256 volatile
+    ram name=palette.ram size=28 volatile
+  apu version=RP2A03E
+  prg
+    rom name=bios.program.rom size=0x8000
+  chr
+    rom name=bios.character.rom size=0x2000
+  setting name:Self-test
+    option value=0x0000 name:Only on power on
+    option value=0x0001 name:Continuous
+  setting name:Coin timer
+    option value=0x0000 name:10 minutes
+    option value=0x0002 name:20 minutes
+  setting name:Menu time
+    option value=0x0000 name:7 seconds
+    option value=0x0008 name:12 seconds
+  setting name:Attract time
+    option value=0x0000 name:12.3 seconds
+    option value=0x0010 name:17.4 seconds
+    option value=0x0020 name:22.6 seconds
+    option value=0x0030 name:7.2 seconds
+  setting name:Mode
+    option value=0x0080 name:Coin Mode
+    option value=0x0000 name:Key Mode
+    option value=0x0040 name:CATV Mode
+    option value=0x00c0 name:Free Play
+  setting name:Coin feep
+    option value=0x0100 name:Mute
+    option value=0x0000 name:Enable
+  setting name:Zapper
+    option value=0x0200 name:Enable
+    option value=0x0000 name:Disable

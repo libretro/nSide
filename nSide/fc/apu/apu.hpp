@@ -1,0 +1,215 @@
+struct APU : Thread {
+  shared_pointer<Emulator::Stream> stream;
+
+  enum class Version : uint {
+    //NTSC
+    RP2A03,
+    RP2A03A,
+    RP2A03C,
+    RP2A03E,
+    RP2A03F,
+    RP2A03G,
+    RP2A03H,
+
+    //PAL
+    RP2A07G,
+
+    //Dendy
+    TA_03NP1_6527P,
+    UA6527P,
+  } version;
+
+  inline auto rate() const -> uint { return Region::PAL() ? 16 : Region::Dendy() ? 15 : 12; }
+
+  //apu.cpp
+  APU(bool side);
+
+  static auto Enter() -> void;
+  auto main() -> void;
+  auto tick() -> void;
+  auto setIRQ() -> void;
+  auto setSample(int16 sample) -> void;
+
+  auto load(Markup::Node) -> bool;
+  auto power(bool reset) -> void;
+
+  auto readIO(uint16 addr, uint8 data) -> uint8;
+  auto writeIO(uint16 addr, uint8 data) -> void;
+
+  //serialization.cpp
+  auto serialize(serializer&) -> void;
+
+  const bool side;  //0: main, 1: sub (VS. System only)
+
+  struct Envelope {
+    auto volume() const -> uint;
+    auto clock() -> void;
+
+    auto power(bool reset) -> void;
+
+    auto serialize(serializer&) -> void;
+
+    uint4 speed;
+    bool useSpeedAsVolume;
+    bool loopMode;
+
+    bool reloadDecay;
+    uint8 decayCounter;
+    uint4 decayVolume;
+  };
+
+  struct Sweep {
+    auto checkPeriod() -> bool;
+    auto clock(uint channel) -> void;
+
+    auto power(bool reset) -> void;
+
+    auto serialize(serializer&) -> void;
+
+    uint8 shift;
+    bool decrement;
+    uint3 period;
+    uint8 counter;
+    bool enable;
+    bool reload;
+    uint11 pulsePeriod;
+  };
+
+  struct Pulse {
+    auto clockLength() -> void;
+    auto checkPeriod() -> bool;
+    auto clock() -> uint8;
+
+    auto power(bool reset) -> void;
+
+    auto serialize(serializer&) -> void;
+
+    uint lengthCounter;
+
+    Envelope envelope;
+    Sweep sweep;
+
+    uint2 duty;
+    uint3 dutyCounter;
+
+    uint11 period;
+    uint periodCounter;
+  } pulse[2];
+
+  struct Triangle {
+    auto clockLength() -> void;
+    auto clockLinearLength() -> void;
+    auto clock() -> uint8;
+
+    auto power(bool reset) -> void;
+
+    auto serialize(serializer&) -> void;
+
+    uint lengthCounter;
+
+    uint8 linearLength;
+    bool haltLengthCounter;
+
+    uint11 period;
+    uint periodCounter;
+
+    uint5 stepCounter;
+    uint8 linearLengthCounter;
+    bool reloadLinear;
+  } triangle;
+
+  struct Noise {
+    Noise(APU& apu);
+
+    auto clockLength() -> void;
+    auto clock() -> uint8;
+
+    auto power(bool reset) -> void;
+
+    auto serialize(serializer&) -> void;
+
+    uint lengthCounter;
+
+    Envelope envelope;
+
+    uint4 period;
+    uint periodCounter;
+
+    bool shortMode;
+    uint15 lfsr;
+
+    APU& apu;
+  } noise;
+
+  struct DMC {
+    DMC(APU& apu);
+
+    auto start() -> void;
+    auto stop() -> void;
+    auto clock() -> uint8;
+
+    auto power(bool reset) -> void;
+
+    auto serialize(serializer&) -> void;
+
+    uint lengthCounter;
+    bool irqPending;
+
+    uint4 period;
+    uint periodCounter;
+
+    bool irqEnable;
+    bool loopMode;
+
+    uint8 dacLatch;
+    uint8 addrLatch;
+    uint8 lengthLatch;
+
+    uint15 readAddr;
+    uint dmaDelayCounter;
+
+    uint3 bitCounter;
+    bool dmaBufferValid;
+    uint8 dmaBuffer;
+
+    bool sampleValid;
+    uint8 sample;
+
+    APU& apu;
+  } dmc;
+
+  struct FrameCounter {
+    auto serialize(serializer&) -> void;
+
+    enum : uint {
+      NtscPeriod = 14915,  //~(21.477MHz / 6 / 240hz)
+      PalPeriod  = 18473,  //conjectural ((26.602MHz / 6 / 240hz))
+    };
+
+    bool irqPending;
+
+    uint2 mode;
+    uint2 counter;
+    int divider;
+  };
+
+  auto clockFrameCounter() -> void;
+  auto clockFrameCounterDivider() -> void;
+
+  FrameCounter frame;
+
+  uint8 enabledChannels;
+  int16 cartridgeSample;
+
+  int16 pulseDAC[32];
+  int16 dmcTriangleNoiseDAC[128][16][16];
+
+  static const uint8 lengthCounterTable[32];
+  static const uint16 dmcPeriodTableNTSC[16];
+  static const uint16 dmcPeriodTablePAL[16];
+  static const uint16 noisePeriodTableNTSC[16];
+  static const uint16 noisePeriodTablePAL[16];
+};
+
+extern APU apuM;
+extern APU apuS;
