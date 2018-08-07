@@ -1,1 +1,0 @@
-higan_sfc_balanced libretro-nside https://github.com/hex-usr/nSide.git master YES GENERIC GNUmakefile nSide compiler=g++ target=libretro binary=library
