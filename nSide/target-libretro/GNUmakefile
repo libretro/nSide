@@ -15,11 +15,11 @@ endif
 flags += -Dlibretro_use_$(corename)
 
 ifeq ($(platform),windows)
-  name := higan_$(corename)_libretro.dll
+  name := nside_$(corename)_libretro.dll
 else ifeq ($(platform),macos)
-  name := higan_$(corename)_libretro.dylib
+  name := nside_$(corename)_libretro.dylib
 else
-  name := higan_$(corename)_libretro.so
+  name := nside_$(corename)_libretro.so
 endif
 #link += -Wl,--version-script=target-libretro/link.T -Wl,--no-undefined
 
