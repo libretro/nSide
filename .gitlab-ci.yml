@@ -29,9 +29,9 @@ include:
   - project: 'libretro-infrastructure/ci-templates'
     file: '/windows-x64-mingw.yml'
 
-  # MacOS 64-bit
+  # MacOS ARM 64-bit
   - project: 'libretro-infrastructure/ci-templates'
-    file: '/osx-x64.yml'
+    file: '/osx-arm64.yml'
 
 # Stages for building
 stages:
@@ -71,10 +71,10 @@ libretro-build-windows-x64:
     - make -C nSide target=libretro binary=library platform=windows compiler=${CXX} -j${NUMPROC}
     - mv nSide/out/${CORENAME}_libretro.dll ${CORENAME}_libretro.dll
 
-# MacOS 64-bit
-libretro-build-osx-x64:
+# MacOS ARM 64-bit
+libretro-build-osx-arm64:
   extends:
-    - .libretro-osx-x64-make-default
+    - .libretro-osx-arm64-make-default
     - .core-defs
   script:
     - make -C nSide target=libretro binary=library platform=macos compiler=clang++ -j${NUMPROC}
