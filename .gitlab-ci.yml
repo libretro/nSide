@@ -1,0 +1,81 @@
+# DESCRIPTION: GitLab CI/CD for libRetro (NOT FOR GitLab-proper)
+
+##############################################################################
+################################# BOILERPLATE ################################
+##############################################################################
+
+# Core definitions
+#
+# nSide is built by nall's own GNUmakefile: the target is selected with
+# target=/binary= rather than a platform-specific Makefile branch, `platform`
+# has to be spelled the way nall expects (linux/windows/macos, not unix/win64),
+# and the library lands in nSide/out/, hence the per-job script.
+.core-defs:
+  variables:
+    CORENAME: nside_sfc_balanced
+
+# Inclusion templates, required for the build to work
+include:
+  ################################## DESKTOPS ################################
+  # Linux 64-bit
+  - project: 'libretro-infrastructure/ci-templates'
+    file: '/linux-x64.yml'
+
+  # Linux ARM 64-bit
+  - project: 'libretro-infrastructure/ci-templates'
+    file: '/linux-aarch64.yml'
+
+  # Windows 64-bit
+  - project: 'libretro-infrastructure/ci-templates'
+    file: '/windows-x64-mingw.yml'
+
+  # MacOS 64-bit
+  - project: 'libretro-infrastructure/ci-templates'
+    file: '/osx-x64.yml'
+
+# Stages for building
+stages:
+  - build-prepare
+  - build-shared
+  - build-static
+
+##############################################################################
+#################################### STAGES ##################################
+##############################################################################
+#
+################################### DESKTOPS #################################
+# Linux 64-bit
+libretro-build-linux-x64:
+  extends:
+    - .libretro-linux-x64-make-default
+    - .core-defs
+  script:
+    - make -C nSide target=libretro binary=library platform=linux compiler=g++ -j${NUMPROC}
+    - mv nSide/out/${CORENAME}_libretro.so ${CORENAME}_libretro.so
+
+# Linux ARM 64-bit
+libretro-build-linux-aarch64:
+  extends:
+    - .libretro-linux-aarch64-make-default
+    - .core-defs
+  script:
+    - make -C nSide target=libretro binary=library platform=linux compiler=g++ -j${NUMPROC}
+    - mv nSide/out/${CORENAME}_libretro.so ${CORENAME}_libretro.so
+
+# Windows 64-bit
+libretro-build-windows-x64:
+  extends:
+    - .libretro-windows-x64-mingw-make-default
+    - .core-defs
+  script:
+    - make -C nSide target=libretro binary=library platform=windows compiler=${CXX} -j${NUMPROC}
+    - mv nSide/out/${CORENAME}_libretro.dll ${CORENAME}_libretro.dll
+
+# MacOS 64-bit
+libretro-build-osx-x64:
+  extends:
+    - .libretro-osx-x64-make-default
+    - .core-defs
+  script:
+    - make -C nSide target=libretro binary=library platform=macos compiler=clang++ -j${NUMPROC}
+    - mv nSide/out/${CORENAME}_libretro.dylib ${CORENAME}_libretro.dylib
